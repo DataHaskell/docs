@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Jekyll Docs Template"
+title: "Documentation"
 ---
 
 Welcome to the **dataHaskell** documentation site.

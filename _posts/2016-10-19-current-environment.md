@@ -16,6 +16,7 @@ Machine Learning
 #### Classification
 
 - Neural Networks
+  - Simple Neural Networks
     - sibe - [hackage](http://hackage.haskell.org/package/sibe), [github](https://github.com/mdibaiee/sibe)
     - neural - [hackage](http://hackage.haskell.org/package/neural), [github](https://github.com/brunjlar/neural)
   - Recurrent Neural Networks

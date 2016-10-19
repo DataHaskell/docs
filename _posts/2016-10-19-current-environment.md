@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "Wishlist"
+title: "Current Environment"
 category: community
 date: 2016-10-19 21:08:18
 ---
 
-A wishlist of data science and machine learning algorithms we would like to have,
+A list of data science and machine learning algorithms we would like to have,
 along with existing implementations (if any).
 
 Machine Learning
@@ -16,8 +16,8 @@ Machine Learning
 #### Classification
 
 - Neural Networks
-      - sibe - [hackage](http://hackage.haskell.org/package/sibe), [github](https://github.com/mdibaiee/sibe)
-      - neural - [hackage](http://hackage.haskell.org/package/neural), [github](https://github.com/brunjlar/neural)
+    - sibe - [hackage](http://hackage.haskell.org/package/sibe), [github](https://github.com/mdibaiee/sibe)
+    - neural - [hackage](http://hackage.haskell.org/package/neural), [github](https://github.com/brunjlar/neural)
   - Recurrent Neural Networks
   - Convolutional Neural Networks
   - Generating Neural Networks

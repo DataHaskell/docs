@@ -60,7 +60,7 @@ Machine Learning
 
 ### Clustering
 - K-Means
-- SOM
+- Self-Organising Maps (SOM)
   - Hyperbolic-SOM
   - Hierarchical (H)SOMs
 - Mean-shift
@@ -79,7 +79,7 @@ Machine Learning
 
 - Independent Component Analysis (ICA)
 
-- t-SNE
+- t-SNE (t-distributed stochastic neighbor embedding)
 
 Contribute
 ====

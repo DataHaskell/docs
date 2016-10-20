@@ -60,6 +60,7 @@ Machine Learning
 
 ### Clustering
 - K-Means
+  - kmeans - [hackage](https://hackage.haskell.org/package/kmeans), [darcs](http://hub.darcs.net/gershomb/kmeans)
 - Self-Organising Maps (SOM)
   - Hyperbolic-SOM
   - Hierarchical (H)SOMs

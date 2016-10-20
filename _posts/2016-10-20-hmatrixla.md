@@ -8,6 +8,7 @@ date: 2016-10-20 03:22:38
 hmatrix is a linear algebra library and matrix computations.
 
 **Example code**:
+
 ```haskell
 
 -- Creating matrices
@@ -32,6 +33,7 @@ determinant r
 [**Benchmarks**](http://datahaskell.github.io/numeric-libs-benchmarks/benchmarks/hmatrix-linear-algebra.html)
 
 **Notes**:
+
 * Uses the [vector](#vector) library under the hood (specifically, [`Data.Vector.Storable`](http://hackage.haskell.org/package/vector-0.11.0.0/docs/Data-Vector-Storable.html))
 
 **Links**: [Hackage](http://hackage.haskell.org/package/hmatrix) . [GitHub](https://github.com/albertoruiz/hmatrix) . [Homepage](http://dis.um.es/~alberto/hmatrix/hmatrix.html)

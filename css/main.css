@@ -51,30 +51,14 @@ code {
     font-size: 0.9em;
 }
 
-#navigation .nav-depth {
-    padding-left: 10px;
-}
-
 #navigation li a {
     padding-left: 10px;
     padding-right: 10px;
 }
 
 #navigation .nav-header {
-    margin-left: -10px;
-}
-
-#navigation .nav-header a {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-#navigation .nav-header a:not(:link) {
-    color: inherit;
-}
-
-#navigation .nav-header a:not(:link):hover {
-    background: inherit;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 body.rtl {

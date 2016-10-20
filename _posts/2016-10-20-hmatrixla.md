@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "hmatrix"
-category: library/linear-algebra
+title: "[linear algebra] hmatrix"
+category: library
 date: 2016-10-20 03:22:38
 ---
 

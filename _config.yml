@@ -22,9 +22,6 @@ sections: [
     ['community', 'Community'],
     ['tutorial', 'Tutorials'],
     ['library', 'Libraries'],
-    ['library/vector', 'Vector representation'],
-    ['library/matrix', 'Matrix representation'],
-    ['library/linear-algebra', 'Linear algebra'],
     ['other', 'Other']
 ]
 

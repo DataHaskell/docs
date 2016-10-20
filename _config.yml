@@ -21,7 +21,7 @@ codeurl: 'https://github.com/datahaskell/docs'
 sections: [
     ['community', 'Community'],
     ['tutorial', 'Tutorials'],
-    ['library', 'Library overviews'],
+    ['library', 'Libraries'],
     ['library/vector', 'Vector representation'],
     ['library/matrix', 'Matrix representation'],
     ['library/linear-algebra', 'Linear algebra'],

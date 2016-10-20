@@ -29,12 +29,22 @@ module Jekyll
         else
           p = ""
         end
-
-        p += "<li class='nav-header'>#{name}</li>"
-        arr = categories[key].map do |page|
-          "<li data-order='#{page.data['order']}'><a href='#{site.baseurl}#{page.url}'>#{page.data['title']}</a></li>"
+        k = key.gsub('/', '-')
+        cat_link = false
+        arr = categories[key].map.with_index do |page, i|
+          if i == 0 && page.data['title'] == name
+            cat_link = true
+            "<li class='nav-header'><a href='#{site.baseurl}/#{key}/#{k}'>#{name}</a></li>"
+          else
+            "<li data-order='#{page.data['order']}'><a href='#{site.baseurl}#{page.url}'>#{page.data['title']}</a></li>"
+          end
         end
-        p += arr.join('')
+
+        if !cat_link
+          p += "<li class='nav-header'><a>#{name}</a></li>" + arr.join('')
+        else
+          p += arr.join('')
+        end
 
         rs = subs.select do |item,name|
           item.include? key

@@ -9,8 +9,6 @@ This page is based on the original `README.md` file for [Gibiansky's IHaskell re
 
 IHaskell is a kernel for the [Jupyter project](http://ipython.org), which allows you to use Haskell inside Jupyter frontends, including the console and in-browser notebook.
 
-[![Join the chat at https://gitter.im/gibiansky/IHaskell](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gibiansky/IHaskell?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 ![IHaskell](https://raw.github.com/gibiansky/IHaskell/master/html/logo-64x64.png)
 
 # IHaskell

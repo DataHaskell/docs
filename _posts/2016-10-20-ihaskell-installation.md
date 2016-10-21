@@ -48,11 +48,13 @@ Here is a blog post with step-by-step instructions for Ubuntu 14.04 (but should 
 The easiest way to use IHaskell is to install it inside a Docker container, which will come with the entire necessary stack, including Jupyter notebook. To install Docker, follow the [OS-specific instructions for your OS](https://docs.docker.com/engine/installation/).
 
 To get the Docker image, pull it from the Docker Hub:
+
 ```bash
 docker pull gibiansky/ihaskell:latest
 ```
 
 You can then run IHaskell with:
+
 ```bash
 docker run -it --volume $(pwd):/notebooks --publish 8888:8888 gibiansky/ihaskell:latest
 ```
@@ -82,12 +84,15 @@ Open `localhost:$PORT` (`localhost:8888`) in your web browser to use IHaskell. I
 **If you are a user, and not a developer, it is recommended you use the `docker` instructions above instead of the Ubuntu installation script.**
 
 If you are using a modern version of Ubuntu, clone the repository and then run the `ubuntu-install.sh` script:
+
 ```bash
 git clone http://www.github.com/gibiansky/IHaskell
 cd IHaskell
 ./ubuntu-install.sh
 ```
+
 This script will ask you for `sudo` permissions in order to install IHaskell dependencies. The script is readable and easy to inspect if you wish to know what it does before giving it root permissions.
+
 #### Mac OS X:
 
 On Mac OS X, clone the repository and then run the `macos-install.sh` script:
@@ -101,10 +106,13 @@ Note that you must have [Homebrew](http://brew.sh/) installed for this script to
 ### Installing Manually
 
 #### Install IPython
+
 Install IPython 3.0 or above:
+
 ```bash
 pip install ipython[all]
 ```
+
 This may require root permissions on some systems, in which case put a `sudo` before that command before running it.
 Once this is done, running `ipython --version` should print out `3.0` or above.
 
@@ -115,10 +123,12 @@ Note that IHaskell *requires* 3.0 or above; IHaskell *will not work* with IPytho
 You can let [Stack](http://www.stackage.org/) take care of everything by running `stack setup` from within the IHaskell folder. Stack can also be used to build IHaskell later and will manage dependencies better than cabal (like in issue #578).
 
 Or you can install GHC and Cabal manually. You must have appropriate versions of both:
+
 ```bash
 ghc --numeric-version # Should be 7.6.* or 7.8.* or 7.10.*
 cabal --version       # Should be 1.18.* or newer
 ```
+
 GHC and Cabal may be installed in a number of other ways, including the [Haskell Platform](http://www.haskell.org/platform/), as a [standalone Mac app](https://github.com/ghcformacosx/ghc-dot-app), via Homebrew with `brew install ghc cabal-install`, and so on.
 
 
@@ -130,6 +140,7 @@ Install ZeroMQ, a library IHaskell uses for asynchronous communication.
     - With [MacPorts](https://www.macports.org/) installed, run `ports install zmq`
   - **Ubuntu**: Run `sudo apt-get install libzmq3-dev`.
   - **Other**: You can install ZeroMQ from source or use another package manager:
+
 ```bash
 # Compiling from source:
 git clone git@github.com:zeromq/zeromq4-x.git libzmq
@@ -138,6 +149,7 @@ cd libzmq
 sudo make install
 sudo ldconfig
 ```
+
 If your own platform has a package and I haven't included instructions for it, feel free to send me an email or a PR on this README.
 
 #### Install Haskell Tools
@@ -145,6 +157,7 @@ If your own platform has a package and I haven't included instructions for it, f
 *(This section can be skipped when using stack)*
 
 First, make sure that executables installed by `cabal` are on your shell `PATH`:
+
 ```bash
 # If you have a ~/.cabal/bin folder:
 export PATH=~/.cabal/bin:$PATH
@@ -154,21 +167,26 @@ export PATH=~/Library/Haskell/bin:$PATH
 ```
 
 Then, install the `happy` parser generator tool and `cpphs` preprocessor:
+
 ```bash
 cabal install happy cpphs
 ```
 
 #### Build IHaskell
 Install IHaskell! You may install it from Stackage via `stack install` (check the latest version on [http://www.stackage.org/lts]:
+
 ```bash
 stack install ihaskell
 ```
 
 Or you may install it from Hackage via `cabal install`:
+
 ```bash
 cabal install ihaskell --reorder-goals
 ```
+
 As IHaskell updates frequently, you may also want to clone the repository and install from there:
+
 ```bash
 git clone http://www.github.com/gibiansky/IHaskell
 cd IHaskell
@@ -176,13 +194,16 @@ cd IHaskell
 ```
 
 The build script, `build.sh`, is a script for building IHaskell and dependencies. It has the following modes:
+
 - `ihaskell`: Build and install `ihaskell` and the two dependencies from this repository, `ipython-kernel` and `ghc-parser`.
 - `quick`: Just install `ihaskell`, do not bother recompiling and reinstalling its dependencies (`ipython-kernel` and `ghc-parser`).
 - `display`: Install `ihaskell` and all the support libraries in `ihaskell-display/`.
 - `all`: Install everything, including `ihaskell`, the dependencies, and all the support libraries in `ihaskell-display/`.
+
 It is run via `./build.sh all` or equivalent.
 
 IHaskell may also be built in a sandbox, via something like:
+
 ```bash
 cd IHaskell
 cabal sandbox init
@@ -192,21 +213,26 @@ cabal install . ihaskell-display/*
 
 You may also need to use `--extra-lib-dirs` and `--extra-include-dirs`, if
 `cabal` cannot find relevant libraries. For example:
+
 ```bash
 cabal install . ihaskell-display/* --extra-lib-dirs=`brew --prefix libmagic`/lib --extra-include-dirs=`brew --prefix libmagic`/include
 ```
 
 You can also build IHaskell with [stack](https://github.com/commercialhaskell/stack) instead of cabal:
+
 ```bash
 cd IHaskell
 stack install
 ```
+
 The above will install `ihaskell`, all support libraries (specified in `stack.yaml`), and their dependencies. You can also specify which libraries to install, for example:
+
 ```bash
 stack install ihaskell ihaskell-aeson ihaskell-diagrams
 ```
 
 Mac OS X users using MacPorts may run into an [issue involving libiconv](http://blog.omega-prime.co.uk/?p=96). A solution is to add the following lines in the file stack.yaml:
+
 ```
 extra-lib-dirs:
 - /usr/lib
@@ -216,15 +242,19 @@ extra-include-dirs:
 
 #### Run IHaskell
 Run IHaskell:
+
   - `ihaskell install` to install the IHaskell kernel into Jupyter.
   - `ipython notebook` for the browser-based interactive notebook.
   - `ipython console --kernel haskell` for a REPL.
 
 If you've installed IHaskell in a sandbox, you will need to make sure that IPython can access the contents of the sandbox. You can do this via `cabal exec`:
+
 ```bash
 cabal exec ipython -- notebook
 ```
+
 Likewise, if you've installed IHaskell with `stack`:
+
 ```bash
 stack exec ipython -- notebook
 ```
@@ -235,6 +265,7 @@ IHaskell comes with many support libraries, such as `ihaskell-diagrams`, `ihaske
 You can install these with `cabal install`. To install all of them, clone this repository and run `./build.sh all` to install IHaskell and all of its display support libraries.
 
 You may run into some issues with installing the `cairo` dependency on Macs. To fix this, you can install `gcc` via `brew` and then use it to install `cairo`:
+
 ```bash
 brew install gcc49
 cabal install cairo --with-gcc=gcc-4.9
@@ -249,10 +280,13 @@ These are simply some problems have had and solutions to them.
 **Solution**: Anaconda and Enthought cause problems. Get rid of them.
 
 **Problem**: You get an error when `pyzmq` is compiling that looks somewhat like
+
 ```
 cc1: error: -Werror=unused-command-line-argument-hard-error-in-future: No option -Wunused-command-line-argument-hard-error-in-future
 ```
+
 **Solution:** Rerun the command after changing the `ARCHFLAGS` variable via
+
 ```bash
 export ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future
 ```

@@ -28,8 +28,18 @@ Numerical methods
 
 #### Automatic differentiation
 
-- ad - [hackage](http://hackage.haskell.org/package/ad)
+- ad - [hackage](http://hackage.haskell.org/package/ad) : Automatic differentiation to arbitrary order, applicable to data provided in any Traversable container.
 
+
+### Optimization
+
+### Linear programming
+
+- glpk-hs - [hackage](https://hackage.haskell.org/package/glpk-hs) : Friendly interface to GLPK's linear programming and mixed integer programming features. Intended for easy extensibility, with a general, pure-Haskell representation of linear programs. 
+
+#### Convex optimization
+
+- optimization - [hackage](https://hackage.haskell.org/package/optimization) : A number of optimization techniques from the modern optimization literature (quasi-Newton, stochastic gradient descent, mirror descent, projected subgradient etc.).
 
 
 Machine Learning
@@ -60,7 +70,7 @@ Machine Learning
 
 - Kernel methods
   - Support Vector Machines
-    - with custom Kernel function (beside Gaussian, Chi², etc.)
+    - with custom kernel function (beside Gaussian, Chi², etc.)
 
   - Core Vector Machines
     - including approximative Center-Constrained-Minimum-Enclosing-Ball via Core-Set

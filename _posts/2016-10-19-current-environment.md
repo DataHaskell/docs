@@ -41,6 +41,13 @@ Numerical methods
 Machine Learning
 ----------------
 
+### Graphical Models
+
+- Hidden Markov Models
+  - HMM - [hackage](http://hackage.haskell.org/package/HMM), [github](https://github.com/mikeizbicki/hmm)
+  - hmm-hmatrix - [hackage](http://hackage.haskell.org/package/hmm-hmatrix), [darcs](http://hub.darcs.net/thielema/hmm-hmatrix)
+  - learning-hmm - [hackage](http://hackage.haskell.org/package/learning-hmm), [github](https://github.com/mnacamura/learning-hmm)
+
 ### Supervised Learning
 
 #### Classification

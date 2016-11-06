@@ -8,6 +8,30 @@ date: 2016-10-19 21:08:18
 A list of data science and machine learning algorithms we would like to have,
 along with existing implementations (if any).
 
+Numerical methods
+-----------------
+
+### Numerical linear algebra
+
+- hmatrix - [hackage](http://hackage.haskell.org/package/hmatrix) : Bindings to BLAS/LAPACK. Linear solvers, matrix decompositions, and more.
+- sparse-linear-algebra - [hackage](https://hackage.haskell.org/package/sparse-linear-algebra) : Native library for sparse algebraic computation. Linear solvers, matrix decompositions and related tools; functional but not optimized for efficiency yet.
+
+### Integration
+
+#### Markov chain Monte Carlo
+
+- declarative - [hackage](https://hackage.haskell.org/package/declarative) : A simple combinator language for Markov transition operators that are useful in MCMC.
+- mwc-probability  -  [hackage](https://hackage.haskell.org/package/mwc-probability) : A simple probability distribution type, where distributions are characterized by sampling functions.
+
+
+### Differentiation
+
+#### Automatic differentiation
+
+- ad - [hackage](http://hackage.haskell.org/package/ad)
+
+
+
 Machine Learning
 ----------------
 
@@ -34,14 +58,14 @@ Machine Learning
        - sibe - [hackage](http://hackage.haskell.org/package/sibe), [github](https://github.com/mdibaiee/sibe)
   - Bernoulli Naive Bayes
 
+- Kernel methods
+  - Support Vector Machines
+    - with custom Kernel function (beside Gaussian, Chi², etc.)
 
-- Support Vector Machines
-  - with custom Kernel-Function (beside Gaussian, Chi², etc.)
-
-- Core Vector Machines
-  - including approximative Center-Constrained-Minimum-Enclosing-Ball via Core-Set
-  - Classification & Regression
-  - O(n), but with huge constants
+  - Core Vector Machines
+    - including approximative Center-Constrained-Minimum-Enclosing-Ball via Core-Set
+    - Classification & Regression
+    - O(n), but with huge constants
 
 - Ensemble methods
   - Decision Trees
@@ -52,6 +76,10 @@ Machine Learning
 
 - Linear Regression
   - statistics - [hackage](http://hackage.haskell.org/package/statistics), [github](https://github.com/bos/statistics)
+  
+- Gaussian processes
+  - HasGP - [hackage](https://hackage.haskell.org/package/HasGP) : Gaussian processes for regression and classification, based on the Laplace approximation and Expectation Propagation.
+  
 
 ### Reinforcement Learning
 - Policy gradient

@@ -18,28 +18,24 @@ Numerical methods
 
 ### Integration
 
-#### Markov chain Monte Carlo
-
-- declarative - [hackage](https://hackage.haskell.org/package/declarative) : A simple combinator language for Markov transition operators that are useful in MCMC.
-- mwc-probability  -  [hackage](https://hackage.haskell.org/package/mwc-probability) : A simple probability distribution type, where distributions are characterized by sampling functions.
+- Markov chain Monte Carlo
+  - declarative - [hackage](https://hackage.haskell.org/package/declarative) : A simple combinator language for Markov transition operators that are useful in MCMC.
+  - mwc-probability  -  [hackage](https://hackage.haskell.org/package/mwc-probability) : A simple probability distribution type, where distributions are characterized by sampling functions.
 
 
 ### Differentiation
 
-#### Automatic differentiation
-
-- ad - [hackage](http://hackage.haskell.org/package/ad) : Automatic differentiation to arbitrary order, applicable to data provided in any Traversable container.
+- Automatic differentiation
+  - ad - [hackage](http://hackage.haskell.org/package/ad) : Automatic differentiation to arbitrary order, applicable to data provided in any Traversable container.
 
 
 ### Optimization
 
-### Linear programming
+- Linear programming
+  - glpk-hs - [hackage](https://hackage.haskell.org/package/glpk-hs) : Friendly interface to GLPK's linear programming and mixed integer programming features. Intended for easy extensibility, with a general, pure-Haskell representation of linear programs. 
 
-- glpk-hs - [hackage](https://hackage.haskell.org/package/glpk-hs) : Friendly interface to GLPK's linear programming and mixed integer programming features. Intended for easy extensibility, with a general, pure-Haskell representation of linear programs. 
-
-#### Convex optimization
-
-- optimization - [hackage](https://hackage.haskell.org/package/optimization) : A number of optimization techniques from the modern optimization literature (quasi-Newton, stochastic gradient descent, mirror descent, projected subgradient etc.).
+- Convex optimization
+  - optimization - [hackage](https://hackage.haskell.org/package/optimization) : A number of optimization techniques from the modern optimization literature (quasi-Newton, stochastic gradient descent, mirror descent, projected subgradient etc.).
 
 
 Machine Learning

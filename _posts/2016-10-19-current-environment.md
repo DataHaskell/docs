@@ -11,11 +11,13 @@ Contents :
 - [Data structures](#datastructures)
   - [Data frames](#dataframes)
   - [Efficient arrays](#arrays)
+  
 - [Numerical methods](#numerical)
   - [Numerical linear algebra](#nla)
   - [Integration](#integration)
   - [Differentiation](#differentiation)
   - [Optimization](#optimization)    
+  
 - [Machine learning](#ml)
   - [Graphical models](#graph)
   - [Classification](#classification)    

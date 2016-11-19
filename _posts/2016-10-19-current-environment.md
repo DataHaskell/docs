@@ -7,65 +7,91 @@ date: 2016-10-19 21:08:18
 
 A list of data science and machine learning tools and algorithms that either already exist or we would like to exist.
 
+Contents :
+*   [Data structures](#datastructures)
+    *    [Data frames](#dataframes)
+    *    [Efficient arrays](#arrays)
+*   [Numerical methods](#numerical)
+    *    [Numerical linear algebra](#nla)
+    *    [Integration](#integration)
+    *    [Differentiation](#differentiation)
+    *    [Optimization](#optimization)    
+*   [Machine learning](#ml)
+    *    [Graphical models](#graph)
+    *    [Classification](#classification)    
+    *    [Regression](#regression)    
+    *    [Reinforcement learning](#rl)    
+    *    [Graphical models](#graph)    
+    *    [Dimensionality reduction](#dimr)    
 
-Datatypes
----------
 
-### Data frames
+<h2 id="datastructures">Data structures</h2>
 
+
+<h3 id="dataframes">Data frames</h3>
 
 - frames - [hackage](http://hackage.haskell.org/package/frames) : User-friendly, type safe, runtime efficient tooling for working with tabular data deserialized from comma-separated values (CSV) files. The type of each row of data is inferred from data, which can then be streamed from disk, or worked with in memory. Also see the comprehensive [tutorial](https://acowley.github.io/Frames/)
 - labels - [hackage](https://hackage.haskell.org/package/labels) : Declare and access tuple fields with labels. An approach to anonymous records.
 
-### Efficient array computation
+<h3 id="arrays">Efficient arrays</h3>
 
 - vector - [hackage](https://hackage.haskell.org/package/vector) : An efficient implementation of Int-indexed arrays (both mutable and immutable), with a powerful loop optimisation framework.
 - accelerate - [hackage](https://hackage.haskell.org/package/accelerate) : Data.Array.Accelerate defines an embedded array language for computations for high-performance computing in Haskell. Computations on multi-dimensional, regular arrays are expressed in the form of parameterised collective operations, such as maps, reductions, and permutations. These computations may then be online compiled and executed on a range of architectures.
 - repa - [hackage](https://hackage.haskell.org/package/repa) : Repa provides high performance, regular, multi-dimensional, shape polymorphic parallel arrays. All numeric data is stored unboxed. 
 
-Numerical methods
------------------
 
-### Numerical linear algebra
+<h2 id="numerical">Numerical methods</h2>
+
+<h3 id="nla">Numerical linear algebra</h3>
 
 - hmatrix - [hackage](http://hackage.haskell.org/package/hmatrix) : Bindings to BLAS/LAPACK. Linear solvers, matrix decompositions, and more.
 - sparse-linear-algebra - [hackage](https://hackage.haskell.org/package/sparse-linear-algebra) : Native library for sparse algebraic computation. Linear solvers, matrix decompositions and related tools; functional but not optimized for efficiency yet.
 
-### Integration
 
-- Markov chain Monte Carlo
+<h3 id="integration">Integration</h3>
+
+<h4 id="mcmc">Markov Chain Monte Carlo</h4>
+
   - declarative - [hackage](https://hackage.haskell.org/package/declarative) : A simple combinator language for Markov transition operators that are useful in MCMC.
   - mwc-probability  -  [hackage](https://hackage.haskell.org/package/mwc-probability) : A simple probability distribution type, where distributions are characterized by sampling functions.
 
 
-### Differentiation
 
-- Automatic differentiation
+<h3 id="differentiation">Differentiation</h3>
+
+<h4 id="ad">Automatic differentiation</h4>
+
   - ad - [hackage](http://hackage.haskell.org/package/ad) : Automatic differentiation to arbitrary order, applicable to data provided in any Traversable container.
 
 
-### Optimization
+<h3 id="optimization">Optimization</h3>
 
-- Linear programming
+<h4 id="lp">Linear programming</h4>
+
   - glpk-hs - [hackage](https://hackage.haskell.org/package/glpk-hs) : Friendly interface to GLPK's linear programming and mixed integer programming features. Intended for easy extensibility, with a general, pure-Haskell representation of linear programs. 
 
-- Convex optimization
+
+<h4 id="cvxopt">Convex optimization</h4>
   - optimization - [hackage](https://hackage.haskell.org/package/optimization) : A number of optimization techniques from the modern optimization literature (quasi-Newton, stochastic gradient descent, mirror descent, projected subgradient etc.).
 
 
-Machine Learning
-----------------
 
-### Graphical Models
+<h2 id="ml">Machine learning</h2>
 
-- Hidden Markov Models
+
+
+<h3 id="supervised">Supervised learning</h3>
+
+
+<h4 id="graph">Graphical models</h4>
+
+<h5 id="hmm">Hidden Markov models</h5>
   - HMM - [hackage](http://hackage.haskell.org/package/HMM), [github](https://github.com/mikeizbicki/hmm)
   - hmm-hmatrix - [hackage](http://hackage.haskell.org/package/hmm-hmatrix), [darcs](http://hub.darcs.net/thielema/hmm-hmatrix)
   - learning-hmm - [hackage](http://hackage.haskell.org/package/learning-hmm), [github](https://github.com/mnacamura/learning-hmm)
 
-### Supervised Learning
 
-#### Classification
+<h4 id="classification">Classification</h4>
 
 - Neural Networks
   - Simple Neural Networks
@@ -100,7 +126,7 @@ Machine Learning
       - Random Forests
   - AdaBoost    
 
-#### Regression
+<h4 id="regression">Regression</h4>
 
 - Linear Regression
   - statistics - [hackage](http://hackage.haskell.org/package/statistics), [github](https://github.com/bos/statistics)
@@ -109,12 +135,14 @@ Machine Learning
   - HasGP - [hackage](https://hackage.haskell.org/package/HasGP) : Gaussian processes for regression and classification, based on the Laplace approximation and Expectation Propagation.
   
 
-### Reinforcement Learning
+<h4 id="rl">Reinforcement learning</h4>
+
 - Policy gradient
 - Q-Learning
      - Neural Network Q-Learning
 
-### Clustering
+<h4 id="clustering">Clustering</h4>
+
 - K-Means
   - kmeans - [hackage](https://hackage.haskell.org/package/kmeans), [darcs](http://hub.darcs.net/gershomb/kmeans)
 - Self-Organising Maps (SOM)
@@ -126,8 +154,8 @@ Machine Learning
 - Ward hierarchical clustering
 - Birch
 
+<h4 id="dimr">Dimensionality reduction</h4>
 
-### Dimensionality Reduction
 - Principal Component Analysis (PCA)
   - sibe - [hackage](http://hackage.haskell.org/package/sibe), [github](https://github.com/mdibaiee/sibe)
   - Kernel PCA
@@ -137,6 +165,7 @@ Machine Learning
 - Independent Component Analysis (ICA)
 
 - t-SNE (t-distributed stochastic neighbor embedding)
+
 
 Contribute
 ====

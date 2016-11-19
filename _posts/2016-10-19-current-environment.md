@@ -8,21 +8,21 @@ date: 2016-10-19 21:08:18
 A list of data science and machine learning tools and algorithms that either already exist or we would like to exist.
 
 Contents :
-*   [Data structures](#datastructures)
-    *    [Data frames](#dataframes)
-    *    [Efficient arrays](#arrays)
-*   [Numerical methods](#numerical)
-    *    [Numerical linear algebra](#nla)
-    *    [Integration](#integration)
-    *    [Differentiation](#differentiation)
-    *    [Optimization](#optimization)    
-*   [Machine learning](#ml)
-    *    [Graphical models](#graph)
-    *    [Classification](#classification)    
-    *    [Regression](#regression)    
-    *    [Reinforcement learning](#rl)    
-    *    [Graphical models](#graph)    
-    *    [Dimensionality reduction](#dimr)    
+- [Data structures](#datastructures)
+  - [Data frames](#dataframes)
+  - [Efficient arrays](#arrays)
+- [Numerical methods](#numerical)
+  - [Numerical linear algebra](#nla)
+  - [Integration](#integration)
+  - [Differentiation](#differentiation)
+  - [Optimization](#optimization)    
+- [Machine learning](#ml)
+  - [Graphical models](#graph)
+  - [Classification](#classification)    
+  - [Regression](#regression)    
+  - [Reinforcement learning](#rl)    
+  - [Graphical models](#graph)    
+  - [Dimensionality reduction](#dimr)    
 
 
 <h2 id="datastructures">Data structures</h2>

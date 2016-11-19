@@ -8,6 +8,7 @@ date: 2016-10-19 21:08:18
 A list of data science and machine learning tools and algorithms that either already exist or we would like to exist.
 
 Contents :
+
 - [Data structures](#datastructures)
   - [Data frames](#dataframes)
   - [Efficient arrays](#arrays)

@@ -13,7 +13,7 @@ Datatypes
 
 ### Data frames
 
--vector - [hackage](https://hackage.haskell.org/package/vector) : An efficient implementation of Int-indexed arrays (both mutable and immutable), with a powerful loop optimisation framework.
+- vector - [hackage](https://hackage.haskell.org/package/vector) : An efficient implementation of Int-indexed arrays (both mutable and immutable), with a powerful loop optimisation framework.
 - frames - [hackage](http://hackage.haskell.org/package/frames) : User-friendly, type safe, runtime efficient tooling for working with tabular data deserialized from comma-separated values (CSV) files. The type of each row of data is inferred from data, which can then be streamed from disk, or worked with in memory. Also see the comprehensive [tutorial](https://acowley.github.io/Frames/)
 - labels - [hackage](https://hackage.haskell.org/package/labels) : Declare and access tuple fields with labels. An approach to anonymous records.
 

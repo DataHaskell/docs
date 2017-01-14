@@ -9,4 +9,5 @@ Here you can find an <a href="http://www.datahaskell.org/docs/community/current-
 
 We also provide some tutorial resources for your convenience: a Haskell style guide for <a href="http://www.datahaskell.org/docs/community/contributing-with-code.html">contributing with code</a>, the <a href="http://www.datahaskell.org/docs/tutorial/ihaskell-installation.html">IHaskell installation guide</a> and guidelines for <a href="http://www.datahaskell.org/docs/community/contributing-to-the-documentation.html">for contributing to the documentation</a>.
 
-This is a collaborative effort, so we look forward to your comments and participation !
+This is a collaborative effort, so we look forward to your comments and participation ! Don't be shy and <a href="https://github.com/datahaskell/docs">send us a pull request</a>
+

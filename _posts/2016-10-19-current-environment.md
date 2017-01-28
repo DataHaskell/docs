@@ -49,9 +49,9 @@ Contents :
 - labels - [hackage](https://hackage.haskell.org/package/labels) : Declare and access tuple fields with labels. An approach to anonymous records.
 - analyze - [hackage](https://hackage.haskell.org/package/analyze), [github](https://github.com/ejconlon/analyze) : `pandas`-like dataframe operations for tabular data with CSV interface.
 - kraps-h - [github](https://github.com/krapsh/kraps-haskell) : Haskell bindings to Apache Spark. The library consists of: 
-  - a specification to describe data pipelines in a language-agnostic manner, and a communication protocol to submit these pipelines to Spark. 
-  - a serving library, called krapsh-server, that implements this specification on top of Spark. It is written in Scala and is loaded as a standard Spark package.
-  - a client written in Haskell that sends pipelines to Spark for execution. In addition, this client serves as an experimental platform for whole-program optimization and verification, as well as compiler-enforced type checking.
+  * a specification to describe data pipelines in a language-agnostic manner, and a communication protocol to submit these pipelines to Spark. 
+  * a serving library, called krapsh-server, that implements this specification on top of Spark. It is written in Scala and is loaded as a standard Spark package.
+  * a client written in Haskell that sends pipelines to Spark for execution. In addition, this client serves as an experimental platform for whole-program optimization and verification, as well as compiler-enforced type checking.
 
 <h3 id="arrays">Efficient arrays</h3>
 
@@ -100,12 +100,12 @@ Contents :
 
 
 <h3 id="bayes">Bayesian inference</h3>
-  - propably-baysig - [github](https://github.com/glutamate/probably-baysig) This library contains definitions and functions for probabilistic and statistical inference.
-Math.Probably.Sampler defines the sampling function monad, as described by Sungwoo Park and implemented elsewhere (e.g. 'random-fu' and 'monte-carlo' packages)
-Math.Probably.PDF defines some common parametric log-probability density functions
-Math.Probably.FoldingStats defines statistics as folds that can be composed and calculated independently of the container of the underlying data.
-Strategy.* implements various transition operators for Markov Chain Monte Carlo, including Metropolis-Hastings, Hamiltonian Monte Carlo, NUTS, and continuous/discrete slice samplers.
-Math.Probably.MCMC implements functions and combinators for running Markov chains and interleaving transition operators.
+  - probably-baysig - [github](https://github.com/glutamate/probably-baysig) This library contains definitions and functions for probabilistic and statistical inference.
+    * Math.Probably.Sampler defines the sampling function monad, as described by Sungwoo Park and implemented elsewhere (e.g. 'random-fu' and 'monte-carlo' packages)
+    * Math.Probably.PDF defines some common parametric log-probability density functions
+    * Math.Probably.FoldingStats defines statistics as folds that can be composed and calculated independently of the container of the underlying data.
+    * Strategy.* implements various transition operators for Markov Chain Monte Carlo, including Metropolis-Hastings, Hamiltonian Monte Carlo, NUTS, and continuous/discrete slice samplers.
+    * Math.Probably.MCMC implements functions and combinators for running Markov chains and interleaving transition operators.
 
 
 <h3 id="supervised">Supervised learning</h3>

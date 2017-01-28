@@ -35,6 +35,7 @@ Contents :
 
 - frames - [hackage](http://hackage.haskell.org/package/Frames) : User-friendly, type safe, runtime efficient tooling for working with tabular data deserialized from comma-separated values (CSV) files. The type of each row of data is inferred from data, which can then be streamed from disk, or worked with in memory. Also see the comprehensive [tutorial](https://acowley.github.io/Frames/)
 - labels - [hackage](https://hackage.haskell.org/package/labels) : Declare and access tuple fields with labels. An approach to anonymous records.
+- analyze - [hackage](https://hackage.haskell.org/package/analyze), [github](https://github.com/ejconlon/analyze) : `pandas`-like dataframe operations for tabular data with CSV interface.
 
 <h3 id="arrays">Efficient arrays</h3>
 
@@ -127,7 +128,10 @@ Contents :
 - Ensemble methods
   - Decision Trees
       - Random Forests
-  - AdaBoost    
+  - Boosting 
+      - XGBoost 
+        - xgboost.hs [github](https://github.com/robertzk/xgboost.hs)
+      - AdaBoost    
 
 <h4 id="regression">Regression</h4>
 

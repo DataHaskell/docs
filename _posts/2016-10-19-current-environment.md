@@ -100,7 +100,7 @@ Contents :
 
 
 <h3 id="bayes">Bayesian inference</h3>
-  - probably-baysig - [github](https://github.com/glutamate/probably-baysig) This library contains definitions and functions for probabilistic and statistical inference.
+  - probably-baysig - [github](https://github.com/glutamate/probably-baysig) - This library contains definitions and functions for probabilistic and statistical inference.
     * Math.Probably.Sampler defines the sampling function monad, as described by Sungwoo Park and implemented elsewhere (e.g. 'random-fu' and 'monte-carlo' packages)
     * Math.Probably.PDF defines some common parametric log-probability density functions
     * Math.Probably.FoldingStats defines statistics as folds that can be composed and calculated independently of the container of the underlying data.

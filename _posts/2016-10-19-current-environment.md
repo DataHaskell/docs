@@ -16,15 +16,21 @@ Contents :
 - [Numerical methods](#numerical)
   - [Numerical linear algebra](#nla)
   - [Integration](#integration)
+    - Markov chain Monte Carlo
   - [Differentiation](#differentiation)
-  - [Optimization](#optimization)    
+    - Automatic differentiation
+  - [Optimization](#optimization)   
+    - Linear programming
+    - Convex optimization
   
 - [Machine learning](#ml)
   - [Graphical models](#graph)
   - [Classification](#classification)    
-  - [Regression](#regression)    
-  - [Reinforcement learning](#rl)    
-  - [Graphical models](#graph)    
+  - [Regression](#regression) 
+    - Linear regression
+    - Gaussian processes
+    - Kalman filtering
+  - [Reinforcement learning](#rl)     
   - [Dimensionality reduction](#dimr)    
 
 
@@ -36,6 +42,10 @@ Contents :
 - frames - [hackage](http://hackage.haskell.org/package/Frames) : User-friendly, type safe, runtime efficient tooling for working with tabular data deserialized from comma-separated values (CSV) files. The type of each row of data is inferred from data, which can then be streamed from disk, or worked with in memory. Also see the comprehensive [tutorial](https://acowley.github.io/Frames/)
 - labels - [hackage](https://hackage.haskell.org/package/labels) : Declare and access tuple fields with labels. An approach to anonymous records.
 - analyze - [hackage](https://hackage.haskell.org/package/analyze), [github](https://github.com/ejconlon/analyze) : `pandas`-like dataframe operations for tabular data with CSV interface.
+- kraps-h - [github](https://github.com/krapsh/kraps-haskell) : Haskell bindings to Apache Spark. The library consists of: 
+  - a specification to describe data pipelines in a language-agnostic manner, and a communication protocol to submit these pipelines to Spark. 
+  - a serving library, called krapsh-server, that implements this specification on top of Spark. It is written in Scala and is loaded as a standard Spark package.
+  - a client written in Haskell that sends pipelines to Spark for execution. In addition, this client serves as an experimental platform for whole-program optimization and verification, as well as compiler-enforced type checking.
 
 <h3 id="arrays">Efficient arrays</h3>
 
@@ -140,6 +150,11 @@ Contents :
   
 - Gaussian processes
   - HasGP - [hackage](https://hackage.haskell.org/package/HasGP) : Gaussian processes for regression and classification, based on the Laplace approximation and Expectation Propagation.
+  
+- Kalman filtering
+  - kalman - [hackage](https://hackage.haskell.org/package/kalman) : Linear, extended and unscented Kalman filters are provided, along with their corresponding smoothers. Furthermore, a particle filter and smoother is provided.
+  - estimator - [hackage](https://hackage.haskell.org/package/estimator) : The goal of this library is to simplify implementation and use of state-space estimation algorithms, such as Kalman Filters. The interface for constructing models is isolated as much as possible from the specifics of a given algorithm, so swapping out a Kalman Filter for a Bayesian Particle Filter should involve a minimum of effort.
+This implementation is designed to support symbolic types, such as from sbv or ivory. As a result you can generate code in another language, such as C, from a model written using this package; or run static analyses on your model.
   
 
 <h4 id="rl">Reinforcement learning</h4>

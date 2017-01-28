@@ -25,8 +25,13 @@ Contents :
   
 - [Machine learning](#ml)
   - [Graphical models](#graph)
-  - [Classification](#classification)    
+  - [Classification](#classification)   
+    - Neural networks
+    - Naive Bayes
+    - Kernel methods
+    - Ensemble methods
   - [Regression](#regression) 
+    - Nearest neighbors
     - Linear regression
     - Gaussian processes
     - Kalman filtering
@@ -117,8 +122,6 @@ Contents :
   - Basically everything of: [NNL-Speak for Haskellers](https://colah.github.io/posts/2015-09-NN-Types-FP/)
 
 
-- Nearest Neighbors
-  - HLearn: [Blogpost](https://izbicki.me/blog/fast-nearest-neighbor-queries-in-haskell.html) (including github-links)
 
 - Naive Bayes
   - Gaussian Naive Bayes
@@ -144,6 +147,9 @@ Contents :
       - AdaBoost    
 
 <h4 id="regression">Regression</h4>
+
+- Nearest Neighbors
+  - HLearn: [Blogpost](https://izbicki.me/blog/fast-nearest-neighbor-queries-in-haskell.html) (including github-links)
 
 - Linear Regression
   - statistics - [hackage](http://hackage.haskell.org/package/statistics), [github](https://github.com/bos/statistics)
@@ -183,7 +189,7 @@ This implementation is designed to support symbolic types, such as from sbv or i
   - Kernel PCA
   - Incremental PCA
   - Truncated SVD
-
+  
 - Independent Component Analysis (ICA)
 
 - t-SNE (t-distributed stochastic neighbor embedding)

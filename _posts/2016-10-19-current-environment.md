@@ -39,6 +39,9 @@ A list of data science and machine learning tools and algorithms that either alr
   - [Reinforcement learning](#rl)     
   - [Dimensionality reduction](#dimr)    
 
+- [Datasets](#datasets)
+
+--------- 
 
 <h2 id="datastructures">Data structures</h2>
 
@@ -204,6 +207,12 @@ This implementation is designed to support symbolic types, such as from sbv or i
 - Independent Component Analysis (ICA)
 
 - t-SNE (t-distributed stochastic neighbor embedding)
+
+<h2 id="datasets">Datasets</h2>
+
+  - **datasets** - [hackage](https://hackage.haskell.org/package/datasets), [github](https://github.com/glutamate/datasets) - Classical machine learning and statistics datasets from the UCI Machine Learning Repository and other sources.
+The datasets package defines two different kinds of datasets: small data sets which are directly (or indirectly with file-embed) embedded in the package as pure values and do not require network or IO to download the data set. This includes Iris, Anscombe and OldFaithful, and other data sets which need to be fetched over the network and are cached in a local temporary directory.
+  - **mnist-idx** - [hackage](https://hackage.haskell.org/package/mnist-idx ), [github](https://github.com/kryoxide/mnist-idx) - Read and write data in the IDX format used in e.g. the MINST database
 
 
 Contribute

@@ -22,6 +22,7 @@ A list of data science and machine learning tools and algorithms that either alr
   - [Optimization](#optimization)   
     - Linear programming
     - Convex optimization
+  - [Statistics](#stats)
   
 - [Machine learning](#ml)
   - [Bayesian inference](#bayes)
@@ -87,7 +88,7 @@ A list of data science and machine learning tools and algorithms that either alr
   - **ad** - [hackage](http://hackage.haskell.org/package/ad) : Automatic differentiation to arbitrary order, applicable to data provided in any Traversable container.
 
 
-<h3 id="optimization">Optimization</h3>
+
 
 <h4 id="lp">Linear programming</h4>
 
@@ -98,6 +99,9 @@ A list of data science and machine learning tools and algorithms that either alr
   - **optimization** - [hackage](https://hackage.haskell.org/package/optimization) : A number of optimization techniques from the modern optimization literature (quasi-Newton, stochastic gradient descent, mirror descent, projected subgradient etc.).
 
 
+<h3 id="stats">Statistics</h3>
+  - **tdigest** - [hackage](https://hackage.haskell.org/package/tdigest) : A new data structure for accurate on-line accumulation of rank-based statistics such as quantiles and trimmed means.
+ 
 
 <h2 id="ml">Machine learning</h2>
 

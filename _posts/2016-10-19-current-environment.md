@@ -16,13 +16,14 @@ A list of data science and machine learning tools and algorithms that either alr
 - [Numerical methods](#numerical)
   - [Numerical linear algebra](#nla)
   - [Integration](#integration)
-    - Markov chain Monte Carlo
+    - [Markov chain Monte Carlo](#mcmc)
+    - [Quantiles, etc.](#quantiles)
   - [Differentiation](#differentiation)
     - Automatic differentiation
   - [Optimization](#optimization)   
     - Linear programming
     - Convex optimization
-  - [Statistics](#stats)
+  
   
 - [Machine learning](#ml)
   - [Bayesian inference](#bayes)
@@ -72,12 +73,19 @@ A list of data science and machine learning tools and algorithms that either alr
 - **sparse-linear-algebra** - [hackage](https://hackage.haskell.org/package/sparse-linear-algebra) : Native library for sparse algebraic computation. Linear solvers, matrix decompositions and related tools; functional but not optimized for efficiency yet.
 
 
+
+
 <h3 id="integration">Integration</h3>
 
 <h4 id="mcmc">Markov Chain Monte Carlo</h4>
 
   - **declarative** - [hackage](https://hackage.haskell.org/package/declarative) : A simple combinator language for Markov transition operators that are useful in MCMC.
   - **mwc-probability**  -  [hackage](https://hackage.haskell.org/package/mwc-probability) : A simple probability distribution type, where distributions are characterized by sampling functions.
+
+<h4 id="quantiles">Quantiles, etc.</h4>
+
+  - **tdigest** - [hackage](https://hackage.haskell.org/package/tdigest) : A new data structure for accurate on-line accumulation of rank-based statistics such as quantiles and trimmed means.
+
 
 
 
@@ -99,8 +107,8 @@ A list of data science and machine learning tools and algorithms that either alr
   - **optimization** - [hackage](https://hackage.haskell.org/package/optimization) : A number of optimization techniques from the modern optimization literature (quasi-Newton, stochastic gradient descent, mirror descent, projected subgradient etc.).
 
 
-<h3 id="stats">Statistics</h3>
-  - **tdigest** - [hackage](https://hackage.haskell.org/package/tdigest) : A new data structure for accurate on-line accumulation of rank-based statistics such as quantiles and trimmed means.
+
+
  
 
 <h2 id="ml">Machine learning</h2>

@@ -97,6 +97,7 @@ A list of data science and machine learning tools and algorithms that either alr
 
 
 
+<h3 id="optimization">Optimization</h3>
 
 <h4 id="lp">Linear programming</h4>
 

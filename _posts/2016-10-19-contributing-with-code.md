@@ -7,38 +7,6 @@ date: 2016-10-19 17:00:25
 
 Managing code can be hard sometimes, in Haskell generally TMTOWTDI (There's more than one way to do it). Here are some tips for making your, and everyone's involved in your contribution, life easier:
 
-# Contents
-
-- [Formatting](#formatting)
-    * [Line Length](#line-length)
-    * [Indentation](#indentation)
-    * [Blank Lines](#blank-lines)
-    * [Whitespace](#whitespace)
-    * [Data Declarations](#data-declarations)
-    * [List Declarations](#list-declarations)
-    * [Pragmas](#pragmas)
-    * [Hanging Lambdas](#hanging-lambdas)
-    * [Export lists](#export-lists)
-    * [If-then-else](#if-then-else-clauses)
-    * [Case expressions](#case-expressions)
-- [Imports](#imports)
-- [Comments](#comments)
-    * [Punctuation](#punctuation)
-    * [Top-Level Definitions](#top-level-definitions)
-    * [End-of-Line Comments](#end-of-line-comments)
-    * [Links](#links)
-- [Naming](#naming)
-    * [Modules](#modules)
-- [Dealing with laziness](#dealing-with-laziness)
-    * [Data types](#data-types)
-    * [Functions](#functions)
-- [Misc](#misc)
-    * [Point-free style](#point-free-style)
-    * [Warnings](#warnings)
-- [Pull requests](#submitting-pull-requests)
-
----
-
 ## Formatting
 This code style guide is based on [the haskell style guide](https://github.com/tibbe/haskell-style-guide/blob/master/haskell-style.md).
 

@@ -58,7 +58,7 @@ A list of data science and machine learning tools and algorithms that either alr
   - **ad** [](http://hackage.haskell.org/package/ad){:.hackage} : Automatic differentiation to arbitrary order, applicable to data provided in any Traversable container.
 
 
-- Optimization
+### Optimization
 
 
 - Linear programming

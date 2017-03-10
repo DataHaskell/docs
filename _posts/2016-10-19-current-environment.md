@@ -183,6 +183,7 @@ A list of data science and machine learning tools and algorithms that either alr
   - Truncated SVD*
   - Independent Component Analysis (ICA)
   - t-SNE (t-distributed stochastic neighbor embedding)
+    - **tsne** [](https://hackage.haskell.org/package/tsne){:.hackage}
 
 ## Datasets
 

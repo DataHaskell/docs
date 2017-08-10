@@ -18,6 +18,8 @@ A list of data science and machine learning tools and algorithms that either alr
 
 - **analyze** [](https://hackage.haskell.org/package/analyze){:.hackage} [](https://github.com/ejconlon/analyze){:.github} : `pandas`-like dataframe operations for tabular data with CSV interface.
 
+- **bookkeeper** [](https://hackage.haskell.org/package/bookkeeper){:.hackage} : A new take on datatypes and records using `OverloadedLabels` (which is available since GHC 8). It bears some similarities to Nikita Volkov's `record` library, but requires no Template Haskell.
+
 - **kraps-h** [](https://github.com/krapsh/kraps-haskell){:.github} : Haskell bindings to Apache Spark. The library consists of: 
   - A specification to describe data pipelines in a language-agnostic manner, and a communication protocol to submit these pipelines to Spark. 
   - A serving library, called krapsh-server, that implements this specification on top of Spark. It is written in Scala and is loaded as a standard Spark package.

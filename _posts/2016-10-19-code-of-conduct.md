@@ -8,8 +8,6 @@ date: 2016-10-19 16:18:58
 **dataHaskell** supports the [Berlin code of conduct](http://berlincodeofconduct.org/), which has a clear goal:
 **To enrich a friendly, safe and welcoming environment.**
 
-# Berlin Code of Conduct
-
 ## Purpose
 
 A primary goal of all the conferences and user groups that refer to this Code of Conduct is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status and religion (or lack thereof).

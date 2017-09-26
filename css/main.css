@@ -1,13 +1,21 @@
 body {
     font-weight: 400;
+    font-size: 1.15em;
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
 }
 
 pre, code, pre code {
     border: none;
     border-radius: 0;
     background-color: #f9f9f9;
-    font-size: 0.85em;
+    /*font-size: 0.85em;*/
 }
 
 .highlight {
@@ -15,7 +23,7 @@ pre, code, pre code {
 }
 
 pre {
-    font-size: 1em;
+    /*font-size: 1em;*/
 }
 
 code {
@@ -37,30 +45,6 @@ code {
     color: #999;
     text-align: center;
 }
-
-#content > .page-header:first-child {
-    margin-top: 0;
-}
-
-#content > .page-header:first-child h2 {
-    margin-top: 0;
-}
-
-
-#navigation {
-    font-size: 0.9em;
-}
-
-#navigation li a {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-#navigation .nav-header {
-    padding-left: 0;
-    padding-right: 0;
-}
-
 body.rtl {
 	direction: rtl;
 }
@@ -91,4 +75,21 @@ table {
 td, th {
   padding: .25rem .5rem;
   border: 1px solid #e5e5e5;
+}
+
+#header-img {
+  filter: brightness(70%);
+}
+
+.p-coll {
+  font-size: 0.8em;
+}
+
+.side-nav{
+  padding-right: -10%;
+  overflow: hidden;
+}
+
+.side-nav:hover {
+  overflow-y: scroll;
 }

@@ -56,8 +56,13 @@ Machine Learning
   - Simple Neural Networks
     - sibe - [hackage](http://hackage.haskell.org/package/sibe), [github](https://github.com/mdibaiee/sibe)
     - neural - [hackage](http://hackage.haskell.org/package/neural), [github](https://github.com/brunjlar/neural)
+    - grenade - [hackage](http://hackage.haskell.org/package/grenade), [github](https://github.com/HuwCampbell/grenade)
   - Recurrent Neural Networks
+    - grenade (not released to Hackage yet) - [github](https://github.com/HuwCampbell/grenade)
   - Convolutional Neural Networks
+    - grenade - [hackage](http://hackage.haskell.org/package/grenade), [github](https://github.com/HuwCampbell/grenade)
+  - LTSM (Long Term Short term Memory)
+    - grenade - [hackage](http://hackage.haskell.org/package/grenade), [github](https://github.com/HuwCampbell/grenade)
   - Generating Neural Networks
   - Basically everything of: [NNL-Speak for Haskellers](https://colah.github.io/posts/2015-09-NN-Types-FP/)
 

@@ -117,7 +117,7 @@ A list of data science and machine learning tools and algorithms that either alr
     - grenade (not released to Hackage yet) - [github](https://github.com/HuwCampbell/grenade)
   - Convolutional Neural Networks
     - grenade - [hackage](http://hackage.haskell.org/package/grenade), [github](https://github.com/HuwCampbell/grenade)
-  - LTSM (Long Term Short term Memory)
+  - LSTM (Long Short-Term Memory)
     - grenade - [hackage](http://hackage.haskell.org/package/grenade), [github](https://github.com/HuwCampbell/grenade)
     - **sibe** [](http://hackage.haskell.org/package/sibe){:.hackage} [](https://github.com/mdibaiee/sibe){:.github}
     - **neural** [](http://hackage.haskell.org/package/neural){:.hackage} [](https://github.com/brunjlar/neural){:.github}

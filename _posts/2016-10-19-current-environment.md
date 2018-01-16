@@ -39,6 +39,9 @@ A list of data science and machine learning tools and algorithms that either alr
 - **hmatrix** [](http://hackage.haskell.org/package/hmatrix){:.hackage} : Bindings to BLAS/LAPACK. Linear solvers, matrix decompositions, and more.
 - **sparse-linear-algebra** [](https://hackage.haskell.org/package/sparse-linear-algebra){:.hackage} : Native library for sparse algebraic computation. Linear solvers, matrix decompositions and related tools; functional but not optimized for efficiency yet.
 
+### Generation of random data
+
+  - **mwc-probability**  [](https://hackage.haskell.org/package/mwc-probability){:.hackage} : A simple probability distribution type, where distributions are characterized by sampling functions.
 
 
 
@@ -46,7 +49,7 @@ A list of data science and machine learning tools and algorithms that either alr
 
 - Markov Chain Monte Carlo
   - **declarative** [](https://hackage.haskell.org/package/declarative){:.hackage} : A simple combinator language for Markov transition operators that are useful in MCMC.
-  - **mwc-probability**  [](https://hackage.haskell.org/package/mwc-probability){:.hackage} : A simple probability distribution type, where distributions are characterized by sampling functions.
+
 
 - Quantiles, etc.
   - **tdigest** [](https://hackage.haskell.org/package/tdigest){:.hackage} : A new data structure for accurate on-line accumulation of rank-based statistics such as quantiles and trimmed means.
@@ -84,6 +87,13 @@ A list of data science and machine learning tools and algorithms that either alr
     - Math.Probably.FoldingStats defines statistics as folds that can be composed and calculated independently of the container of the underlying data.
     - Strategy.\* implements various transition operators for Markov Chain Monte Carlo, including Metropolis-Hastings, Hamiltonian Monte Carlo, NUTS, and continuous/discrete slice samplers.
     - Math.Probably.MCMC implements functions and combinators for running Markov chains and interleaving transition operators.
+
+#### Probabilistic programming languages
+  - **monad-bayes** [](https://github.com/adscib/monad-bayes){:.github} - A library for probabilistic programming in Haskell using probability monads. The emphasis is on composition of inference algorithms implemented in terms of monad transformers. The code is still experimental, but will be released on Hackage as soon as it reaches relative stability. User's guide will appear soon. In the meantime see the models folder that contains several examples.
+  - **hakaru** [](https://hackage.haskell.org/package/hakaru){:.hackage} [](https://github.com/hakaru-dev/hakaru){:.github} - Hakaru is a simply-typed probabilistic programming language, designed for easy specification of probabilistic models and inference algorithms. Hakaru enables the design of modular probabilistic inference programs by providing:
+      - A language for representing probabilistic distributions, queries, and inferences
+      - Methods for transforming probabilistic information, such as conditional probability and probabilistic inference, using computer algebra
+
 
 
 ### Supervised learning

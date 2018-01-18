@@ -22,6 +22,7 @@ sections: [
     ['community', 'Community'],
     ['tutorial', 'Tutorials'],
     ['library', 'Libraries'],
+    ['help', 'Help wanted'],
     ['other', 'Other']
 ]
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Getting started with HaskellDO"
-category: tutorial
+category: help
 date: 2016-10-20 21:35:06
 ---
 

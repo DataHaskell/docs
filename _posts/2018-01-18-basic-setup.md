@@ -1,22 +1,16 @@
 ---
 layout: page
-title: "basic setup for the beginner tutorials"
+title: "basic setup and beginner tutorials"
 category: tutorial
 date: 2018-01-18 13:14:00
 ---
 
+Welcome to the beginner tutorials. The basic development setup suggested below intends to provide a starting point for beginners and a starting point to follow the workflow used in the other tutorials. Feel free to ignore or use an alternative setup of your preference.
+
 ## Dependencies
 
-If you don't already have a set workflow for Haskell development, may I suggest
-
 - Haskell [Stack](https://haskell-lang.org/get-started) build system
-
-Haskell is a compiled language. Stack is a user-friendly tool to set up projects and run builds.
-
 - [emacs](https://www.gnu.org/software/emacs/) editor/IDE
-
-Emacs is a battle-hardened and featureful editor/IDE. Haskell tooling plays very nicely with it.
-
 - [Intero](https://haskell-lang.org/intero) Haskell interactive development extension for IDEs
 
 ## Basic workflow

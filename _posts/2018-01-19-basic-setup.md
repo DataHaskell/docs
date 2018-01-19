@@ -23,10 +23,14 @@ If you don't already have a set workflow for Haskell development, may I suggest
 
 ## Basic workflow
 
-- [idiomatic haskell](https://github.com/Gabriel439/slides/blob/master/lambdaconf/data/data.md) 
-    Gabriel Gonzalez guides us through a simple data science workflow using a selection of basic libraries. If you are not a [nix](https://nixos.org/) user, I suggest you create your own project and add his code.
+- [idiomatic haskell](https://github.com/Gabriel439/slides/blob/master/lambdaconf/data/data.md)
+
+
+    Gabriel Gonzalez guides us through a simple data science workflow using a selection of basic libraries. In his own words, the state of the ecosystem is that
 
     > All the tools are there, but not yet organized into a cohesive whole
+    
+    *If you are not a [nix](https://nixos.org/) user, I suggest you create your own project and add his code.*
 
 - [reading a csv](http://howistart.org/posts/haskell/1/) 
 

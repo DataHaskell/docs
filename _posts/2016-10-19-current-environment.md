@@ -93,6 +93,7 @@ A list of data science and machine learning tools and algorithms that either alr
   - **hakaru** [](https://hackage.haskell.org/package/hakaru){:.hackage} [](https://github.com/hakaru-dev/hakaru){:.github} - Hakaru is a simply-typed probabilistic programming language, designed for easy specification of probabilistic models and inference algorithms. Hakaru enables the design of modular probabilistic inference programs by providing:
       - A language for representing probabilistic distributions, queries, and inferences
       - Methods for transforming probabilistic information, such as conditional probability and probabilistic inference, using computer algebra
+  - **deanie** [](https://github.com/jtobin/deanie){:.github} - deanie is an embedded probabilistic programming language. It can be used to denote, sample from, and perform inference on probabilistic programs.
 
 
 

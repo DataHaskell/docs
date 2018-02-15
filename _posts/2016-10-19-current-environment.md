@@ -33,6 +33,8 @@ A list of data science and machine learning tools and algorithms that either alr
 
 - **labels** [](https://hackage.haskell.org/package/labels){:.hackage} : Declare and access tuple fields with labels. An approach to anonymous records.
 
+- **superrecord** [](http://hackage.haskell.org/package/superrecord){:.hackage} [](https://github.com/agrafix/superrecord){:.github} Supercharged anonymous records. Introductory blogpost, with case study using ReaderT: https://www.athiemann.net/2017/07/02/superrecord.html
+
 - **microgroove** [](https://hackage.haskell.org/package/microgroove){:.hackage} [](https://github.com/daig/microgroove){:.github} : Array-backed extensible records, providing fast access and mutation.
 
 

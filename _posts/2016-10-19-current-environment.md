@@ -123,6 +123,11 @@ See the blog post for details: https://www.tweag.io/posts/2016-02-25-hello-spark
 
 
 - Classification
+
+  - Linear discriminant analysis
+    - **linda** [](https://hackage.haskell.org/package/linda){:.hackage} LINDA implements linear discriminant analysis. It provides both data classification (according to Fisher) and data analysis (by discriminant criteria). Due to the `hmatrix` dependency, this package needs LAPACK installed, too. 
+  - Support Vector Machines
+    - **svm-simple** [](https://hackage.haskell.org/package/svm-simple){:.hackage} A set of simplified bindings to libsvm http://www.csie.ntu.edu.tw/~cjlin/libsvm/ suite of support vector machines. This package provides tools for classification, one-class classification and support vector regression.
   - Gaussian processes
     - **HasGP** [](https://hackage.haskell.org/package/HasGP){:.hackage} : Gaussian processes for regression and classification, based on the Laplace approximation and Expectation Propagation.
 

@@ -136,15 +136,15 @@ See the [blog post](https://www.tweag.io/posts/2016-02-25-hello-sparkle.html) fo
 
 - Neural Networks
   - Simple Neural Networks
-    - **sibe** [](http://hackage.haskell.org/package/sibe) [](https://github.com/mdibaiee/sibe)
-    - **neural** [](http://hackage.haskell.org/package/neural) [](https://github.com/brunjlar/neural)
-    - **grenade** [](http://hackage.haskell.org/package/grenade) [](https://github.com/HuwCampbell/grenade)
+    - **sibe** [](http://hackage.haskell.org/package/sibe){:.hackage} [](https://github.com/mdibaiee/sibe){:.github}
+    - **neural** [](http://hackage.haskell.org/package/neural){:.hackage} [](https://github.com/brunjlar/neural){:.github}
+    - **grenade** [](http://hackage.haskell.org/package/grenade){:.hackage} [](https://github.com/HuwCampbell/grenade){:.github}
   - Recurrent Neural Networks
-    - **grenade** [](http://hackage.haskell.org/package/grenade) [](https://github.com/HuwCampbell/grenade)
+    - **grenade** [](http://hackage.haskell.org/package/grenade){:.hackage} [](https://github.com/HuwCampbell/grenade){:.github}
   - Convolutional Neural Networks
-    - **grenade** [](http://hackage.haskell.org/package/grenade) [](https://github.com/HuwCampbell/grenade)
+    - **grenade** [](http://hackage.haskell.org/package/grenade){:.hackage} [](https://github.com/HuwCampbell/grenade){:.github}
   - LSTM (Long Short-Term Memory)
-    - **grenade** [](http://hackage.haskell.org/package/grenade) [](https://github.com/HuwCampbell/grenade)
+    - **grenade** [](http://hackage.haskell.org/package/grenade){:.hackage} [](https://github.com/HuwCampbell/grenade){:.github}
     - **sibe** [](http://hackage.haskell.org/package/sibe){:.hackage} [](https://github.com/mdibaiee/sibe){:.github}
     - **neural** [](http://hackage.haskell.org/package/neural){:.hackage} [](https://github.com/brunjlar/neural){:.github}
 

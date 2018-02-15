@@ -157,7 +157,7 @@ See the [blog post](https://www.tweag.io/posts/2016-02-25-hello-sparkle.html) fo
 
 
 
-- Naive Bayes
+#### Naive Bayes
   - Gaussian Naive Bayes
   - Multinomial Naive Bayes
     - **sibe** [](http://hackage.haskell.org/package/sibe){:.hackage} [](https://github.com/mdibaiee/sibe){:.github}
@@ -165,12 +165,12 @@ See the [blog post](https://www.tweag.io/posts/2016-02-25-hello-sparkle.html) fo
 
 
 
-- Boosting
+#### Boosting
   - XGBoost 
     - **xgboost.hs** [](https://github.com/robertzk/xgboost.hs){:.github}
   - AdaBoost    
 
-- Regression
+#### Regression
 
   - Nearest Neighbors
     - **HLearn** [](https://izbicki.me/blog/fast-nearest-neighbor-queries-in-haskell.html){:.blogpost} 

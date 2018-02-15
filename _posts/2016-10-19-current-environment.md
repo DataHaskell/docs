@@ -128,6 +128,9 @@ See the [blog post](https://www.tweag.io/posts/2016-02-25-hello-sparkle.html) fo
     - **linda** [](https://hackage.haskell.org/package/linda){:.hackage} LINDA implements linear discriminant analysis. It provides both data classification (according to Fisher) and data analysis (by discriminant criteria). Due to the `hmatrix` dependency, this package needs LAPACK installed, too. 
   - Support Vector Machines
     - **svm-simple** [](https://hackage.haskell.org/package/svm-simple){:.hackage} A set of simplified bindings to [libsvm](http://www.csie.ntu.edu.tw/~cjlin/libsvm/) suite of support vector machines. This package provides tools for classification, one-class classification and support vector regression.
+      - Core Vector Machines
+  - Decision trees
+    - Decision forests
   - Gaussian processes
     - **HasGP** [](https://hackage.haskell.org/package/HasGP){:.hackage} : Gaussian processes for regression and classification, based on the Laplace approximation and Expectation Propagation.
 
@@ -162,18 +165,7 @@ See the [blog post](https://www.tweag.io/posts/2016-02-25-hello-sparkle.html) fo
     - **sibe** [](http://hackage.haskell.org/package/sibe){:.hackage} [](https://github.com/mdibaiee/sibe){:.github}
   - Bernoulli Naive Bayes
 
-- Kernel methods
-  - Support Vector Machines with 
-    - custom kernel function (beside Gaussian, Chi², etc.)
 
-  - Core Vector Machines
-    - including approximative Center-Constrained-Minimum-Enclosing-Ball via Core-Set
-    - Classification & Regression
-    - O(n), but with huge constants
-
-- Ensemble methods
-  - Decision Trees
-    - Random Forests
 
 - Boosting
   - XGBoost 

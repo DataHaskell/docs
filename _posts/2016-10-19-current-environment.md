@@ -115,14 +115,14 @@ See the [blog post](https://www.tweag.io/posts/2016-02-25-hello-sparkle.html) fo
 ### Supervised learning
 
 
-- Graphical models
+#### Graphical models
   - Hidden Markov models
     - **HMM** [](http://hackage.haskell.org/package/HMM){:.hackage} [](https://github.com/mikeizbicki/hmm){:.github}
     - **hmm-hmatrix** [](http://hackage.haskell.org/package/hmm-hmatrix){:.hackage} [](http://hub.darcs.net/thielema/hmm-hmatrix){:.darcs}
     - **learning-hmm** [](http://hackage.haskell.org/package/learning-hmm){:.hackage} [](https://github.com/mnacamura/learning-hmm){:.github}
 
 
-- Classification
+#### Classification
 
   - Linear discriminant analysis
     - **linda** [](https://hackage.haskell.org/package/linda){:.hackage} LINDA implements linear discriminant analysis. It provides both data classification (according to Fisher) and data analysis (by discriminant criteria). Due to the `hmatrix` dependency, this package needs LAPACK installed, too. 
@@ -134,7 +134,7 @@ See the [blog post](https://www.tweag.io/posts/2016-02-25-hello-sparkle.html) fo
   - Gaussian processes
     - **HasGP** [](https://hackage.haskell.org/package/HasGP){:.hackage} : Gaussian processes for regression and classification, based on the Laplace approximation and Expectation Propagation.
 
-- Neural Networks
+#### Neural Networks
   - Simple Neural Networks
     - **sibe** [](http://hackage.haskell.org/package/sibe){:.hackage} [](https://github.com/mdibaiee/sibe){:.github}
     - **neural** [](http://hackage.haskell.org/package/neural){:.hackage} [](https://github.com/brunjlar/neural){:.github}
@@ -187,13 +187,14 @@ See the [blog post](https://www.tweag.io/posts/2016-02-25-hello-sparkle.html) fo
     This implementation is designed to support symbolic types, such as from sbv or ivory. As a result you can generate code in another language, such as C, from a model written using this package; or run static analyses on your model.
   
 
-- Reinforcement learning
+#### Reinforcement learning
+  - **reinforce** [](https://github.com/Sentenai/reinforce){:.github} `reinforce` exports an openai-gym-like typeclass, MonadEnv, with both an interface to [gym-http-api](https://github.com/openai/gym-http-api/), as well as haskell-native environments which provide a substantial speed-up to the http-server interface.
   - Policy gradient
 
   - Q-Learning
     - Neural Network Q-Learning
 
-- Clustering
+#### Clustering
 
   - K-Means
     - **kmeans** [](https://hackage.haskell.org/package/kmeans){:.hackage} [](http://hub.darcs.net/gershomb/kmeans){:.darcs}
@@ -208,7 +209,7 @@ See the [blog post](https://www.tweag.io/posts/2016-02-25-hello-sparkle.html) fo
   - Ward hierarchical clustering
   - Birch
 
-- Dimensionality reduction
+#### Dimensionality reduction
 
   - Principal Component Analysis (PCA)
     - **sibe** [](http://hackage.haskell.org/package/sibe){:.hackage} [](https://github.com/mdibaiee/sibe){:.github}

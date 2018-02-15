@@ -114,6 +114,8 @@ A list of data science and machine learning tools and algorithms that either alr
 
 
 - Classification
+  - Gaussian processes
+    - **HasGP** [](https://hackage.haskell.org/package/HasGP){:.hackage} : Gaussian processes for regression and classification, based on the Laplace approximation and Expectation Propagation.
 
 - Neural Networks
   - Simple Neural Networks

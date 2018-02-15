@@ -136,26 +136,24 @@ See the [blog post](https://www.tweag.io/posts/2016-02-25-hello-sparkle.html) fo
 
 - Neural Networks
   - Simple Neural Networks
-    - sibe - [hackage](http://hackage.haskell.org/package/sibe), [github](https://github.com/mdibaiee/sibe)
-    - neural - [hackage](http://hackage.haskell.org/package/neural), [github](https://github.com/brunjlar/neural)
-    - grenade - [hackage](http://hackage.haskell.org/package/grenade), [github](https://github.com/HuwCampbell/grenade)
+    - **sibe** [](http://hackage.haskell.org/package/sibe) [](https://github.com/mdibaiee/sibe)
+    - **neural** [](http://hackage.haskell.org/package/neural) [](https://github.com/brunjlar/neural)
+    - **grenade** [](http://hackage.haskell.org/package/grenade) [](https://github.com/HuwCampbell/grenade)
   - Recurrent Neural Networks
-    - grenade (not released to Hackage yet) - [github](https://github.com/HuwCampbell/grenade)
+    - **grenade** [](http://hackage.haskell.org/package/grenade) [](https://github.com/HuwCampbell/grenade)
   - Convolutional Neural Networks
-    - grenade - [hackage](http://hackage.haskell.org/package/grenade), [github](https://github.com/HuwCampbell/grenade)
+    - **grenade** [](http://hackage.haskell.org/package/grenade) [](https://github.com/HuwCampbell/grenade)
   - LSTM (Long Short-Term Memory)
-    - grenade - [hackage](http://hackage.haskell.org/package/grenade), [github](https://github.com/HuwCampbell/grenade)
+    - **grenade** [](http://hackage.haskell.org/package/grenade) [](https://github.com/HuwCampbell/grenade)
     - **sibe** [](http://hackage.haskell.org/package/sibe){:.hackage} [](https://github.com/mdibaiee/sibe){:.github}
     - **neural** [](http://hackage.haskell.org/package/neural){:.hackage} [](https://github.com/brunjlar/neural){:.github}
-
-  - Recurrent Neural Networks
 
   - Convolutional Neural Networks
     - **tensorflow** [](https://github.com/tensorflow/haskell){:.github} : Haskell bindings for TensorFlow
   
-  - Generating Neural Networks
+  - Generative Neural Networks
  
-  - References : [NNL-Speak for Haskellers](https://colah.github.io/posts/2015-09-NN-Types-FP/)
+  - References : [Neural Networks, Types, and Functional Programming](https://colah.github.io/posts/2015-09-NN-Types-FP/)
 
 
 

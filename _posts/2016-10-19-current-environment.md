@@ -14,9 +14,7 @@ A list of data science and machine learning tools and algorithms that either alr
 ### Data frames
 
 - **frames** [](http://hackage.haskell.org/package/Frames){:.hackage} : User-friendly, type safe, runtime efficient tooling for working with tabular data deserialized from comma-separated values (CSV) files. The type of each row of data is inferred from data, which can then be streamed from disk, or worked with in memory. Also see the comprehensive [tutorial](https://acowley.github.io/Frames/)
-
 - **analyze** [](https://hackage.haskell.org/package/analyze){:.hackage} [](https://github.com/ejconlon/analyze){:.github} : `pandas`-like dataframe operations for tabular data with CSV interface.
-
 - **bookkeeper** [](https://hackage.haskell.org/package/bookkeeper){:.hackage} : A new take on datatypes and records using `OverloadedLabels` (which is available since GHC 8). It bears some similarities to Nikita Volkov's `record` library, but requires no Template Haskell.
 
 
@@ -30,9 +28,7 @@ A list of data science and machine learning tools and algorithms that either alr
 ### Records
 
 - **labels** [](https://hackage.haskell.org/package/labels){:.hackage} : Declare and access tuple fields with labels. An approach to anonymous records.
-
 - **superrecord** [](http://hackage.haskell.org/package/superrecord){:.hackage} [](https://github.com/agrafix/superrecord){:.github} Supercharged anonymous records. Introductory [blogpost](https://www.athiemann.net/2017/07/02/superrecord.html), with case study using ReaderT.
-
 - **microgroove** [](https://hackage.haskell.org/package/microgroove){:.hackage} [](https://github.com/daig/microgroove){:.github} : Array-backed extensible records, providing fast access and mutation.
 
 
@@ -73,8 +69,6 @@ A list of data science and machine learning tools and algorithms that either alr
 
 - Linear programming
   - **glpk-hs** [](https://hackage.haskell.org/package/glpk-hs){:.hackage} : Friendly interface to GLPK's linear programming and mixed integer programming features. Intended for easy extensibility, with a general, pure-Haskell representation of linear programs. 
-
-
 - Convex optimization
   - **optimization** [](https://hackage.haskell.org/package/optimization){:.hackage} : A number of optimization techniques from the modern optimization literature (quasi-Newton, stochastic gradient descent, mirror descent, projected subgradient etc.).
 
@@ -233,7 +227,6 @@ The datasets package defines two different kinds of datasets:
 
 - **sparkle** [](https://hackage.haskell.org/package/sparkle){:.hackage} A library for writing resilient analytics applications in Haskell that scale to thousands of nodes, using Spark and the rest of the Apache ecosystem under the hood.
 See the [blog post](https://www.tweag.io/posts/2016-02-25-hello-sparkle.html) for details: 
-
 - **kraps-h** [](https://github.com/krapsh/kraps-haskell){:.github} : Haskell bindings to Apache Spark. The library consists of: 
   - A specification to describe data pipelines in a language-agnostic manner, and a communication protocol to submit these pipelines to Spark. 
   - A serving library, called krapsh-server, that implements this specification on top of Spark. It is written in Scala and is loaded as a standard Spark package.

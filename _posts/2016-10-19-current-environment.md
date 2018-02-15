@@ -7,17 +7,7 @@ date: 2016-10-19 21:08:18
 
 A list of data science and machine learning tools and algorithms that either already exist or we would like to exist.
 
-## Frameworks
 
-### Apache Spark bindings
-
-- **sparkle** [](https://hackage.haskell.org/package/sparkle){:.hackage} A library for writing resilient analytics applications in Haskell that scale to thousands of nodes, using Spark and the rest of the Apache ecosystem under the hood.
-See the [blog post](https://www.tweag.io/posts/2016-02-25-hello-sparkle.html) for details: 
-
-- **kraps-h** [](https://github.com/krapsh/kraps-haskell){:.github} : Haskell bindings to Apache Spark. The library consists of: 
-  - A specification to describe data pipelines in a language-agnostic manner, and a communication protocol to submit these pipelines to Spark. 
-  - A serving library, called krapsh-server, that implements this specification on top of Spark. It is written in Scala and is loaded as a standard Spark package.
-  - A client written in Haskell that sends pipelines to Spark for execution. In addition, this client serves as an experimental platform for whole-program optimization and verification, as well as compiler-enforced type checking.
 
 ## Data structures
 
@@ -227,6 +217,27 @@ The datasets package defines two different kinds of datasets:
   - Small data sets which are directly (or indirectly with file-embed) embedded in the package as pure values and do not require network or IO to download the data set. This includes **Iris**, **Anscombe** and **OldFaithful**
   - Other data sets which need to be fetched over the network and are cached in a local temporary directory.
 - **mnist-idx** [](https://hackage.haskell.org/package/mnist-idx ){:.hackage} [](https://github.com/kryoxide/mnist-idx){:.github} - Read and write data in the IDX format used in e.g. the MINST database
+
+## Language interop
+
+### R
+
+- HaskellR (https://tweag.github.io/HaskellR/)
+  - **inline-r** [](https://hackage.haskell.org/package/inline-r){:.hackage} Seamlessly call R from Haskell and vice versa. No FFI required. Efficiently mix Haskell and R code in the same source file using quasiquotation. R code is designed to be evaluated using an instance of the R interpreter embedded in the binary, with no marshalling costs and hence little to no overhead when communicating values back to Haskell.
+  - **H** [](https://hackage.haskell.org/package/H){:.hackage} An interactive prompt for exploring and graphing data sets. This is a thin wrapper around GHCi, with the full power of an R prompt, and the full power of Haskell prompt: you can enter expressions of either language, providing you with plotting and distributed computing facilities out-of-the-box.
+
+
+## Data science frameworks
+
+### Apache Spark bindings
+
+- **sparkle** [](https://hackage.haskell.org/package/sparkle){:.hackage} A library for writing resilient analytics applications in Haskell that scale to thousands of nodes, using Spark and the rest of the Apache ecosystem under the hood.
+See the [blog post](https://www.tweag.io/posts/2016-02-25-hello-sparkle.html) for details: 
+
+- **kraps-h** [](https://github.com/krapsh/kraps-haskell){:.github} : Haskell bindings to Apache Spark. The library consists of: 
+  - A specification to describe data pipelines in a language-agnostic manner, and a communication protocol to submit these pipelines to Spark. 
+  - A serving library, called krapsh-server, that implements this specification on top of Spark. It is written in Scala and is loaded as a standard Spark package.
+  - A client written in Haskell that sends pipelines to Spark for execution. In addition, this client serves as an experimental platform for whole-program optimization and verification, as well as compiler-enforced type checking.
 
 
 # Contribute

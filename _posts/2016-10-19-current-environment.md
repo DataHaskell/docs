@@ -75,6 +75,7 @@ See the blog post for details: https://www.tweag.io/posts/2016-02-25-hello-spark
 
 - Automatic differentiation
   - **ad** [](http://hackage.haskell.org/package/ad){:.hackage} : Automatic differentiation to arbitrary order, applicable to data provided in any Traversable container.
+  - **backprop** [](http://hackage.haskell.org/package/backprop){:.hackage} [](https://github.com/mstksg/backprop){:.github} Automatic heterogeneous back-propagation. Write your functions to compute your result, and the library will automatically generate functions to compute your gradient. Differs from `ad` by offering full heterogeneity -- each intermediate step and the resulting value can have different types. Mostly intended for usage with gradient descent and other numeric optimization techniques.
 
 
 ### Optimization

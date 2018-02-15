@@ -14,8 +14,6 @@ A list of data science and machine learning tools and algorithms that either alr
 
 - **frames** [](http://hackage.haskell.org/package/Frames){:.hackage} : User-friendly, type safe, runtime efficient tooling for working with tabular data deserialized from comma-separated values (CSV) files. The type of each row of data is inferred from data, which can then be streamed from disk, or worked with in memory. Also see the comprehensive [tutorial](https://acowley.github.io/Frames/)
 
-- **labels** [](https://hackage.haskell.org/package/labels){:.hackage} : Declare and access tuple fields with labels. An approach to anonymous records.
-
 - **analyze** [](https://hackage.haskell.org/package/analyze){:.hackage} [](https://github.com/ejconlon/analyze){:.github} : `pandas`-like dataframe operations for tabular data with CSV interface.
 
 - **bookkeeper** [](https://hackage.haskell.org/package/bookkeeper){:.hackage} : A new take on datatypes and records using `OverloadedLabels` (which is available since GHC 8). It bears some similarities to Nikita Volkov's `record` library, but requires no Template Haskell.
@@ -30,6 +28,12 @@ A list of data science and machine learning tools and algorithms that either alr
 - **vector** [](https://hackage.haskell.org/package/vector){:.hackage} : An efficient implementation of Int-indexed arrays (both mutable and immutable), with a powerful loop optimisation framework.
 - **accelerate** [](https://hackage.haskell.org/package/accelerate){:.hackage} : Data.Array.Accelerate defines an embedded array language for computations for high-performance computing in Haskell. Computations on multi-dimensional, regular arrays are expressed in the form of parameterised collective operations, such as maps, reductions, and permutations. These computations may then be online compiled and executed on a range of architectures.
 - **repa** [](https://hackage.haskell.org/package/repa){:.hackage} : Repa provides high performance, regular, multi-dimensional, shape polymorphic parallel arrays. All numeric data is stored unboxed. 
+
+### Records
+
+- **labels** [](https://hackage.haskell.org/package/labels){:.hackage} : Declare and access tuple fields with labels. An approach to anonymous records.
+
+- **microgroove** [](https://hackage.haskell.org/package/microgroove){:.hackage} [](https://github.com/daig/microgroove){:.github} : Array-backed extensible records, providing fast access and mutation.
 
 
 ## Numerical methods

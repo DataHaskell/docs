@@ -12,7 +12,7 @@ A list of data science and machine learning tools and algorithms that either alr
 ### Apache Spark bindings
 
 - **sparkle** [](https://hackage.haskell.org/package/sparkle){:.hackage} A library for writing resilient analytics applications in Haskell that scale to thousands of nodes, using Spark and the rest of the Apache ecosystem under the hood.
-See the blog post for details: https://www.tweag.io/posts/2016-02-25-hello-sparkle.html
+See the [blog post](https://www.tweag.io/posts/2016-02-25-hello-sparkle.html) for details: 
 
 - **kraps-h** [](https://github.com/krapsh/kraps-haskell){:.github} : Haskell bindings to Apache Spark. The library consists of: 
   - A specification to describe data pipelines in a language-agnostic manner, and a communication protocol to submit these pipelines to Spark. 
@@ -41,7 +41,7 @@ See the blog post for details: https://www.tweag.io/posts/2016-02-25-hello-spark
 
 - **labels** [](https://hackage.haskell.org/package/labels){:.hackage} : Declare and access tuple fields with labels. An approach to anonymous records.
 
-- **superrecord** [](http://hackage.haskell.org/package/superrecord){:.hackage} [](https://github.com/agrafix/superrecord){:.github} Supercharged anonymous records. Introductory blogpost, with case study using ReaderT: https://www.athiemann.net/2017/07/02/superrecord.html
+- **superrecord** [](http://hackage.haskell.org/package/superrecord){:.hackage} [](https://github.com/agrafix/superrecord){:.github} Supercharged anonymous records. Introductory [blogpost](https://www.athiemann.net/2017/07/02/superrecord.html), with case study using ReaderT.
 
 - **microgroove** [](https://hackage.haskell.org/package/microgroove){:.hackage} [](https://github.com/daig/microgroove){:.github} : Array-backed extensible records, providing fast access and mutation.
 
@@ -127,7 +127,7 @@ See the blog post for details: https://www.tweag.io/posts/2016-02-25-hello-spark
   - Linear discriminant analysis
     - **linda** [](https://hackage.haskell.org/package/linda){:.hackage} LINDA implements linear discriminant analysis. It provides both data classification (according to Fisher) and data analysis (by discriminant criteria). Due to the `hmatrix` dependency, this package needs LAPACK installed, too. 
   - Support Vector Machines
-    - **svm-simple** [](https://hackage.haskell.org/package/svm-simple){:.hackage} A set of simplified bindings to libsvm http://www.csie.ntu.edu.tw/~cjlin/libsvm/ suite of support vector machines. This package provides tools for classification, one-class classification and support vector regression.
+    - **svm-simple** [](https://hackage.haskell.org/package/svm-simple){:.hackage} A set of simplified bindings to [libsvm](http://www.csie.ntu.edu.tw/~cjlin/libsvm/) suite of support vector machines. This package provides tools for classification, one-class classification and support vector regression.
   - Gaussian processes
     - **HasGP** [](https://hackage.haskell.org/package/HasGP){:.hackage} : Gaussian processes for regression and classification, based on the Laplace approximation and Expectation Propagation.
 

@@ -24,6 +24,7 @@ A list of data science and machine learning tools and algorithms that either alr
 - **vector** [](https://hackage.haskell.org/package/vector){:.hackage} : An efficient implementation of Int-indexed arrays (both mutable and immutable), with a powerful loop optimisation framework.
 - **accelerate** [](https://hackage.haskell.org/package/accelerate){:.hackage} : Data.Array.Accelerate defines an embedded array language for computations for high-performance computing in Haskell. Computations on multi-dimensional, regular arrays are expressed in the form of parameterised collective operations, such as maps, reductions, and permutations. These computations may then be online compiled and executed on a range of architectures.
 - **repa** [](https://hackage.haskell.org/package/repa){:.hackage} : Repa provides high performance, regular, multi-dimensional, shape polymorphic parallel arrays. All numeric data is stored unboxed. 
+- **massiv** [](https://hackage.haskell.org/package/massiv){:.hackage} : Repa-style high-performance multi-dimentional arrays with nested parallelism and stencil computation capabilities.
 
 ### Records
 

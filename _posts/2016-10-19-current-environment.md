@@ -80,6 +80,8 @@ A list of data science and machine learning tools and algorithms that either alr
 
 ## Machine learning
 
+
+
 ### Bayesian inference
   - **probably-baysig** [](https://github.com/glutamate/probably-baysig){:.github} - This library contains definitions and functions for probabilistic and statistical inference.
     - Math.Probably.Sampler defines the sampling function monad, as described by Sungwoo Park and implemented elsewhere (e.g. 'random-fu' and 'monte-carlo' packages)
@@ -98,6 +100,12 @@ A list of data science and machine learning tools and algorithms that either alr
 
 
 ### Supervised learning
+
+#### Time-series filtering
+  - Kalman filtering
+    - **estimator** [](https://hackage.haskell.org/package/estimator){:.hackage} The goal of this library is to simplify implementation and use of state-space estimation algorithms, such as Kalman Filters. The interface for constructing models is isolated as much as possible from the specifics of a given algorithm, so swapping out a Kalman Filter for a Bayesian Particle Filter should involve a minimum of effort.
+This implementation is designed to support symbolic types, such as from sbv or ivory. As a result you can generate code in another language, such as C, from a model written using this package; or run static analyses on your model.
+    - **kalman** [](https://hackage.haskell.org/package/kalman){:.hackage} Linear, extended and unscented Kalman filters are provided, along with their corresponding smoothers. Furthermore, a particle filter and smoother is provided.
 
 
 #### Graphical models

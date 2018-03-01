@@ -71,7 +71,7 @@ A list of data science and machine learning tools and algorithms that either alr
 - Linear programming
   - **glpk-hs** [](https://hackage.haskell.org/package/glpk-hs){:.hackage} : Friendly interface to GLPK's linear programming and mixed integer programming features. Intended for easy extensibility, with a general, pure-Haskell representation of linear programs. 
 - Convex optimization
-  - **optimization** [](https://hackage.haskell.org/package/optimization){:.hackage} : A number of optimization techniques from the modern optimization literature (quasi-Newton, stochastic gradient descent, mirror descent, projected subgradient etc.).
+  - **optimization** [](https://hackage.haskell.org/package/optimization){:.hackage} [](https://github.com/bgamari/optimization){:.github} : A number of optimization techniques from the modern optimization literature (quasi-Newton, stochastic gradient descent, mirror descent, projected subgradient etc.).
 
 
 

@@ -191,6 +191,7 @@ This implementation is designed to support symbolic types, such as from sbv or i
 
   - K-Means
     - **kmeans** [](https://hackage.haskell.org/package/kmeans){:.hackage} [](http://hub.darcs.net/gershomb/kmeans){:.darcs}
+    - **clustering** [](https://hackage.haskell.org/package/clustering){:.hackage}
 
   - Self-Organising Maps (SOM)
     - Hyperbolic-SOM
@@ -199,7 +200,8 @@ This implementation is designed to support symbolic types, such as from sbv or i
   - Mean-shift
   - Affinity propagation
   - Spectral Clustering
-  - Ward hierarchical clustering
+  - Hierarchical clustering
+    - **clustering** [](https://hackage.haskell.org/package/clustering){:.hackage}
   - Birch
 
 #### Dimensionality reduction

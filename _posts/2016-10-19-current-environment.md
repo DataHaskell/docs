@@ -191,11 +191,7 @@ Grenade provides an API for composing layers of a neural network into a sequence
 
   - K-Means
     - **kmeans** [](https://hackage.haskell.org/package/kmeans){:.hackage} [](http://hub.darcs.net/gershomb/kmeans){:.darcs} A simple implementation of the standard k-means clustering algorithm.
-    - **clustering** [](https://hackage.haskell.org/package/clustering){:.hackage} Methods included in this library:
-
-      - Agglomerative hierarchical clustering. Complete linkage O(n^2), Single linkage O(n^2), Average linkage O(n^2), Weighted linkage O(n^2), Ward's linkage O(n^2).
-      - KMeans clustering.
-
+    - **clustering** [](https://hackage.haskell.org/package/clustering){:.hackage} Methods included in this library: Agglomerative hierarchical clustering: Complete linkage O(n^2), Single linkage O(n^2), Average linkage O(n^2), Weighted linkage O(n^2), Ward's linkage O(n^2). KMeans clustering.
 
   - Self-Organising Maps (SOM)
     - Hyperbolic-SOM

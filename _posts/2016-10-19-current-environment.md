@@ -128,10 +128,10 @@ This implementation is designed to support symbolic types, such as from sbv or i
     - **HasGP** [](https://hackage.haskell.org/package/HasGP){:.hackage} : Gaussian processes for regression and classification, based on the Laplace approximation and Expectation Propagation.
 
 #### Neural Networks
-  - Simple Neural Networks
-    - **sibe** [](http://hackage.haskell.org/package/sibe){:.hackage} [](https://github.com/mdibaiee/sibe){:.github}
-    - **neural** [](http://hackage.haskell.org/package/neural){:.hackage} [](https://github.com/brunjlar/neural){:.github}
-    - **grenade** [](http://hackage.haskell.org/package/grenade){:.hackage} [](https://github.com/HuwCampbell/grenade){:.github}
+  - **sibe** [](http://hackage.haskell.org/package/sibe){:.hackage} [](https://github.com/mdibaiee/sibe){:.github}
+  - **neural** [](http://hackage.haskell.org/package/neural){:.hackage} [](https://github.com/brunjlar/neural){:.github}   
+  - **grenade** [](http://hackage.haskell.org/package/grenade){:.hackage} [](https://github.com/HuwCampbell/grenade){:.github} Grenade is a composable, dependently typed, practical, and fast recurrent neural network library for precise specifications and complex deep neural networks in Haskell.
+Grenade provides an API for composing layers of a neural network into a sequence parallel graph in a type safe manner; running networks with reverse automatic differentiation to calculate their gradients; and applying gradient decent for learning. Documentation and examples are available on github https://github.com/HuwCampbell/grenade.
   - Recurrent Neural Networks
     - **grenade** [](http://hackage.haskell.org/package/grenade){:.hackage} [](https://github.com/HuwCampbell/grenade){:.github}
   - Convolutional Neural Networks
@@ -190,8 +190,12 @@ This implementation is designed to support symbolic types, such as from sbv or i
 #### Clustering
 
   - K-Means
-    - **kmeans** [](https://hackage.haskell.org/package/kmeans){:.hackage} [](http://hub.darcs.net/gershomb/kmeans){:.darcs}
-    - **clustering** [](https://hackage.haskell.org/package/clustering){:.hackage}
+    - **kmeans** [](https://hackage.haskell.org/package/kmeans){:.hackage} [](http://hub.darcs.net/gershomb/kmeans){:.darcs} A simple implementation of the standard k-means clustering algorithm.
+    - **clustering** [](https://hackage.haskell.org/package/clustering){:.hackage} Methods included in this library:
+
+      - Agglomerative hierarchical clustering. Complete linkage O(n^2), Single linkage O(n^2), Average linkage O(n^2), Weighted linkage O(n^2), Ward's linkage O(n^2).
+      - KMeans clustering.
+
 
   - Self-Organising Maps (SOM)
     - Hyperbolic-SOM

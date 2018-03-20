@@ -111,8 +111,14 @@ This implementation is designed to support symbolic types, such as from sbv or i
 #### Graphical models
   - Hidden Markov models
     - **HMM** [](http://hackage.haskell.org/package/HMM){:.hackage} [](https://github.com/mikeizbicki/hmm){:.github}
-    - **hmm-hmatrix** [](http://hackage.haskell.org/package/hmm-hmatrix){:.hackage} [](http://hub.darcs.net/thielema/hmm-hmatrix){:.darcs}
-    - **learning-hmm** [](http://hackage.haskell.org/package/learning-hmm){:.hackage} [](https://github.com/mnacamura/learning-hmm){:.github}
+    - **hmm-hmatrix** [](http://hackage.haskell.org/package/hmm-hmatrix){:.hackage} [](http://hub.darcs.net/thielema/hmm-hmatrix){:.darcs} Hidden Markov Models implemented using HMatrix data types and operations. http://en.wikipedia.org/wiki/Hidden_Markov_Model 
+It supports any kind of emission distribution, where discrete and multivariate Gaussian distributions are implemented as examples.
+It currently implements:
+      * generation of samples of emission sequences,
+      * computation of the likelihood of an observed sequence of emissions,
+      * construction of most likely state sequence that produces an observed sequence of emissions,
+      * supervised and unsupervised training of the model by Baum-Welch algorithm.
+    - **learning-hmm** [](http://hackage.haskell.org/package/learning-hmm){:.hackage} [](https://github.com/mnacamura/learning-hmm){:.github} This library provides functions for the maximum likelihood estimation of discrete hidden Markov models. At present, only Baum-Welch and Viterbi algorithms are implemented for the plain HMM and the input-output HMM.
 
 
 #### Classification
@@ -160,6 +166,7 @@ Grenade provides an API for composing layers of a neural network into a sequence
 
 #### Boosting
   - XGBoost 
+    - **xgboost-haskell** [](https://hackage.haskell.org/package/xgboost-haskell){:.hackage} XGBoost for Haskell, based on the foundation package. FFI binding of xgboost
     - **xgboost.hs** [](https://github.com/robertzk/xgboost.hs){:.github}
   - AdaBoost    
 

@@ -81,10 +81,9 @@ A list of data science and machine learning tools and algorithms that either alr
 ## Machine learning
 
 
-
 ### Bayesian inference
   - **probably-baysig** [](https://github.com/glutamate/probably-baysig){:.github} - This library contains definitions and functions for probabilistic and statistical inference.
-    - Math.Probably.Sampler defines the sampling function monad, as described by Sungwoo Park and implemented elsewhere (e.g. 'random-fu' and 'monte-carlo' packages)
+    - Math.Probably.Sampler defines the sampling function monad
     - Math.Probably.PDF defines some common parametric log-probability density functions
     - Math.Probably.FoldingStats defines statistics as folds that can be composed and calculated independently of the container of the underlying data.
     - Strategy.\* implements various transition operators for Markov Chain Monte Carlo, including Metropolis-Hastings, Hamiltonian Monte Carlo, NUTS, and continuous/discrete slice samplers.
@@ -250,6 +249,12 @@ The datasets package defines two different kinds of datasets:
 - HaskellR (https://tweag.github.io/HaskellR/)
   - **inline-r** [](https://hackage.haskell.org/package/inline-r){:.hackage} Seamlessly call R from Haskell and vice versa. No FFI required. Efficiently mix Haskell and R code in the same source file using quasiquotation. R code is designed to be evaluated using an instance of the R interpreter embedded in the binary, with no marshalling costs and hence little to no overhead when communicating values back to Haskell.
   - **H** [](https://hackage.haskell.org/package/H){:.hackage} An interactive prompt for exploring and graphing data sets. This is a thin wrapper around GHCi, with the full power of an R prompt, and the full power of Haskell prompt: you can enter expressions of either language, providing you with plotting and distributed computing facilities out-of-the-box.
+
+
+# Machine learning misc.
+
+  - **aima-haskell** [](https://github.com/chris-taylor/aima-haskell){:.github} Algorithms from Artificial Intelligence: A Modern Approach by Russell and Norvig. 
+
 
 
 ## Data science frameworks

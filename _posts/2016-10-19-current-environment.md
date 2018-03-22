@@ -221,6 +221,19 @@ Grenade provides an API for composing layers of a neural network into a sequence
   - Independent Component Analysis (ICA)
   - t-SNE (t-distributed stochastic neighbor embedding)
     - **tsne** [](https://hackage.haskell.org/package/tsne){:.hackage}
+    
+## Applications
+
+  - Natural Language Processing (NLP)
+    - **chatter** [](http://hackage.haskell.org/package/chatter){:.hackage} chatter is a collection of simple Natural Language Processing algorithms, which also comes with models for POS tagging and Phrasal Chunking that have been trained on the Brown corpus (POS only) and the Conll2000 corpus (POS and Chunking).
+Chatter supports:
+      - Part of speech tagging with Averaged Perceptrons. Based on the Python implementation by Matthew Honnibal: (http://honnibal.wordpress.com/2013/09/11/a-good-part-of-speechpos-tagger-in-about-200-lines-of-python/) See NLP.POS for the details of part-of-speech tagging with chatter.
+      - Phrasal Chunking (also with an Averaged Perceptron) to identify arbitrary chunks based on training data.
+      - Document similarity; A cosine-based similarity measure, and TF-IDF calculations, are available in the NLP.Similarity.VectorSim module.
+      - Information Extraction patterns via (http://www.haskell.org/haskellwiki/Parsec/) Parsec
+
+
+    
 
 ## Datasets
 

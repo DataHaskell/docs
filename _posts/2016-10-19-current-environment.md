@@ -128,7 +128,7 @@ It currently implements:
     - **svm-simple** [](https://hackage.haskell.org/package/svm-simple){:.hackage} A set of simplified bindings to [libsvm](http://www.csie.ntu.edu.tw/~cjlin/libsvm/) suite of support vector machines. This package provides tools for classification, one-class classification and support vector regression.
       - Core Vector Machines
   - Decision trees
-    - **hinduce-classifier-decisiontree** [](https://hackage.haskell.org/package/hinduce-classifier-decisiontree){:.hackage} : A very simple decision tree construction algorithm; an implementation of `hinduce-classifier`'s Classifier class.
+    - **hinduce-classifier-decisiontree** [](https://hackage.haskell.org/package/hinduce-classifier-decisiontree){:.hackage} [](https://github.com/roberth/hinduce-classifier-decisiontree){:.github}: A very simple decision tree construction algorithm; an implementation of `hinduce-classifier`'s Classifier class.
   - Gaussian processes
     - **HasGP** [](https://hackage.haskell.org/package/HasGP){:.hackage} : Gaussian processes for regression and classification, based on the Laplace approximation and Expectation Propagation.
 

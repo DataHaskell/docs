@@ -32,6 +32,14 @@ A list of data science and machine learning tools and algorithms that either alr
 - **superrecord** [](http://hackage.haskell.org/package/superrecord){:.hackage} [](https://github.com/agrafix/superrecord){:.github} Supercharged anonymous records. Introductory [blogpost](https://www.athiemann.net/2017/07/02/superrecord.html), with case study using ReaderT.
 - **microgroove** [](https://hackage.haskell.org/package/microgroove){:.hackage} [](https://github.com/daig/microgroove){:.github} : Array-backed extensible records, providing fast access and mutation.
 
+### Graphs
+
+  - **alga** [](https://hackage.haskell.org/package/algebraic-graphs){:.hackage}  Alga is a library for algebraic construction and manipulation of graphs in Haskell. See [this paper](https://github.com/snowleopard/alga-paper) for the motivation behind the library, the underlying theory and implementation details.
+The top-level module `Algebra.Graph` defines the core data type `Graph`, which is a deep embedding of four graph construction primitives `empty`, `vertex`, `overlay` and `connect`. To represent non-empty graphs, see `Algebra.Graph.NonEmpty`. More conventional graph representations can be found in `Algebra.Graph.AdjacencyMap` and `Algebra.Graph.Relation`.
+The type classes defined in `Algebra.Graph.Class` and `Algebra.Graph.HigherKinded.Class` can be used for polymorphic graph construction and manipulation. Also see `Algebra.Graph.Fold` that defines the Boehm-Berarducci encoding of algebraic graphs and provides additional flexibility for polymorphic graph manipulation.
+  - **fgl** [](https://hackage.haskell.org/package/fgl){:.hackage}  An inductive representation of manipulating graph data structures. Original website can be found at http://web.engr.oregonstate.edu/~erwig/fgl/haskell.
+
+
 ## Database interfaces
 
 - **beam** [Homepage](http://tathougies.github.io/beam/) Beam is a highly-general library for accessing any kind of database with Haskell. It supports several backends. beam-postgres and beam-sqlite are included in the main beam repository. Others are hosted and maintained independently, such as beam-mysql and beam-firebird. The documentation here shows examples in all known backends.

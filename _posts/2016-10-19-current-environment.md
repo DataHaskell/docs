@@ -19,9 +19,10 @@ A list of data science and machine learning tools and algorithms that either alr
 
 
 
-### Efficient arrays
+### Arrays
 
 - **vector** [](https://hackage.haskell.org/package/vector){:.hackage} : An efficient implementation of Int-indexed arrays (both mutable and immutable), with a powerful loop optimisation framework.
+#### Multidimensional arrays
 - **accelerate** [](https://hackage.haskell.org/package/accelerate){:.hackage} : Data.Array.Accelerate defines an embedded array language for computations for high-performance computing in Haskell. Computations on multi-dimensional, regular arrays are expressed in the form of parameterised collective operations, such as maps, reductions, and permutations. These computations may then be online compiled and executed on a range of architectures.
 - **repa** [](https://hackage.haskell.org/package/repa){:.hackage} : Repa provides high performance, regular, multi-dimensional, shape polymorphic parallel arrays. All numeric data is stored unboxed. 
 - **massiv** [](https://hackage.haskell.org/package/massiv){:.hackage} : Repa-style high-performance multi-dimentional arrays with nested parallelism and stencil computation capabilities.
@@ -38,6 +39,10 @@ A list of data science and machine learning tools and algorithms that either alr
 The top-level module `Algebra.Graph` defines the core data type `Graph`, which is a deep embedding of four graph construction primitives `empty`, `vertex`, `overlay` and `connect`. To represent non-empty graphs, see `Algebra.Graph.NonEmpty`. More conventional graph representations can be found in `Algebra.Graph.AdjacencyMap` and `Algebra.Graph.Relation`.
 The type classes defined in `Algebra.Graph.Class` and `Algebra.Graph.HigherKinded.Class` can be used for polymorphic graph construction and manipulation. Also see `Algebra.Graph.Fold` that defines the Boehm-Berarducci encoding of algebraic graphs and provides additional flexibility for polymorphic graph manipulation.
   - **fgl** [](https://hackage.haskell.org/package/fgl){:.hackage}  An inductive representation of manipulating graph data structures. Original website can be found at http://web.engr.oregonstate.edu/~erwig/fgl/haskell.
+  
+### Trees
+
+  - **tree-traversals** [](https://hackage.haskell.org/package/tree-traversals-0.1.0.0){:.hackage} The tree-traversals package defines in-order, pre-order, post-order, level-order, and reversed level-order traversals for tree-like types, and it also provides newtype wrappers for the various traversals so they may be used with `traverse`.
 
 
 ## Database interfaces

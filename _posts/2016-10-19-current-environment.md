@@ -120,7 +120,7 @@ Beam is highly extensible and other backends can be shipped independently withou
 ### Bayesian inference
 #### Nested sampling
   - **nested-sampling** [](http://hackage.haskell.org/package/NestedSampling){:.hackage} The code here is a fairly straightforward translation of the tutorial nested sampling code from Skilling and Sivia. The original code can be found at http://www.inference.phy.cam.ac.uk/bayesys/sivia/ along with documentation at http://www.inference.phy.cam.ac.uk/bayesys/. An example program called lighthouse.hs is included.
-  - **NestedSampling-hs** [](https://github.com/eggplantbren/NestedSampling.hs){:.github}
+  - **NestedSampling-hs** [](https://github.com/eggplantbren/NestedSampling.hs){:.github} This is a Haskell implementation of the classic Nested Sampling algorithm introduced by John Skilling. You can use it for Bayesian inference, statistical mechanics, and optimisation applications, and it comes with a few example programs.
 #### Frameworks
   - **probably-baysig** [](https://github.com/glutamate/probably-baysig){:.github} - This library contains definitions and functions for probabilistic and statistical inference.
     - Math.Probably.Sampler defines the sampling function monad

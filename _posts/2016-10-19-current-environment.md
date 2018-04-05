@@ -32,6 +32,34 @@ A list of data science and machine learning tools and algorithms that either alr
 - **superrecord** [](http://hackage.haskell.org/package/superrecord){:.hackage} [](https://github.com/agrafix/superrecord){:.github} Supercharged anonymous records. Introductory [blogpost](https://www.athiemann.net/2017/07/02/superrecord.html), with case study using ReaderT.
 - **microgroove** [](https://hackage.haskell.org/package/microgroove){:.hackage} [](https://github.com/daig/microgroove){:.github} : Array-backed extensible records, providing fast access and mutation.
 
+### Databases
+
+- **beam** [Homepage](http://tathougies.github.io/beam/) Beam is a highly-general library for accessing any kind of database with Haskell. It supports several backends. beam-postgres and beam-sqlite are included in the main beam repository. Others are hosted and maintained independently, such as beam-mysql and beam-firebird. The documentation here shows examples in all known backends.
+Beam is highly extensible and other backends can be shipped independently without requiring any changes in the core libraries.For information on creating additional SQL backends, see the manual section for more.
+    - Easy schema generation from existing databases
+    - A basic migration infrastructure for working with multiple versions of your database schema.
+    - Support for most SQL92, SQL99, and SQL2003 features across backends that support them, including aggregations, subqueries, and window functions.
+    - A straightforward Haskell-friendly query syntax. You can use Beam's Q monad much like you would interact with the [] monad.
+    - No Template Haskell Beam uses the GHC Haskell type system and nothing else. The types have been designed to be easily-inferrable by the compiler, and appropriate functions to refine types have been provided for the where the compiler may need more help.
+- **selda** [](https://github.com/valderman/selda){:.github} Selda is a Haskell library for interacting with SQL-based relational databases inspired by LINQ and Opaleye.
+    - Monadic interface.
+    - Portable: backends for SQLite and PostgreSQL.
+    - Generic: easy integration with your existing Haskell types.
+    - Creating, dropping and querying tables using type-safe database schemas.
+    - Typed query language with products, filtering, joins and aggregation.
+    - Inserting, updating and deleting rows from tables.
+    - Conditional insert/update.
+    - Transactions, uniqueness constraints and foreign keys.
+    - Seamless prepared statements.
+    - Configurable, automatic, consistent in-process caching of query results.
+    - Lightweight and modular: few dependencies, and non-essential features are optional or split into add-on packages.
+- **relational-record** [Homepage](http://khibino.github.io/haskell-relational-record) Haskell Relational Record (HRR) is a query generator based on typed relational algebra and correspondence between SQL value lists and Haskell record types, which provide programming interfaces to Relational DataBase Managemsnt Systems (RDBMS).
+  - Abstracted - relations are expressed as high level expressions and they are translated into SQL statements. Drivers are provided for DB2, PostgreSQL, SQLite, MySQL, Microsoft SQL Server and OracleSQL.
+  - Type safe - SQL statements produced by HRR are guaranteed to be valid if the Haskell code compiles. Even the types of placeholders are propagated.
+  - Composable - relations can be composed to build bigger relations.
+  - Automatic - SQL schema is obtained from a target DB and Haskell types are automatically generated at compile time.
+
+
 
 ## Numerical methods
 

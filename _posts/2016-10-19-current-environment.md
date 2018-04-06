@@ -179,7 +179,8 @@ It currently implements:
 
 #### Neural Networks
   - **sibe** [](http://hackage.haskell.org/package/sibe){:.hackage} [](https://github.com/mdibaiee/sibe){:.github}
-  - **neural** [](http://hackage.haskell.org/package/neural){:.hackage} [](https://github.com/brunjlar/neural){:.github}   
+  - **neural** [](http://hackage.haskell.org/package/neural){:.hackage} [](https://github.com/brunjlar/neural){:.github}
+  - **backprop-learn** [](https://github.com/mstksg/backprop-learn){:.github}
   - **grenade** [](http://hackage.haskell.org/package/grenade){:.hackage} [](https://github.com/HuwCampbell/grenade){:.github} Grenade is a composable, dependently typed, practical, and fast recurrent neural network library for precise specifications and complex deep neural networks in Haskell.
 Grenade provides an API for composing layers of a neural network into a sequence parallel graph in a type safe manner; running networks with reverse automatic differentiation to calculate their gradients; and applying gradient decent for learning. Documentation and examples are available on github https://github.com/HuwCampbell/grenade.
   - Recurrent Neural Networks
@@ -232,7 +233,8 @@ Grenade provides an API for composing layers of a neural network into a sequence
   
 
 #### Reinforcement learning
-  - **reinforce** [](https://github.com/Sentenai/reinforce){:.github} `reinforce` exports an openai-gym-like typeclass, MonadEnv, with both an interface to [gym-http-api](https://github.com/openai/gym-http-api/), as well as haskell-native environments which provide a substantial speed-up to the http-server interface.
+  - **reinforce** [](https://github.com/sentenai-research/reinforce){:.github} `reinforce` exports an openai-gym-like typeclass, MonadEnv, with both an interface to [gym-http-api](https://github.com/openai/gym-http-api/), as well as haskell-native environments which provide a substantial speed-up to the http-server interface.
+  - **gym-http-api** [](https://github.com/stites/gym-http-api){:github} [](https://hackage.haskell.org/package/gym-http-api){:hackage} This library provides a REST client to the gym open-source library. gym-http-api itself provides a python-based REST server to the gym open-source library, allowing development in languages other than python. Note that the openai/gym-http-api is a monorepo of all language-clients. This hackage library tracks stites/gym-http-api which is the actively-maintained haskell fork.
   - Policy gradient
 
   - Q-Learning

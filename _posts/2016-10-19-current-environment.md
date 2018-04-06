@@ -275,6 +275,8 @@ Chatter supports:
       - Phrasal Chunking (also with an Averaged Perceptron) to identify arbitrary chunks based on training data.
       - Document similarity; A cosine-based similarity measure, and TF-IDF calculations, are available in the NLP.Similarity.VectorSim module.
       - Information Extraction patterns via (http://www.haskell.org/haskellwiki/Parsec/) Parsec
+  - Bioinformatics
+    - **NGLess** [](https://github.com/luispedro/ngless){:.github} Ngless is a domain-specific language for NGS (next-generation sequencing data) processing ("NGS with less work").
 
 
     

@@ -105,6 +105,8 @@ Caveat: while fun to play with, and rewarding to see how measures fit together, 
 
 - Markov Chain Monte Carlo
   - **declarative** [](https://hackage.haskell.org/package/declarative){:.hackage} : A simple combinator language for Markov transition operators that are useful in MCMC.
+  - **flat-mcmc** [](https://hackage.haskell.org/package/flat-mcmc){:.hackage} : flat-mcmc uses an ensemble sampler that is invariant to affine transformations of space. It wanders a target probability distribution's parameter space as if it had been "flattened" or "unstretched" in some sense, allowing many particles to explore it locally and in parallel.
+In general this sampler is useful when you want decent performance without dealing with any tuning parameters or local proposal distributions.
 
 
 - Quantiles, etc.

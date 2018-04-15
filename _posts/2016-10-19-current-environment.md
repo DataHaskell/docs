@@ -84,7 +84,21 @@ Beam is highly extensible and other backends can be shipped independently withou
 ### Generation of random data
 
   - **mwc-probability**  [](https://hackage.haskell.org/package/mwc-probability){:.hackage} : A simple probability distribution type, where distributions are characterized by sampling functions.
+  
+  
+### Statistics
 
+  - **statistics** [](https://hackage.haskell.org/package/statistics){:.hackage} : This library provides a number of common functions and types useful in statistics. We focus on high performance, numerical robustness, and use of good algorithms. Where possible, we provide references to the statistical literature.
+The library's facilities can be divided into four broad categories:
+    - Working with widely used discrete and continuous probability distributions. (There are dozens of exotic distributions in use; we focus on the most common.)
+    - Computing with sample data: quantile estimation, kernel density estimation, histograms, bootstrap methods, significance testing, and regression and autocorrelation analysis.
+    - Random variate generation under several different distributions.
+    - Common statistical tests for significant differences between samples.
+  - **uncertain** [](https://hackage.haskell.org/package/uncertain){:.hackage} : Provides tools to manipulate numbers with inherent experimental/measurement uncertainty, and propagates them through functions.
+  - **measurable** [](https://github.com/jtobin/measurable){:.github} Construct measures from samples, mass/density functions, or even sampling functions. Construct image measures by fmap-ing measurable functions over them, or create new measures from existing ones by measure convolution and friends provided by a simple Num instance enabled by an Applicative instance. Create measures from graphs of other measures using the Monad instance and do-notation.
+Query measures by integrating meaurable functions against them. Extract moments, cumulative density functions, or probabilities.
+Caveat: while fun to play with, and rewarding to see how measures fit together, measure operations as nested integrals are exponentially complex. Don't expect them to scale very far!
+ 
 
 
 ### Integration

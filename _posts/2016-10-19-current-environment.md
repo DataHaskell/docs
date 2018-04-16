@@ -129,6 +129,7 @@ In general this sampler is useful when you want decent performance without deali
   - **glpk-hs** [](https://hackage.haskell.org/package/glpk-hs){:.hackage} : Friendly interface to GLPK's linear programming and mixed integer programming features. Intended for easy extensibility, with a general, pure-Haskell representation of linear programs. 
 - Convex optimization
   - **optimization** [](https://hackage.haskell.org/package/optimization){:.hackage} [](https://github.com/bgamari/optimization){:.github} : A number of optimization techniques from the modern optimization literature (quasi-Newton, stochastic gradient descent, mirror descent, projected subgradient etc.).
+  - **sgd** [](https://hackage.haskell.org/package/sgd){:.hackage} [](https://github.com/kawu/sgd){:.github} : Stochastic gradient descent.
 
 
 

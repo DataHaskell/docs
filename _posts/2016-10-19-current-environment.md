@@ -113,6 +113,10 @@ In general this sampler is useful when you want decent performance without deali
 
 - Quantiles, etc.
   - **tdigest** [](https://hackage.haskell.org/package/tdigest){:.hackage} : A new data structure for accurate on-line accumulation of rank-based statistics such as quantiles and trimmed means.
+  
+- Dynamical systems
+  - **numeric-ode** [](http://hackage.haskell.org/package/numeric-ode){:.hackage} [](https://github.com/qnikst/numeric-ode){:.github} Small project for different ODE solvers, in particular symplectic solvers.
+This is very experimental and will change. The Störmer-Verlet generates a correct orbit for Jupiter but no guarantees are given for any of the other methods.
 
 
 

@@ -198,6 +198,7 @@ It currently implements:
       - Core Vector Machines
   - Decision trees
     - **hinduce-classifier-decisiontree** [](https://hackage.haskell.org/package/hinduce-classifier-decisiontree){:.hackage} [](https://github.com/roberth/hinduce-classifier-decisiontree){:.github}: A very simple decision tree construction algorithm; an implementation of `hinduce-classifier`'s Classifier class.
+    - **HaskellGBM** [](https://github.com/dpkatz/HaskellGBM){:.github} : Haskell wrapper around LightGBM, the distributed library for gradient-boosted decision tree algorithms. The emphasis is on using Haskell types (in particular the `refined` library) to help ensure that the hyperparameter settings chosen by the user are coherent and in-bounds at all times.
   - Gaussian processes
     - **HasGP** [](https://hackage.haskell.org/package/HasGP){:.hackage} : Gaussian processes for regression and classification, based on the Laplace approximation and Expectation Propagation.
 
@@ -207,6 +208,8 @@ It currently implements:
   - **backprop-learn** [](https://github.com/mstksg/backprop-learn){:.github}
   - **grenade** [](http://hackage.haskell.org/package/grenade){:.hackage} [](https://github.com/HuwCampbell/grenade){:.github} Grenade is a composable, dependently typed, practical, and fast recurrent neural network library for precise specifications and complex deep neural networks in Haskell.
 Grenade provides an API for composing layers of a neural network into a sequence parallel graph in a type safe manner; running networks with reverse automatic differentiation to calculate their gradients; and applying gradient decent for learning. Documentation and examples are available on github https://github.com/HuwCampbell/grenade.
+  - **hasktorch** [](https://github.com/hasktorch/hasktorch){:.github} : Hasktorch is a library for tensors and neural networks in Haskell. It is an independent open source community project which leverages the core C libraries shared by Torch and PyTorch. This library leverages cabal new-build and backpack.
+Note that this project is in early development and should only be used by contributing developers. Expect substantial changes to the library API as it evolves.
   - Recurrent Neural Networks
     - **grenade** [](http://hackage.haskell.org/package/grenade){:.hackage} [](https://github.com/HuwCampbell/grenade){:.github}
   - Convolutional Neural Networks

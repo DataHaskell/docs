@@ -13,10 +13,8 @@ A list of data science and machine learning tools and algorithms that either alr
 
 ### Data frames
 
-- **frames** [](http://hackage.haskell.org/package/Frames){:.hackage} [![Hackage](https://img.shields.io/hackage/v/Frames.svg)](https://hackage.haskell.org/package/Frames)
-[![plot-light](http://stackage.org/package/Frames/badge/lts)](http://stackage.org/lts/package/Frames)
-[![plot-light](http://stackage.org/package/Frames/badge/nightly)](http://stackage.org/nightly/package/Frames) : User-friendly, type safe, runtime efficient tooling for working with tabular data deserialized from comma-separated values (CSV) files. The type of each row of data is inferred from data, which can then be streamed from disk, or worked with in memory. Also see the comprehensive [tutorial](https://acowley.github.io/Frames/)
-- **analyze** [](https://hackage.haskell.org/package/analyze){:.hackage} [](https://github.com/ejconlon/analyze){:.github} : `pandas`-like dataframe operations for tabular data with CSV interface.
+- **frames** [](http://hackage.haskell.org/package/Frames){:.hackage} [![Hackage](https://img.shields.io/hackage/v/Frames.svg)](https://hackage.haskell.org/package/Frames) [![Frames](http://stackage.org/package/Frames/badge/lts)](http://stackage.org/lts/package/Frames) [![Frames](http://stackage.org/package/Frames/badge/nightly)](http://stackage.org/nightly/package/Frames) : User-friendly, type safe, runtime efficient tooling for working with tabular data deserialized from comma-separated values (CSV) files. The type of each row of data is inferred from data, which can then be streamed from disk, or worked with in memory. Also see the comprehensive [tutorial](https://acowley.github.io/Frames/)
+- **analyze** [](https://hackage.haskell.org/package/analyze){:.hackage} [](https://github.com/ejconlon/analyze){:.github} [![Hackage](https://img.shields.io/hackage/v/analyze.svg)](https://hackage.haskell.org/package/analyze) [![analyze](http://stackage.org/package/analyze/badge/lts)](http://stackage.org/lts/package/analyze) [![analyze](http://stackage.org/package/analyze/badge/nightly)](http://stackage.org/nightly/package/analyze) : `pandas`-like dataframe operations for tabular data with CSV interface.
 - **bookkeeper** [](https://hackage.haskell.org/package/bookkeeper){:.hackage} : A new take on datatypes and records using `OverloadedLabels` (which is available since GHC 8). It bears some similarities to Nikita Volkov's `record` library, but requires no Template Haskell.
 
 

@@ -5,8 +5,9 @@ category: community
 date: 2016-10-19 21:08:18
 ---
 
-A list of data science and machine learning tools and algorithms that either already exist or we would like to exist.
+A knowledge base of data science and machine learning tools and algorithms written in Haskell that either already exist or we would like to exist.
 
+Note: some libraries are mentioned more than once, because they provide functionality that covers a few areas, however for clarity the links and project descriptions are only given at their first occurrence.
 
 
 ## Data structures

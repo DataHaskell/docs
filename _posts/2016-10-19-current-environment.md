@@ -303,6 +303,11 @@ Note that this project is in early development and should only be used by contri
   - t-SNE (t-distributed stochastic neighbor embedding)
     - **tsne** [![Hackage](https://img.shields.io/hackage/v/tsne.svg)](https://hackage.haskell.org/package/tsne) [![tsne](http://stackage.org/package/tsne/badge/lts-11)](http://stackage.org/lts-11/package/tsne) [![tsne](http://stackage.org/package/tsne/badge/nightly)](http://stackage.org/nightly/package/tsne) 
     
+    
+#### Misc.
+
+  - **aima-haskell** [](https://github.com/chris-taylor/aima-haskell){:.github} : Algorithms from Artificial Intelligence: A Modern Approach by Russell and Norvig. 
+    
 ## Applications
 
   - Natural Language Processing (NLP)
@@ -335,9 +340,7 @@ The datasets package defines two different kinds of datasets:
   - **H** [![Hackage](https://img.shields.io/hackage/v/H.svg)](https://hackage.haskell.org/package/H) [![H](http://stackage.org/package/H/badge/lts-11)](http://stackage.org/lts-11/package/H) [![H](http://stackage.org/package/H/badge/nightly)](http://stackage.org/nightly/package/H) : An interactive prompt for exploring and graphing data sets. This is a thin wrapper around GHCi, with the full power of an R prompt, and the full power of Haskell prompt: you can enter expressions of either language, providing you with plotting and distributed computing facilities out-of-the-box.
 
 
-## Machine learning misc.
 
-  - **aima-haskell** [](https://github.com/chris-taylor/aima-haskell){:.github} : Algorithms from Artificial Intelligence: A Modern Approach by Russell and Norvig. 
 
 
 

@@ -9,14 +9,14 @@ A knowledge base of data science and machine learning tools and algorithms writt
 
 Note: some libraries are mentioned more than once, because they provide functionality that covers a few areas, however for clarity the links and project descriptions are only given at their first occurrence.
 
-# Visualization 
+## Visualization 
 
 - **plotlyhs** [](https://github.com/diffusionkinetics/open/tree/master/plotlyhs){:.github} [![Hackage](https://img.shields.io/hackage/v/plotlyhs.svg)](https://hackage.haskell.org/package/plotlyhs) [![plotlyhs](http://stackage.org/package/plotlyhs/badge/lts-11)](http://stackage.org/lts-11/package/plotlyhs) [![Frames](http://stackage.org/package/plotlyhs/badge/nightly)](http://stackage.org/nightly/package/plotlyhs) :  This is a library for generating JSON value to use with the Plotly.js library. The interface directly reflects the structure of the Plotly.js library and is therefore quite low-level. Lenses are used throughout to set Maybe fields in records to provide both data and configuration options.
 This library does not attempt to communicate with the Plotly API in any other way. All generated plots can be hosted on stand-alone web pages.
 
-# Data structures
+## Data structures
 
-## Data frames
+### Data frames
 
 - **frames** [![Hackage](https://img.shields.io/hackage/v/Frames.svg)](https://hackage.haskell.org/package/Frames) [![Frames](http://stackage.org/package/Frames/badge/lts-11)](http://stackage.org/lts-11/package/Frames) [![Frames](http://stackage.org/package/Frames/badge/nightly)](http://stackage.org/nightly/package/Frames) : User-friendly, type safe, runtime efficient tooling for working with tabular data deserialized from comma-separated values (CSV) files. The type of each row of data is inferred from data, which can then be streamed from disk, or worked with in memory. Also see the comprehensive [tutorial](https://acowley.github.io/Frames/)
 - **analyze** [](https://github.com/ejconlon/analyze){:.github} [![Hackage](https://img.shields.io/hackage/v/analyze.svg)](https://hackage.haskell.org/package/analyze) [![analyze](http://stackage.org/package/analyze/badge/lts-11)](http://stackage.org/lts-11/package/analyze) [![analyze](http://stackage.org/package/analyze/badge/nightly)](http://stackage.org/nightly/package/analyze) : `pandas`-like dataframe operations for tabular data with CSV interface.
@@ -24,7 +24,7 @@ This library does not attempt to communicate with the Plotly API in any other wa
 
 
 
-## Arrays
+### Arrays
 
 - **vector** [![Hackage](https://img.shields.io/hackage/v/vector.svg)](https://hackage.haskell.org/package/vector) [![vector](http://stackage.org/package/vector/badge/lts-11)](http://stackage.org/lts-11/package/vector) [![vector](http://stackage.org/package/vector/badge/nightly)](http://stackage.org/nightly/package/vector) : An efficient implementation of Int-indexed arrays (both mutable and immutable), with a powerful loop optimisation framework.
 #### Multidimensional arrays
@@ -32,25 +32,25 @@ This library does not attempt to communicate with the Plotly API in any other wa
 - **repa** [![Hackage](https://img.shields.io/hackage/v/repa.svg)](https://hackage.haskell.org/package/repa) [![repa](http://stackage.org/package/repa/badge/lts-11)](http://stackage.org/lts-11/package/repa) [![repa](http://stackage.org/package/repa/badge/nightly)](http://stackage.org/nightly/package/repa) : Repa provides high performance, regular, multi-dimensional, shape polymorphic parallel arrays. All numeric data is stored unboxed. 
 - **massiv** [![Hackage](https://img.shields.io/hackage/v/massiv.svg)](https://hackage.haskell.org/package/massiv) [![massiv](http://stackage.org/package/massiv/badge/lts-11)](http://stackage.org/lts-11/package/massiv) [![massiv](http://stackage.org/package/massiv/badge/nightly)](http://stackage.org/nightly/package/massiv) : Repa-style high-performance multi-dimentional arrays with nested parallelism and stencil computation capabilities.
 
-## Records
+### Records
 
 - **labels** [![Hackage](https://img.shields.io/hackage/v/labels.svg)](https://hackage.haskell.org/package/labels) [![labels](http://stackage.org/package/labels/badge/lts-11)](http://stackage.org/lts-11/package/labels) [![labels](http://stackage.org/package/labels/badge/nightly)](http://stackage.org/nightly/package/labels) : Declare and access tuple fields with labels. An approach to anonymous records.
 - **superrecord** [![Hackage](https://img.shields.io/hackage/v/superrecord.svg)](https://hackage.haskell.org/package/superrecord) [![superrecord](http://stackage.org/package/superrecord/badge/lts-11)](http://stackage.org/lts-11/package/superrecord) [![superrecord](http://stackage.org/package/superrecord/badge/nightly)](http://stackage.org/nightly/package/superrecord) [](https://github.com/agrafix/superrecord){:.github} Supercharged anonymous records. Introductory [blogpost](https://www.athiemann.net/2017/07/02/superrecord.html), with case study using ReaderT.
 - **microgroove** [![Hackage](https://img.shields.io/hackage/v/microgroove.svg)](https://hackage.haskell.org/package/microgroove) [![microgroove](http://stackage.org/package/microgroove/badge/lts-11)](http://stackage.org/lts-11/package/microgroove) [![microgroove](http://stackage.org/package/microgroove/badge/nightly)](http://stackage.org/nightly/package/microgroove)  [](https://github.com/daig/microgroove){:.github} : Array-backed extensible records, providing fast access and mutation.
 
-## Graphs
+### Graphs
 
   - **algebraic-graphs** [![Hackage](https://img.shields.io/hackage/v/algebraic-graphs.svg)](https://hackage.haskell.org/package/algebraic-graphs) [![algebraic-graphs](http://stackage.org/package/algebraic-graphs/badge/lts-11)](http://stackage.org/lts-11/package/algebraic-graphs) [![algebraic-graphs](http://stackage.org/package/algebraic-graphs/badge/nightly)](http://stackage.org/nightly/package/algebraic-graphs) : `algebraic-graphs` (a.k.a. `alga`) is a library for algebraic construction and manipulation of graphs in Haskell. See [this paper](https://github.com/snowleopard/alga-paper) for the motivation behind the library, the underlying theory and implementation details.
 The top-level module `Algebra.Graph` defines the core data type `Graph`, which is a deep embedding of four graph construction primitives `empty`, `vertex`, `overlay` and `connect`. To represent non-empty graphs, see `Algebra.Graph.NonEmpty`. More conventional graph representations can be found in `Algebra.Graph.AdjacencyMap` and `Algebra.Graph.Relation`.
 The type classes defined in `Algebra.Graph.Class` and `Algebra.Graph.HigherKinded.Class` can be used for polymorphic graph construction and manipulation. Also see `Algebra.Graph.Fold` that defines the Boehm-Berarducci encoding of algebraic graphs and provides additional flexibility for polymorphic graph manipulation.
   - **fgl** [![Hackage](https://img.shields.io/hackage/v/fgl.svg)](https://hackage.haskell.org/package/fgl) [![fgl](http://stackage.org/package/fgl/badge/lts-11)](http://stackage.org/lts-11/package/fgl) [![fgl](http://stackage.org/package/fgl/badge/nightly)](http://stackage.org/nightly/package/fgl) : An inductive representation of manipulating graph data structures. Original website can be found at http://web.engr.oregonstate.edu/~erwig/fgl/haskell.
   
-## Trees
+### Trees
 
   - **tree-traversals** [![Hackage](https://img.shields.io/hackage/v/tree-traversals.svg)](https://hackage.haskell.org/package/tree-traversals) [![tree-traversals](http://stackage.org/package/tree-traversals/badge/lts-11)](http://stackage.org/lts-11/package/tree-traversals) [![tree-traversals](http://stackage.org/package/tree-traversals/badge/nightly)](http://stackage.org/nightly/package/tree-traversals) : The tree-traversals package defines in-order, pre-order, post-order, level-order, and reversed level-order traversals for tree-like types, and it also provides newtype wrappers for the various traversals so they may be used with `traverse`.
 
 
-# Database interfaces
+## Database interfaces
 
 - **beam** [Homepage](http://tathougies.github.io/beam/) [![Hackage](https://img.shields.io/hackage/v/beam-core.svg)](https://hackage.haskell.org/package/beam-core) [![beam-core](http://stackage.org/package/beam-core/badge/lts-11)](http://stackage.org/lts-11/package/beam-core) [![beam-core](http://stackage.org/package/beam-core/badge/nightly)](http://stackage.org/nightly/package/beam-core) : Beam is a highly-general library for accessing any kind of database with Haskell. It supports several backends. beam-postgres and beam-sqlite are included in the main beam repository. Others are hosted and maintained independently, such as beam-mysql and beam-firebird. The documentation here shows examples in all known backends.
 Beam is highly extensible and other backends can be shipped independently without requiring any changes in the core libraries.For information on creating additional SQL backends, see the manual section for more.
@@ -79,19 +79,19 @@ Beam is highly extensible and other backends can be shipped independently withou
 
 
 
-# Numerical methods
+## Numerical methods
 
-## Numerical linear algebra
+### Numerical linear algebra
 
 - **hmatrix** [![Hackage](https://img.shields.io/hackage/v/hmatrix.svg)](https://hackage.haskell.org/package/hmatrix) [![hmatrix](http://stackage.org/package/hmatrix/badge/lts-11)](http://stackage.org/lts-11/package/hmatrix) [![hmatrix](http://stackage.org/package/hmatrix/badge/nightly)](http://stackage.org/nightly/package/hmatrix) : Bindings to BLAS/LAPACK. Linear solvers, matrix decompositions, and more.
 - **sparse-linear-algebra** [![Hackage](https://img.shields.io/hackage/v/sparse-linear-algebra.svg)](https://hackage.haskell.org/package/sparse-linear-algebra) [![sparse-linear-algebra](http://stackage.org/package/sparse-linear-algebra/badge/lts-11)](http://stackage.org/lts-11/package/sparse-linear-algebra) [![sparse-linear-algebra](http://stackage.org/package/sparse-linear-algebra/badge/nightly)](http://stackage.org/nightly/package/sparse-linear-algebra) : Native library for sparse algebraic computation. Linear solvers, matrix decompositions and related tools; functional but not optimized for efficiency yet.
 
-## Generation of random data
+### Generation of random data
 
   - **mwc-probability**  [![Hackage](https://img.shields.io/hackage/v/mwc-probability.svg)](https://hackage.haskell.org/package/mwc-probability) [![mwc-probability](http://stackage.org/package/mwc-probability/badge/lts-11)](http://stackage.org/lts-11/package/mwc-probability) [![mwc-probability](http://stackage.org/package/mwc-probability/badge/nightly)](http://stackage.org/nightly/package/mwc-probability) : A simple probability distribution type, where distributions are characterized by sampling functions.
   
   
-## Statistics
+### Statistics
 
   - **statistics** [![Hackage](https://img.shields.io/hackage/v/statistics.svg)](https://hackage.haskell.org/package/statistics) [![statistics](http://stackage.org/package/statistics/badge/lts-11)](http://stackage.org/lts-11/package/statistics) [![statistics](http://stackage.org/package/statistics/badge/nightly)](http://stackage.org/nightly/package/statistics) : This library provides a number of common functions and types useful in statistics. We focus on high performance, numerical robustness, and use of good algorithms. Where possible, we provide references to the statistical literature.
 The library's facilities can be divided into four broad categories:
@@ -110,7 +110,7 @@ Caveat: while fun to play with, and rewarding to see how measures fit together, 
  
 
 
-## Integration
+### Integration
 
 - Markov Chain Monte Carlo
   - **declarative** [![Hackage](https://img.shields.io/hackage/v/declarative.svg)](https://hackage.haskell.org/package/declarative) [![declarative](http://stackage.org/package/declarative/badge/lts-11)](http://stackage.org/lts-11/package/declarative) [![declarative](http://stackage.org/package/declarative/badge/nightly)](http://stackage.org/nightly/package/declarative) : A simple combinator language for Markov transition operators that are useful in MCMC.
@@ -121,14 +121,14 @@ In general this sampler is useful when you want decent performance without deali
   - **numeric-ode** [](https://github.com/qnikst/numeric-ode){:.github} [![Hackage](https://img.shields.io/hackage/v/numeric-ode.svg)](https://hackage.haskell.org/package/numeric-ode) [![numeric-ode](http://stackage.org/package/numeric-ode/badge/lts-11)](http://stackage.org/lts-11/package/numeric-ode) [![numeric-ode](http://stackage.org/package/numeric-ode/badge/nightly)](http://stackage.org/nightly/package/numeric-ode) : Small project for different ODE solvers, in particular symplectic solvers.
 This is very experimental and will change. The Störmer-Verlet generates a correct orbit for Jupiter but no guarantees are given for any of the other methods.
 
-## Differentiation
+### Differentiation
 
 - Automatic differentiation
   - **ad** [![Hackage](https://img.shields.io/hackage/v/ad.svg)](https://hackage.haskell.org/package/ad) [![ad](http://stackage.org/package/ad/badge/lts-11)](http://stackage.org/lts-11/package/ad) [![ad](http://stackage.org/package/ad/badge/nightly)](http://stackage.org/nightly/package/ad) : Automatic differentiation to arbitrary order, applicable to data provided in any Traversable container.
   - **backprop** [](https://github.com/mstksg/backprop){:.github} [![Hackage](https://img.shields.io/hackage/v/backprop.svg)](https://hackage.haskell.org/package/backprop) [![backprop](http://stackage.org/package/backprop/badge/lts-11)](http://stackage.org/lts-11/package/backprop) [![backprop](http://stackage.org/package/backprop/badge/nightly)](http://stackage.org/nightly/package/backprop) : Automatic heterogeneous back-propagation. Write your functions to compute your result, and the library will automatically generate functions to compute your gradient. Differs from `ad` by offering full heterogeneity -- each intermediate step and the resulting value can have different types. Mostly intended for usage with gradient descent and other numeric optimization techniques. Introductory blogpost [here](https://blog.jle.im/entry/introducing-the-backprop-library.html).
 
 
-## Optimization
+### Optimization
 
 - Linear programming
   - **glpk-hs** [![Hackage](https://img.shields.io/hackage/v/glpk-hs.svg)](https://hackage.haskell.org/package/glpk-hs) [![glpk-hs](http://stackage.org/package/glpk-hs/badge/lts-11)](http://stackage.org/lts-11/package/glpk-hs) [![glpk-hs](http://stackage.org/package/glpk-hs/badge/nightly)](http://stackage.org/nightly/package/glpk-hs) : Friendly interface to GLPK's linear programming and mixed integer programming features. Intended for easy extensibility, with a general, pure-Haskell representation of linear programs. 
@@ -141,11 +141,11 @@ This is very experimental and will change. The Störmer-Verlet generates a corre
 
  
 
-# Machine learning
+## Machine learning
 
 
-## Bayesian inference
-### Nested sampling
+### Bayesian inference
+#### Nested sampling
   - **NestedSampling** [![Hackage](https://img.shields.io/hackage/v/NestedSampling.svg)](https://hackage.haskell.org/package/NestedSampling) [![NestedSampling](http://stackage.org/package/NestedSampling/badge/lts-11)](http://stackage.org/lts-11/package/NestedSampling) [![NestedSampling](http://stackage.org/package/NestedSampling/badge/nightly)](http://stackage.org/nightly/package/NestedSampling) : The code here is a fairly straightforward translation of the tutorial nested sampling code from Skilling and Sivia. The original code can be found at http://www.inference.phy.cam.ac.uk/bayesys/sivia/ along with documentation at http://www.inference.phy.cam.ac.uk/bayesys/. An example program called lighthouse.hs is included.
   - **NestedSampling-hs** [](https://github.com/eggplantbren/NestedSampling.hs){:.github} [![Hackage](https://img.shields.io/hackage/v/NestedSampling-hs.svg)](https://hackage.haskell.org/package/NestedSampling-hs) [![NestedSampling-hs](http://stackage.org/package/NestedSampling-hs/badge/lts-11)](http://stackage.org/lts-11/package/NestedSampling-hs) [![NestedSampling-hs](http://stackage.org/package/NestedSampling-hs/badge/nightly)](http://stackage.org/nightly/package/NestedSampling-hs) : This is a Haskell implementation of the classic Nested Sampling algorithm introduced by John Skilling. You can use it for Bayesian inference, statistical mechanics, and optimisation applications, and it comes with a few example programs.
 ### Frameworks
@@ -156,7 +156,7 @@ This is very experimental and will change. The Störmer-Verlet generates a corre
     - Strategy.\* implements various transition operators for Markov Chain Monte Carlo, including Metropolis-Hastings, Hamiltonian Monte Carlo, NUTS, and continuous/discrete slice samplers.
     - Math.Probably.MCMC implements functions and combinators for running Markov chains and interleaving transition operators.
 
-### Probabilistic programming languages
+#### Probabilistic programming languages
   - **monad-bayes** [](https://github.com/adscib/monad-bayes){:.github} [![Hackage](https://img.shields.io/hackage/v/monad-bayes.svg)](https://hackage.haskell.org/package/monad-bayes) [![monad-bayes](http://stackage.org/package/monad-bayes/badge/lts-11)](http://stackage.org/lts-11/package/monad-bayes) [![monad-bayes](http://stackage.org/package/monad-bayes/badge/nightly)](http://stackage.org/nightly/package/monad-bayes) : A library for probabilistic programming in Haskell using probability monads. The emphasis is on composition of inference algorithms implemented in terms of monad transformers. The code is still experimental, but will be released on Hackage as soon as it reaches relative stability. User's guide will appear soon. In the meantime see the models folder that contains several examples.
   - **hakaru** [](https://github.com/hakaru-dev/hakaru){:.github} [![Hackage](https://img.shields.io/hackage/v/hakaru.svg)](https://hackage.haskell.org/package/hakaru) [![hakaru](http://stackage.org/package/hakaru/badge/lts-11)](http://stackage.org/lts-11/package/hakaru) [![hakaru](http://stackage.org/package/hakaru/badge/nightly)](http://stackage.org/nightly/package/hakaru) : Hakaru is a simply-typed probabilistic programming language, designed for easy specification of probabilistic models and inference algorithms. Hakaru enables the design of modular probabilistic inference programs by providing:
       - A language for representing probabilistic distributions, queries, and inferences
@@ -165,16 +165,16 @@ This is very experimental and will change. The Störmer-Verlet generates a corre
 
 
 
-## Supervised learning
+### Supervised learning
 
-### Time-series filtering
+#### Time-series filtering
   - Kalman filtering
     - **estimator** [![Hackage](https://img.shields.io/hackage/v/estimator.svg)](https://hackage.haskell.org/package/estimator) [![estimator](http://stackage.org/package/estimator/badge/lts-11)](http://stackage.org/lts-11/package/estimator) [![estimator](http://stackage.org/package/estimator/badge/nightly)](http://stackage.org/nightly/package/estimator) : The goal of this library is to simplify implementation and use of state-space estimation algorithms, such as Kalman Filters. The interface for constructing models is isolated as much as possible from the specifics of a given algorithm, so swapping out a Kalman Filter for a Bayesian Particle Filter should involve a minimum of effort.
 This implementation is designed to support symbolic types, such as from sbv or ivory. As a result you can generate code in another language, such as C, from a model written using this package; or run static analyses on your model.
     - **kalman** [![Hackage](https://img.shields.io/hackage/v/kalman.svg)](https://hackage.haskell.org/package/kalman) [![kalman](http://stackage.org/package/kalman/badge/lts-11)](http://stackage.org/lts-11/package/kalman) [![kalman](http://stackage.org/package/kalman/badge/nightly)](http://stackage.org/nightly/package/kalman) : Linear, extended and unscented Kalman filters are provided, along with their corresponding smoothers. Furthermore, a particle filter and smoother is provided.
 
 
-### Graphical models
+#### Graphical models
   - Hidden Markov models
     - **HMM** [](https://github.com/mikeizbicki/hmm){:.github} [![Hackage](https://img.shields.io/hackage/v/HMM.svg)](https://hackage.haskell.org/package/HMM) [![HMM](http://stackage.org/package/HMM/badge/lts-11)](http://stackage.org/lts-11/package/HMM) [![HMM](http://stackage.org/package/HMM/badge/nightly)](http://stackage.org/nightly/package/HMM) 
     - **hmm-hmatrix** [](http://hub.darcs.net/thielema/hmm-hmatrix){:.darcs} [![Hackage](https://img.shields.io/hackage/v/hmm-hmatrix.svg)](https://hackage.haskell.org/package/hmm-hmatrix) [![hmm-hmatrix](http://stackage.org/package/hmm-hmatrix/badge/lts-11)](http://stackage.org/lts-11/package/hmm-hmatrix) [![hmm-hmatrix](http://stackage.org/package/hmm-hmatrix/badge/nightly)](http://stackage.org/nightly/package/hmm-hmatrix) : Hidden Markov Models implemented using HMatrix data types and operations. http://en.wikipedia.org/wiki/Hidden_Markov_Model 
@@ -187,7 +187,7 @@ It currently implements:
     - **learning-hmm** [](https://github.com/mnacamura/learning-hmm){:.github} [![Hackage](https://img.shields.io/hackage/v/learning-hmm.svg)](https://hackage.haskell.org/package/learning-hmm) [![learning-hmm](http://stackage.org/package/learning-hmm/badge/lts-11)](http://stackage.org/lts-11/package/learning-hmm) [![learning-hmm](http://stackage.org/package/learning-hmm/badge/nightly)](http://stackage.org/nightly/package/learning-hmm) : This library provides functions for the maximum likelihood estimation of discrete hidden Markov models. At present, only Baum-Welch and Viterbi algorithms are implemented for the plain HMM and the input-output HMM.
 
 
-### Classification
+#### Classification
 
   - Linear discriminant analysis
     - **linda** [![Hackage](https://img.shields.io/hackage/v/linda.svg)](https://hackage.haskell.org/package/linda) [![linda](http://stackage.org/package/linda/badge/lts-11)](http://stackage.org/lts-11/package/linda) [![linda](http://stackage.org/package/linda/badge/nightly)](http://stackage.org/nightly/package/linda) : LINDA implements linear discriminant analysis. It provides both data classification (according to Fisher) and data analysis (by discriminant criteria). Due to the `hmatrix` dependency, this package needs LAPACK installed, too. 
@@ -200,7 +200,7 @@ It currently implements:
   - Gaussian processes
     - **HasGP** [![Hackage](https://img.shields.io/hackage/v/HasGP.svg)](https://hackage.haskell.org/package/HasGP) [![HasGP](http://stackage.org/package/HasGP/badge/lts-11)](http://stackage.org/lts-11/package/HasGP) [![HasGP](http://stackage.org/package/HasGP/badge/nightly)](http://stackage.org/nightly/package/HasGP) : Gaussian processes for regression and classification, based on the Laplace approximation and Expectation Propagation.
 
-### Neural Networks
+#### Neural Networks
   - **sibe** [](https://github.com/mdibaiee/sibe){:.github} [![Hackage](https://img.shields.io/hackage/v/sibe.svg)](https://hackage.haskell.org/package/sibe) [![sibe](http://stackage.org/package/sibe/badge/lts-11)](http://stackage.org/lts-11/package/sibe) [![sibe](http://stackage.org/package/sibe/badge/nightly)](http://stackage.org/nightly/package/sibe) 
   - **neural** [](https://github.com/brunjlar/neural){:.github} [![Hackage](https://img.shields.io/hackage/v/neural.svg)](https://hackage.haskell.org/package/neural) [![neural](http://stackage.org/package/neural/badge/lts-11)](http://stackage.org/lts-11/package/neural) [![neural](http://stackage.org/package/neural/badge/nightly)](http://stackage.org/nightly/package/neural) : The goal of neural is to provide a modular and flexible neural network library written in native Haskell.
 Features include
@@ -236,7 +236,7 @@ Note that this project is in early development and should only be used by contri
 
 
 
-### Naive Bayes
+#### Naive Bayes
   - Gaussian Naive Bayes
   - Multinomial Naive Bayes
     - **sibe** 
@@ -244,13 +244,13 @@ Note that this project is in early development and should only be used by contri
 
 
 
-### Boosting
+#### Boosting
   - XGBoost 
     - **xgboost-haskell** [![Hackage](https://img.shields.io/hackage/v/xgboost-haskell.svg)](https://hackage.haskell.org/package/xgboost-haskell) [![xgboost-haskell](http://stackage.org/package/xgboost-haskell/badge/lts-11)](http://stackage.org/lts-11/package/xgboost-haskell) [![xgboost-haskell](http://stackage.org/package/xgboost-haskell/badge/nightly)](http://stackage.org/nightly/package/xgboost-haskell) : XGBoost for Haskell, based on the foundation package. FFI binding of xgboost
     - **xgboost.hs** [](https://github.com/robertzk/xgboost.hs){:.github} 
   - AdaBoost    
 
-### Regression
+#### Regression
 
   - Nearest Neighbors
     - **HLearn** [](https://izbicki.me/blog/fast-nearest-neighbor-queries-in-haskell.html){:.blogpost} 
@@ -266,7 +266,7 @@ Note that this project is in early development and should only be used by contri
     - **estimator** 
   
 
-### Reinforcement learning
+#### Reinforcement learning
   - **reinforce** [](https://github.com/sentenai-research/reinforce){:.github} [![Hackage](https://img.shields.io/hackage/v/reinforce.svg)](https://hackage.haskell.org/package/reinforce) [![reinforce](http://stackage.org/package/reinforce/badge/lts-11)](http://stackage.org/lts-11/package/reinforce) [![reinforce](http://stackage.org/package/reinforce/badge/nightly)](http://stackage.org/nightly/package/reinforce) : `reinforce` exports an openai-gym-like typeclass, MonadEnv, with both an interface to [gym-http-api](https://github.com/openai/gym-http-api/), as well as haskell-native environments which provide a substantial speed-up to the http-server interface.
   - **gym-http-api** [](https://github.com/stites/gym-http-api){:github} [![Hackage](https://img.shields.io/hackage/v/gym-http-api.svg)](https://hackage.haskell.org/package/gym-http-api) [![gym-http-api](http://stackage.org/package/gym-http-api/badge/lts-11)](http://stackage.org/lts-11/package/gym-http-api) [![gym-http-api](http://stackage.org/package/gym-http-api/badge/nightly)](http://stackage.org/nightly/package/gym-http-api) : This library provides a REST client to the gym open-source library. gym-http-api itself provides a python-based REST server to the gym open-source library, allowing development in languages other than python. Note that the openai/gym-http-api is a monorepo of all language-clients. This hackage library tracks stites/gym-http-api which is the actively-maintained haskell fork.
   - Policy gradient
@@ -274,7 +274,7 @@ Note that this project is in early development and should only be used by contri
   - Q-Learning
     - Neural Network Q-Learning
 
-### Clustering
+#### Clustering
 
   - K-Means
     - **kmeans** [](http://hub.darcs.net/gershomb/kmeans){:.darcs} [![Hackage](https://img.shields.io/hackage/v/kmeans.svg)](https://hackage.haskell.org/package/kmeans) [![kmeans](http://stackage.org/package/kmeans/badge/lts-11)](http://stackage.org/lts-11/package/kmeans) [![kmeans](http://stackage.org/package/kmeans/badge/nightly)](http://stackage.org/nightly/package/kmeans) : A simple implementation of the standard k-means clustering algorithm.
@@ -291,7 +291,7 @@ Note that this project is in early development and should only be used by contri
     - **clustering** 
   - Birch
 
-### Dimensionality reduction
+#### Dimensionality reduction
 
   - Principal Component Analysis (PCA)
     - **sibe** 
@@ -302,7 +302,7 @@ Note that this project is in early development and should only be used by contri
   - t-SNE (t-distributed stochastic neighbor embedding)
     - **tsne** [![Hackage](https://img.shields.io/hackage/v/tsne.svg)](https://hackage.haskell.org/package/tsne) [![tsne](http://stackage.org/package/tsne/badge/lts-11)](http://stackage.org/lts-11/package/tsne) [![tsne](http://stackage.org/package/tsne/badge/nightly)](http://stackage.org/nightly/package/tsne) 
     
-# Applications
+## Applications
 
   - Natural Language Processing (NLP)
     - **chatter** [![Hackage](https://img.shields.io/hackage/v/chatter.svg)](https://hackage.haskell.org/package/chatter) [![chatter](http://stackage.org/package/chatter/badge/lts-11)](http://stackage.org/lts-11/package/chatter) [![chatter](http://stackage.org/package/chatter/badge/nightly)](http://stackage.org/nightly/package/chatter) : chatter is a collection of simple Natural Language Processing algorithms, which also comes with models for POS tagging and Phrasal Chunking that have been trained on the Brown corpus (POS only) and the Conll2000 corpus (POS and Chunking).
@@ -317,7 +317,7 @@ Chatter supports:
 
     
 
-# Datasets
+## Datasets
 
 - **datasets** [](https://github.com/glutamate/datasets){:.github} [![Hackage](https://img.shields.io/hackage/v/datasets.svg)](https://hackage.haskell.org/package/datasets) [![datasets](http://stackage.org/package/datasets/badge/lts-11)](http://stackage.org/lts-11/package/datasets) [![datasets](http://stackage.org/package/datasets/badge/nightly)](http://stackage.org/nightly/package/datasets) : Classical machine learning and statistics datasets from the UCI Machine Learning Repository and other sources.
 The datasets package defines two different kinds of datasets: 
@@ -325,24 +325,24 @@ The datasets package defines two different kinds of datasets:
   - Other data sets which need to be fetched over the network and are cached in a local temporary directory.
 - **mnist-idx** [](https://github.com/kryoxide/mnist-idx){:.github} [![Hackage](https://img.shields.io/hackage/v/mnist-idx.svg)](https://hackage.haskell.org/package/mnist-idx) [![mnist-idx](http://stackage.org/package/mnist-idx/badge/lts-11)](http://stackage.org/lts-11/package/mnist-idx) [![mnist-idx](http://stackage.org/package/mnist-idx/badge/nightly)](http://stackage.org/nightly/package/mnist-idx) : Read and write data in the IDX format used in e.g. the MINST database
 
-# Language interop
+## Language interop
 
-## R
+### R
 
 - HaskellR (https://tweag.github.io/HaskellR/)
   - **inline-r** [![Hackage](https://img.shields.io/hackage/v/inline-r.svg)](https://hackage.haskell.org/package/inline-r) [![inline-r](http://stackage.org/package/inline-r/badge/lts-11)](http://stackage.org/lts-11/package/inline-r) [![inline-r](http://stackage.org/package/inline-r/badge/nightly)](http://stackage.org/nightly/package/inline-r) : Seamlessly call R from Haskell and vice versa. No FFI required. Efficiently mix Haskell and R code in the same source file using quasiquotation. R code is designed to be evaluated using an instance of the R interpreter embedded in the binary, with no marshalling costs and hence little to no overhead when communicating values back to Haskell.
   - **H** [![Hackage](https://img.shields.io/hackage/v/H.svg)](https://hackage.haskell.org/package/H) [![H](http://stackage.org/package/H/badge/lts-11)](http://stackage.org/lts-11/package/H) [![H](http://stackage.org/package/H/badge/nightly)](http://stackage.org/nightly/package/H) : An interactive prompt for exploring and graphing data sets. This is a thin wrapper around GHCi, with the full power of an R prompt, and the full power of Haskell prompt: you can enter expressions of either language, providing you with plotting and distributed computing facilities out-of-the-box.
 
 
-# Machine learning misc.
+## Machine learning misc.
 
   - **aima-haskell** [](https://github.com/chris-taylor/aima-haskell){:.github} : Algorithms from Artificial Intelligence: A Modern Approach by Russell and Norvig. 
 
 
 
-# Data science frameworks
+## Data science frameworks
 
-## Apache Spark bindings
+### Apache Spark bindings
 
 - **sparkle** [![Hackage](https://img.shields.io/hackage/v/sparkle.svg)](https://hackage.haskell.org/package/sparkle) [![sparkle](http://stackage.org/package/sparkle/badge/lts-11)](http://stackage.org/lts-11/package/sparkle) [![sparkle](http://stackage.org/package/sparkle/badge/nightly)](http://stackage.org/nightly/package/sparkle) : A library for writing resilient analytics applications in Haskell that scale to thousands of nodes, using Spark and the rest of the Apache ecosystem under the hood.
 See the [blog post](https://www.tweag.io/posts/2016-02-25-hello-sparkle.html) for details: 

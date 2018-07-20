@@ -65,7 +65,7 @@ Beam is highly extensible and other backends can be shipped independently withou
     - Conditional insert/update.
     - Transactions, uniqueness constraints and foreign keys.
     - Seamless prepared statements.
-    - Configurable, automatic, consistent in-process caching of query results-11.
+    - Configurable, automatic, consistent in-process caching of query results.
     - Lightweight and modular: few dependencies, and non-essential features are optional or split into add-on packages.
 - **relational-record** [Homepage](http://khibino.github.io/haskell-relational-record) [![Hackage](https://img.shields.io/hackage/v/relational-record.svg)](https://hackage.haskell.org/package/relational-record) [![relational-record](http://stackage.org/package/relational-record/badge/lts-11)](http://stackage.org/lts-11/package/relational-record) [![relational-record](http://stackage.org/package/relational-record/badge/nightly)](http://stackage.org/nightly/package/relational-record) : Haskell Relational Record (HRR) is a query generator based on typed relational algebra and correspondence between SQL value lists and Haskell record types, which provide programming interfaces to Relational DataBase Managemsnt Systems (RDBMS).
   - Abstracted - relations are expressed as high level expressions and they are translated into SQL statements. Drivers are provided for DB2, PostgreSQL, SQLite, MySQL, Microsoft SQL Server and OracleSQL.

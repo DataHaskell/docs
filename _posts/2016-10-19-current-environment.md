@@ -258,10 +258,10 @@ Note that this project is in early development and should only be used by contri
     - **HLearn** [](https://izbicki.me/blog/fast-nearest-neighbor-queries-in-haskell.html){:.blogpost} 
   
   - Linear Regression
-    - [**statistics**][statistics]
+    - **statistics**
     
   - Gaussian processes
-    - [**HasGP**][HasGP]
+    - **HasGP**
     
   - Kalman filtering
     - **kalman** [](https://hackage.haskell.org/package/kalman){:.hackage} : Linear, extended and unscented Kalman filters are provided, along with their corresponding smoothers. Furthermore, a particle filter and smoother is provided.
@@ -270,8 +270,8 @@ Note that this project is in early development and should only be used by contri
   
 
 #### Reinforcement learning
-  - **reinforce** [](https://github.com/sentenai-research/reinforce){:.github} `reinforce` exports an openai-gym-like typeclass, MonadEnv, with both an interface to [gym-http-api](https://github.com/openai/gym-http-api/), as well as haskell-native environments which provide a substantial speed-up to the http-server interface.
-  - **gym-http-api** [](https://github.com/stites/gym-http-api){:github} [](https://hackage.haskell.org/package/gym-http-api){:hackage} This library provides a REST client to the gym open-source library. gym-http-api itself provides a python-based REST server to the gym open-source library, allowing development in languages other than python. Note that the openai/gym-http-api is a monorepo of all language-clients. This hackage library tracks stites/gym-http-api which is the actively-maintained haskell fork.
+  - **reinforce** [](https://github.com/sentenai-research/reinforce){:.github} [![Hackage](https://img.shields.io/hackage/v/reinforce.svg)](https://hackage.haskell.org/package/reinforce) [![reinforce](http://stackage.org/package/reinforce/badge/lts)](http://stackage.org/lts/package/reinforce) [![reinforce](http://stackage.org/package/reinforce/badge/nightly)](http://stackage.org/nightly/package/reinforce) : `reinforce` exports an openai-gym-like typeclass, MonadEnv, with both an interface to [gym-http-api](https://github.com/openai/gym-http-api/), as well as haskell-native environments which provide a substantial speed-up to the http-server interface.
+  - **gym-http-api** [](https://github.com/stites/gym-http-api){:github} [![Hackage](https://img.shields.io/hackage/v/gym-http-api.svg)](https://hackage.haskell.org/package/gym-http-api) [![gym-http-api](http://stackage.org/package/gym-http-api/badge/lts)](http://stackage.org/lts/package/gym-http-api) [![gym-http-api](http://stackage.org/package/gym-http-api/badge/nightly)](http://stackage.org/nightly/package/gym-http-api) : This library provides a REST client to the gym open-source library. gym-http-api itself provides a python-based REST server to the gym open-source library, allowing development in languages other than python. Note that the openai/gym-http-api is a monorepo of all language-clients. This hackage library tracks stites/gym-http-api which is the actively-maintained haskell fork.
   - Policy gradient
 
   - Q-Learning
@@ -280,8 +280,8 @@ Note that this project is in early development and should only be used by contri
 #### Clustering
 
   - K-Means
-    - **kmeans** [](https://hackage.haskell.org/package/kmeans){:.hackage} [](http://hub.darcs.net/gershomb/kmeans){:.darcs} A simple implementation of the standard k-means clustering algorithm.
-    - **clustering** [](https://hackage.haskell.org/package/clustering){:.hackage} Methods included in this library: Agglomerative hierarchical clustering: Complete linkage O(n^2), Single linkage O(n^2), Average linkage O(n^2), Weighted linkage O(n^2), Ward's linkage O(n^2). KMeans clustering.
+    - **kmeans** [](http://hub.darcs.net/gershomb/kmeans){:.darcs} [![Hackage](https://img.shields.io/hackage/v/kmeans.svg)](https://hackage.haskell.org/package/kmeans) [![kmeans](http://stackage.org/package/kmeans/badge/lts)](http://stackage.org/lts/package/kmeans) [![kmeans](http://stackage.org/package/kmeans/badge/nightly)](http://stackage.org/nightly/package/kmeans) : A simple implementation of the standard k-means clustering algorithm.
+    - **clustering** [![Hackage](https://img.shields.io/hackage/v/clustering.svg)](https://hackage.haskell.org/package/clustering) [![clustering](http://stackage.org/package/clustering/badge/lts)](http://stackage.org/lts/package/clustering) [![clustering](http://stackage.org/package/clustering/badge/nightly)](http://stackage.org/nightly/package/clustering) : Methods included in this library: Agglomerative hierarchical clustering: Complete linkage O(n^2), Single linkage O(n^2), Average linkage O(n^2), Weighted linkage O(n^2), Ward's linkage O(n^2). KMeans clustering.
 
   - Self-Organising Maps (SOM)
     - Hyperbolic-SOM
@@ -291,55 +291,55 @@ Note that this project is in early development and should only be used by contri
   - Affinity propagation
   - Spectral Clustering
   - Hierarchical clustering
-    - **clustering** [](https://hackage.haskell.org/package/clustering){:.hackage}
+    - **clustering** 
   - Birch
 
 #### Dimensionality reduction
 
   - Principal Component Analysis (PCA)
-    - **sibe** [](http://hackage.haskell.org/package/sibe){:.hackage} [](https://github.com/mdibaiee/sibe){:.github}
+    - **sibe** 
     - Kernel PCA
     - Incremental PCA
   - Truncated SVD*
   - Independent Component Analysis (ICA)
   - t-SNE (t-distributed stochastic neighbor embedding)
-    - **tsne** [](https://hackage.haskell.org/package/tsne){:.hackage}
+    - **tsne** [![Hackage](https://img.shields.io/hackage/v/tsne.svg)](https://hackage.haskell.org/package/tsne) [![tsne](http://stackage.org/package/tsne/badge/lts)](http://stackage.org/lts/package/tsne) [![tsne](http://stackage.org/package/tsne/badge/nightly)](http://stackage.org/nightly/package/tsne) 
     
 ## Applications
 
   - Natural Language Processing (NLP)
-    - **chatter** [](http://hackage.haskell.org/package/chatter){:.hackage} chatter is a collection of simple Natural Language Processing algorithms, which also comes with models for POS tagging and Phrasal Chunking that have been trained on the Brown corpus (POS only) and the Conll2000 corpus (POS and Chunking).
+    - **chatter** [![Hackage](https://img.shields.io/hackage/v/chatter.svg)](https://hackage.haskell.org/package/chatter) [![chatter](http://stackage.org/package/chatter/badge/lts)](http://stackage.org/lts/package/chatter) [![chatter](http://stackage.org/package/chatter/badge/nightly)](http://stackage.org/nightly/package/chatter) : chatter is a collection of simple Natural Language Processing algorithms, which also comes with models for POS tagging and Phrasal Chunking that have been trained on the Brown corpus (POS only) and the Conll2000 corpus (POS and Chunking).
 Chatter supports:
       - Part of speech tagging with Averaged Perceptrons. Based on the Python implementation by Matthew Honnibal: (http://honnibal.wordpress.com/2013/09/11/a-good-part-of-speechpos-tagger-in-about-200-lines-of-python/) See NLP.POS for the details of part-of-speech tagging with chatter.
       - Phrasal Chunking (also with an Averaged Perceptron) to identify arbitrary chunks based on training data.
       - Document similarity; A cosine-based similarity measure, and TF-IDF calculations, are available in the NLP.Similarity.VectorSim module.
       - Information Extraction patterns via (http://www.haskell.org/haskellwiki/Parsec/) Parsec
   - Bioinformatics
-    - **NGLess** [](https://github.com/luispedro/ngless){:.github} Ngless is a domain-specific language for NGS (next-generation sequencing data) processing ("NGS with less work").
+    - **NGLess** [](https://github.com/luispedro/ngless){:.github} [![Hackage](https://img.shields.io/hackage/v/ngless.svg)](https://hackage.haskell.org/package/ngless) [![ngless](http://stackage.org/package/ngless/badge/lts)](http://stackage.org/lts/package/ngless) [![ngless](http://stackage.org/package/ngless/badge/nightly)](http://stackage.org/nightly/package/ngless) : Ngless is a domain-specific language for NGS (next-generation sequencing data) processing ("NGS with less work").
 
 
     
 
 ## Datasets
 
-- **datasets** [](https://hackage.haskell.org/package/datasets){:.hackage} [](https://github.com/glutamate/datasets){:.github} - Classical machine learning and statistics datasets from the UCI Machine Learning Repository and other sources.
+- **datasets** [](https://github.com/glutamate/datasets){:.github} [![Hackage](https://img.shields.io/hackage/v/datasets.svg)](https://hackage.haskell.org/package/datasets) [![datasets](http://stackage.org/package/datasets/badge/lts)](http://stackage.org/lts/package/datasets) [![datasets](http://stackage.org/package/datasets/badge/nightly)](http://stackage.org/nightly/package/datasets) : Classical machine learning and statistics datasets from the UCI Machine Learning Repository and other sources.
 The datasets package defines two different kinds of datasets: 
   - Small data sets which are directly (or indirectly with file-embed) embedded in the package as pure values and do not require network or IO to download the data set. This includes **Iris**, **Anscombe** and **OldFaithful**
   - Other data sets which need to be fetched over the network and are cached in a local temporary directory.
-- **mnist-idx** [](https://hackage.haskell.org/package/mnist-idx ){:.hackage} [](https://github.com/kryoxide/mnist-idx){:.github} - Read and write data in the IDX format used in e.g. the MINST database
+- **mnist-idx** [](https://github.com/kryoxide/mnist-idx){:.github} [![Hackage](https://img.shields.io/hackage/v/mnist-idx.svg)](https://hackage.haskell.org/package/mnist-idx) [![mnist-idx](http://stackage.org/package/mnist-idx/badge/lts)](http://stackage.org/lts/package/mnist-idx) [![mnist-idx](http://stackage.org/package/mnist-idx/badge/nightly)](http://stackage.org/nightly/package/mnist-idx) : Read and write data in the IDX format used in e.g. the MINST database
 
 ## Language interop
 
 ### R
 
 - HaskellR (https://tweag.github.io/HaskellR/)
-  - **inline-r** [](https://hackage.haskell.org/package/inline-r){:.hackage} Seamlessly call R from Haskell and vice versa. No FFI required. Efficiently mix Haskell and R code in the same source file using quasiquotation. R code is designed to be evaluated using an instance of the R interpreter embedded in the binary, with no marshalling costs and hence little to no overhead when communicating values back to Haskell.
-  - **H** [](https://hackage.haskell.org/package/H){:.hackage} An interactive prompt for exploring and graphing data sets. This is a thin wrapper around GHCi, with the full power of an R prompt, and the full power of Haskell prompt: you can enter expressions of either language, providing you with plotting and distributed computing facilities out-of-the-box.
+  - **inline-r** [![Hackage](https://img.shields.io/hackage/v/inline-r.svg)](https://hackage.haskell.org/package/inline-r) [![inline-r](http://stackage.org/package/inline-r/badge/lts)](http://stackage.org/lts/package/inline-r) [![inline-r](http://stackage.org/package/inline-r/badge/nightly)](http://stackage.org/nightly/package/inline-r) : Seamlessly call R from Haskell and vice versa. No FFI required. Efficiently mix Haskell and R code in the same source file using quasiquotation. R code is designed to be evaluated using an instance of the R interpreter embedded in the binary, with no marshalling costs and hence little to no overhead when communicating values back to Haskell.
+  - **H** [![Hackage](https://img.shields.io/hackage/v/H.svg)](https://hackage.haskell.org/package/H) [![H](http://stackage.org/package/H/badge/lts)](http://stackage.org/lts/package/H) [![H](http://stackage.org/package/H/badge/nightly)](http://stackage.org/nightly/package/H) : An interactive prompt for exploring and graphing data sets. This is a thin wrapper around GHCi, with the full power of an R prompt, and the full power of Haskell prompt: you can enter expressions of either language, providing you with plotting and distributed computing facilities out-of-the-box.
 
 
 # Machine learning misc.
 
-  - **aima-haskell** [](https://github.com/chris-taylor/aima-haskell){:.github} Algorithms from Artificial Intelligence: A Modern Approach by Russell and Norvig. 
+  - **aima-haskell** [](https://github.com/chris-taylor/aima-haskell){:.github} : Algorithms from Artificial Intelligence: A Modern Approach by Russell and Norvig. 
 
 
 
@@ -347,9 +347,9 @@ The datasets package defines two different kinds of datasets:
 
 ### Apache Spark bindings
 
-- **sparkle** [](https://hackage.haskell.org/package/sparkle){:.hackage} A library for writing resilient analytics applications in Haskell that scale to thousands of nodes, using Spark and the rest of the Apache ecosystem under the hood.
+- **sparkle** [![Hackage](https://img.shields.io/hackage/v/sparkle.svg)](https://hackage.haskell.org/package/sparkle) [![sparkle](http://stackage.org/package/sparkle/badge/lts)](http://stackage.org/lts/package/sparkle) [![sparkle](http://stackage.org/package/sparkle/badge/nightly)](http://stackage.org/nightly/package/sparkle) : A library for writing resilient analytics applications in Haskell that scale to thousands of nodes, using Spark and the rest of the Apache ecosystem under the hood.
 See the [blog post](https://www.tweag.io/posts/2016-02-25-hello-sparkle.html) for details: 
-- **kraps-h** [](https://github.com/krapsh/kraps-haskell){:.github} : Haskell bindings to Apache Spark. The library consists of: 
+- **kraps-h** [](https://github.com/krapsh/kraps-haskell){:.github} [![Hackage](https://img.shields.io/hackage/v/kraps-h.svg)](https://hackage.haskell.org/package/kraps-h) [![kraps-h](http://stackage.org/package/kraps-h/badge/lts)](http://stackage.org/lts/package/kraps-h) [![kraps-h](http://stackage.org/package/kraps-h/badge/nightly)](http://stackage.org/nightly/package/kraps-h) : Haskell bindings to Apache Spark. The library consists of: 
   - A specification to describe data pipelines in a language-agnostic manner, and a communication protocol to submit these pipelines to Spark. 
   - A serving library, called krapsh-server, that implements this specification on top of Spark. It is written in Scala and is loaded as a standard Spark package.
   - A client written in Haskell that sends pipelines to Spark for execution. In addition, this client serves as an experimental platform for whole-program optimization and verification, as well as compiler-enforced type checking.

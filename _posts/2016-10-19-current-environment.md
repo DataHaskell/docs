@@ -88,7 +88,7 @@ Beam is highly extensible and other backends can be shipped independently withou
   
 ### Statistics
 
-  - **statistics** [![Hackage](https://img.shields.io/hackage/v/statistics.svg)](https://hackage.haskell.org/package/statistics) [![statistics](http://stackage.org/package/statistics/badge/lts)](http://stackage.org/lts/package/statistics) [![statistics](http://stackage.org/package/statistics/badge/nightly)](http://stackage.org/nightly/package/statistics) : This library provides a number of common functions and types useful in statistics. We focus on high performance, numerical robustness, and use of good algorithms. Where possible, we provide references to the statistical literature.
+  - [statistics] **statistics** [![Hackage](https://img.shields.io/hackage/v/statistics.svg)](https://hackage.haskell.org/package/statistics) [![statistics](http://stackage.org/package/statistics/badge/lts)](http://stackage.org/lts/package/statistics) [![statistics](http://stackage.org/package/statistics/badge/nightly)](http://stackage.org/nightly/package/statistics) : This library provides a number of common functions and types useful in statistics. We focus on high performance, numerical robustness, and use of good algorithms. Where possible, we provide references to the statistical literature.
 The library's facilities can be divided into four broad categories:
     - Working with widely used discrete and continuous probability distributions. (There are dozens of exotic distributions in use; we focus on the most common.)
     - Computing with sample data: quantile estimation, kernel density estimation, histograms, bootstrap methods, significance testing, and regression and autocorrelation analysis.
@@ -148,7 +148,7 @@ This is very experimental and will change. The Störmer-Verlet generates a corre
 
 ### Bayesian inference
 #### Nested sampling
-  - **nested-sampling** [![Hackage](https://img.shields.io/hackage/v/nested-sampling.svg)](https://hackage.haskell.org/package/nested-sampling) [![nested-sampling](http://stackage.org/package/nested-sampling/badge/lts)](http://stackage.org/lts/package/nested-sampling) [![nested-sampling](http://stackage.org/package/nested-sampling/badge/nightly)](http://stackage.org/nightly/package/nested-sampling) : The code here is a fairly straightforward translation of the tutorial nested sampling code from Skilling and Sivia. The original code can be found at http://www.inference.phy.cam.ac.uk/bayesys/sivia/ along with documentation at http://www.inference.phy.cam.ac.uk/bayesys/. An example program called lighthouse.hs is included.
+  - **NestedSampling** [![Hackage](https://img.shields.io/hackage/v/NestedSampling.svg)](https://hackage.haskell.org/package/NestedSampling) [![NestedSampling](http://stackage.org/package/NestedSampling/badge/lts)](http://stackage.org/lts/package/NestedSampling) [![NestedSampling](http://stackage.org/package/NestedSampling/badge/nightly)](http://stackage.org/nightly/package/NestedSampling) : The code here is a fairly straightforward translation of the tutorial nested sampling code from Skilling and Sivia. The original code can be found at http://www.inference.phy.cam.ac.uk/bayesys/sivia/ along with documentation at http://www.inference.phy.cam.ac.uk/bayesys/. An example program called lighthouse.hs is included.
   - **NestedSampling-hs** [](https://github.com/eggplantbren/NestedSampling.hs){:.github} [![Hackage](https://img.shields.io/hackage/v/NestedSampling-hs.svg)](https://hackage.haskell.org/package/NestedSampling-hs) [![NestedSampling-hs](http://stackage.org/package/NestedSampling-hs/badge/lts)](http://stackage.org/lts/package/NestedSampling-hs) [![NestedSampling-hs](http://stackage.org/package/NestedSampling-hs/badge/nightly)](http://stackage.org/nightly/package/NestedSampling-hs) : This is a Haskell implementation of the classic Nested Sampling algorithm introduced by John Skilling. You can use it for Bayesian inference, statistical mechanics, and optimisation applications, and it comes with a few example programs.
 #### Frameworks
   - **probably-baysig** [](https://github.com/glutamate/probably-baysig){:.github} [![Hackage](https://img.shields.io/hackage/v/probably-baysig.svg)](https://hackage.haskell.org/package/probably-baysig) [![probably-baysig](http://stackage.org/package/probably-baysig/badge/lts)](http://stackage.org/lts/package/probably-baysig) [![probably-baysig](http://stackage.org/package/probably-baysig/badge/nightly)](http://stackage.org/nightly/package/probably-baysig) : This library contains definitions and functions for probabilistic and statistical inference.
@@ -203,24 +203,34 @@ It currently implements:
     - **HasGP** [![Hackage](https://img.shields.io/hackage/v/HasGP.svg)](https://hackage.haskell.org/package/HasGP) [![HasGP](http://stackage.org/package/HasGP/badge/lts)](http://stackage.org/lts/package/HasGP) [![HasGP](http://stackage.org/package/HasGP/badge/nightly)](http://stackage.org/nightly/package/HasGP) : Gaussian processes for regression and classification, based on the Laplace approximation and Expectation Propagation.
 
 #### Neural Networks
-  - **sibe** [](http://hackage.haskell.org/package/sibe){:.hackage} [](https://github.com/mdibaiee/sibe){:.github}
-  - **neural** [](http://hackage.haskell.org/package/neural){:.hackage} [](https://github.com/brunjlar/neural){:.github}
-  - **backprop-learn** [](https://github.com/mstksg/backprop-learn){:.github}
-  - **grenade** [](http://hackage.haskell.org/package/grenade){:.hackage} [](https://github.com/HuwCampbell/grenade){:.github} Grenade is a composable, dependently typed, practical, and fast recurrent neural network library for precise specifications and complex deep neural networks in Haskell.
+  - **sibe** [](https://github.com/mdibaiee/sibe){:.github} [![Hackage](https://img.shields.io/hackage/v/sibe.svg)](https://hackage.haskell.org/package/sibe) [![sibe](http://stackage.org/package/sibe/badge/lts)](http://stackage.org/lts/package/sibe) [![sibe](http://stackage.org/package/sibe/badge/nightly)](http://stackage.org/nightly/package/sibe) 
+  - **neural** [](https://github.com/brunjlar/neural){:.github} [![Hackage](https://img.shields.io/hackage/v/neural.svg)](https://hackage.haskell.org/package/neural) [![neural](http://stackage.org/package/neural/badge/lts)](http://stackage.org/lts/package/neural) [![neural](http://stackage.org/package/neural/badge/nightly)](http://stackage.org/nightly/package/neural) : The goal of neural is to provide a modular and flexible neural network library written in native Haskell.
+Features include
+    - composability via arrow-like instances and pipes,
+    - automatic differentiation for automatic gradient descent/ backpropagation training (using Edward Kmett's fabulous ad library).
+The idea is to be able to easily define new components and wire them up in flexible, possibly complicated ways (convolutional deep networks etc.).
+Four examples are included as proof of concept:
+    - A simple neural network that approximates the sine function on [0,2 pi].
+    - Another simple neural network that approximates the sqrt function on [0,4].
+    - A slightly more complicated neural network that solves the famous Iris flower problem.
+    - A first (still simple) neural network for recognizing handwritten digits from the equally famous MNIST database.
+The library is still very much experimental at this point.
+  - **backprop-learn** [](https://github.com/mstksg/backprop-learn){:.github} 
+  - **grenade** [](https://github.com/HuwCampbell/grenade){:.github} [![Hackage](https://img.shields.io/hackage/v/grenade.svg)](https://hackage.haskell.org/package/grenade) [![grenade](http://stackage.org/package/grenade/badge/lts)](http://stackage.org/lts/package/grenade) [![grenade](http://stackage.org/package/grenade/badge/nightly)](http://stackage.org/nightly/package/grenade) : Grenade is a composable, dependently typed, practical, and fast recurrent neural network library for precise specifications and complex deep neural networks in Haskell.
 Grenade provides an API for composing layers of a neural network into a sequence parallel graph in a type safe manner; running networks with reverse automatic differentiation to calculate their gradients; and applying gradient decent for learning. Documentation and examples are available on github https://github.com/HuwCampbell/grenade.
-  - **hasktorch** [](https://github.com/hasktorch/hasktorch){:.github} : Hasktorch is a library for tensors and neural networks in Haskell. It is an independent open source community project which leverages the core C libraries shared by Torch and PyTorch. This library leverages cabal new-build and backpack.
+  - **hasktorch** [](https://github.com/hasktorch/hasktorch){:.github} [![Hackage](https://img.shields.io/hackage/v/hasktorch.svg)](https://hackage.haskell.org/package/hasktorch) [![hasktorch](http://stackage.org/package/hasktorch/badge/lts)](http://stackage.org/lts/package/hasktorch) [![hasktorch](http://stackage.org/package/hasktorch/badge/nightly)](http://stackage.org/nightly/package/hasktorch) : Hasktorch is a library for tensors and neural networks in Haskell. It is an independent open source community project which leverages the core C libraries shared by Torch and PyTorch. This library leverages cabal new-build and backpack.
 Note that this project is in early development and should only be used by contributing developers. Expect substantial changes to the library API as it evolves.
+  - **tensorflow** [![Hackage](https://img.shields.io/hackage/v/tensorflow.svg)](https://hackage.haskell.org/package/tensorflow) [![tensorflow](http://stackage.org/package/tensorflow/badge/lts)](http://stackage.org/lts/package/tensorflow) [![tensorflow](http://stackage.org/package/tensorflow/badge/nightly)](http://stackage.org/nightly/package/tensorflow) : Haskell bindings for Tensorflow.
   - Recurrent Neural Networks
-    - **grenade** [](http://hackage.haskell.org/package/grenade){:.hackage} [](https://github.com/HuwCampbell/grenade){:.github}
+    - **grenade** 
   - Convolutional Neural Networks
-    - **grenade** [](http://hackage.haskell.org/package/grenade){:.hackage} [](https://github.com/HuwCampbell/grenade){:.github}
+    - **grenade** 
   - LSTM (Long Short-Term Memory)
-    - **grenade** [](http://hackage.haskell.org/package/grenade){:.hackage} [](https://github.com/HuwCampbell/grenade){:.github}
-    - **sibe** [](http://hackage.haskell.org/package/sibe){:.hackage} [](https://github.com/mdibaiee/sibe){:.github}
-    - **neural** [](http://hackage.haskell.org/package/neural){:.hackage} [](https://github.com/brunjlar/neural){:.github}
-
+    - **grenade** 
+    - **sibe** 
+    - **neural** 
   - Convolutional Neural Networks
-    - **tensorflow** [](https://github.com/tensorflow/haskell){:.github} : Haskell bindings for TensorFlow
+    - **tensorflow** 
   
   - Generative Neural Networks
  
@@ -231,15 +241,15 @@ Note that this project is in early development and should only be used by contri
 #### Naive Bayes
   - Gaussian Naive Bayes
   - Multinomial Naive Bayes
-    - **sibe** [](http://hackage.haskell.org/package/sibe){:.hackage} [](https://github.com/mdibaiee/sibe){:.github}
+    - **sibe** 
   - Bernoulli Naive Bayes
 
 
 
 #### Boosting
   - XGBoost 
-    - **xgboost-haskell** [](https://hackage.haskell.org/package/xgboost-haskell){:.hackage} XGBoost for Haskell, based on the foundation package. FFI binding of xgboost
-    - **xgboost.hs** [](https://github.com/robertzk/xgboost.hs){:.github}
+    - **xgboost-haskell** [![Hackage](https://img.shields.io/hackage/v/xgboost-haskell.svg)](https://hackage.haskell.org/package/xgboost-haskell) [![xgboost-haskell](http://stackage.org/package/xgboost-haskell/badge/lts)](http://stackage.org/lts/package/xgboost-haskell) [![xgboost-haskell](http://stackage.org/package/xgboost-haskell/badge/nightly)](http://stackage.org/nightly/package/xgboost-haskell) : XGBoost for Haskell, based on the foundation package. FFI binding of xgboost
+    - **xgboost.hs** [](https://github.com/robertzk/xgboost.hs){:.github} 
   - AdaBoost    
 
 #### Regression
@@ -248,10 +258,10 @@ Note that this project is in early development and should only be used by contri
     - **HLearn** [](https://izbicki.me/blog/fast-nearest-neighbor-queries-in-haskell.html){:.blogpost} 
   
   - Linear Regression
-    - **statistics** [](http://hackage.haskell.org/package/statistics){:.hackage} [](https://github.com/bos/statistics){:.github}
+    - [**statistics**][statistics]
     
   - Gaussian processes
-    - **HasGP** [](https://hackage.haskell.org/package/HasGP){:.hackage} : Gaussian processes for regression and classification, based on the Laplace approximation and Expectation Propagation.
+    - [**HasGP**][HasGP]
     
   - Kalman filtering
     - **kalman** [](https://hackage.haskell.org/package/kalman){:.hackage} : Linear, extended and unscented Kalman filters are provided, along with their corresponding smoothers. Furthermore, a particle filter and smoother is provided.

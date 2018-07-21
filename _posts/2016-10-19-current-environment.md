@@ -332,7 +332,7 @@ Chatter supports:
 The datasets package defines two different kinds of datasets: 
   - Small data sets which are directly (or indirectly with file-embed) embedded in the package as pure values and do not require network or IO to download the data set. This includes **Iris**, **Anscombe** and **OldFaithful**
   - Other data sets which need to be fetched over the network and are cached in a local temporary directory.
-- **mnist-idx** [](https://github.com/kryoxide/mnist-idx){:.github} [![Hackage](https://img.shields.io/hackage/v/mnist-idx.svg)](https://hackage.haskell.org/package/mnist-idx) [![mnist-idx](http://stackage.org/package/mnist-idx/badge/lts-11)](http://stackage.org/lts-11/package/mnist-idx) [![mnist-idx](http://stackage.org/package/mnist-idx/badge/nightly)](http://stackage.org/nightly/package/mnist-idx) : Read and write data in the IDX format used in e.g. the MINST database
+- **mnist-idx** [](https://github.com/kryoxide/mnist-idx){:.github} [![Hackage](https://img.shields.io/hackage/v/mnist-idx.svg)](https://hackage.haskell.org/package/mnist-idx) [![mnist-idx](http://stackage.org/package/mnist-idx/badge/lts-11)](http://stackage.org/lts-11/package/mnist-idx) [![mnist-idx](http://stackage.org/package/mnist-idx/badge/nightly)](http://stackage.org/nightly/package/mnist-idx) : Read and write data in the IDX format used in e.g. the MINST database.
 
 ## Language interop
 

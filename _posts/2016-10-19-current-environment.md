@@ -9,6 +9,12 @@ A knowledge base of data science and machine learning tools and algorithms writt
 
 Note: some libraries are mentioned more than once, because they provide functionality that covers a few areas, however for clarity the links and project descriptions are only given at their first occurrence.
 
+## Visualization 
+
+- **Chart** [](https://github.com/timbod7/haskell-chart){:.github} [![Hackage](https://img.shields.io/hackage/v/Chart.svg)](https://hackage.haskell.org/package/Chart) [![Chart](http://stackage.org/package/Chart/badge/lts-11)](http://stackage.org/lts-11/package/Chart) [![Frames](http://stackage.org/package/Chart/badge/nightly)](http://stackage.org/nightly/package/Chart) : A library for generating 2D Charts and Plots, with backends provided by Cairo (http://hackage.haskell.org/package/Chart-cairo) and Diagrams (http://hackage.haskell.org/package/Chart-diagrams). Documentation: https://github.com/timbod7/haskell-chart/wiki.
+- **plotlyhs** [](https://github.com/diffusionkinetics/open/tree/master/plotlyhs){:.github} [![Hackage](https://img.shields.io/hackage/v/plotlyhs.svg)](https://hackage.haskell.org/package/plotlyhs) [![plotlyhs](http://stackage.org/package/plotlyhs/badge/lts-11)](http://stackage.org/lts-11/package/plotlyhs) [![Frames](http://stackage.org/package/plotlyhs/badge/nightly)](http://stackage.org/nightly/package/plotlyhs) :  This is a library for generating JSON value to use with the Plotly.js library. The interface directly reflects the structure of the Plotly.js library and is therefore quite low-level. Lenses are used throughout to set Maybe fields in records to provide both data and configuration options.
+This library does not attempt to communicate with the Plotly API in any other way. All generated plots can be hosted on stand-alone web pages.
+- **hvega** [![Hackage](https://img.shields.io/hackage/v/hvega.svg)](https://hackage.haskell.org/package/hvega) [![Chart](http://stackage.org/package/hvega/badge/lts-11)](http://stackage.org/lts-11/package/hvega) [![Frames](http://stackage.org/package/hvega/badge/nightly)](http://stackage.org/nightly/package/hvega): Support the creation of [Vega-Lite](https://vega.github.io/vega-lite/) visualizations in Haskell. 
 
 ## Data structures
 
@@ -30,9 +36,10 @@ Note: some libraries are mentioned more than once, because they provide function
 
 ### Records
 
+- **vinyl** [![Hackage](https://img.shields.io/hackage/v/vinyl.svg)](https://hackage.haskell.org/package/vinyl) [![labels](http://stackage.org/package/vinyl/badge/lts-11)](http://stackage.org/lts-11/package/vinyl) [![labels](http://stackage.org/package/vinyl/badge/nightly)](http://stackage.org/nightly/package/vinyl) : Extensible records for Haskell with lenses. It has minimal dependencies and `Frames` is based on it.
 - **labels** [![Hackage](https://img.shields.io/hackage/v/labels.svg)](https://hackage.haskell.org/package/labels) [![labels](http://stackage.org/package/labels/badge/lts-11)](http://stackage.org/lts-11/package/labels) [![labels](http://stackage.org/package/labels/badge/nightly)](http://stackage.org/nightly/package/labels) : Declare and access tuple fields with labels. An approach to anonymous records.
 - **superrecord** [![Hackage](https://img.shields.io/hackage/v/superrecord.svg)](https://hackage.haskell.org/package/superrecord) [![superrecord](http://stackage.org/package/superrecord/badge/lts-11)](http://stackage.org/lts-11/package/superrecord) [![superrecord](http://stackage.org/package/superrecord/badge/nightly)](http://stackage.org/nightly/package/superrecord) [](https://github.com/agrafix/superrecord){:.github} Supercharged anonymous records. Introductory [blogpost](https://www.athiemann.net/2017/07/02/superrecord.html), with case study using ReaderT.
-- **microgroove** [![Hackage](https://img.shields.io/hackage/v/microgroove.svg)](https://hackage.haskell.org/package/microgroove) [![microgroove](http://stackage.org/package/microgroove/badge/lts-11)](http://stackage.org/lts-11/package/microgroove) [![microgroove](http://stackage.org/package/microgroove/badge/nightly)](http://stackage.org/nightly/package/microgroove)  [](https://github.com/daig/microgroove){:.github} : Array-backed extensible records, providing fast access and mutation.
+
 
 ### Graphs
 
@@ -81,6 +88,7 @@ Beam is highly extensible and other backends can be shipped independently withou
 
 - **hmatrix** [![Hackage](https://img.shields.io/hackage/v/hmatrix.svg)](https://hackage.haskell.org/package/hmatrix) [![hmatrix](http://stackage.org/package/hmatrix/badge/lts-11)](http://stackage.org/lts-11/package/hmatrix) [![hmatrix](http://stackage.org/package/hmatrix/badge/nightly)](http://stackage.org/nightly/package/hmatrix) : Bindings to BLAS/LAPACK. Linear solvers, matrix decompositions, and more.
 - **sparse-linear-algebra** [![Hackage](https://img.shields.io/hackage/v/sparse-linear-algebra.svg)](https://hackage.haskell.org/package/sparse-linear-algebra) [![sparse-linear-algebra](http://stackage.org/package/sparse-linear-algebra/badge/lts-11)](http://stackage.org/lts-11/package/sparse-linear-algebra) [![sparse-linear-algebra](http://stackage.org/package/sparse-linear-algebra/badge/nightly)](http://stackage.org/nightly/package/sparse-linear-algebra) : Native library for sparse algebraic computation. Linear solvers, matrix decompositions and related tools; functional but not optimized for efficiency yet.
+- **linearEqSolver** [](http://github.com/LeventErkok/linearEqSolver){:.github} [![Hackage](https://img.shields.io/hackage/v/linearEqSolver.svg)](https://hackage.haskell.org/package/linearEqSolver) [![linearEqSolver](http://stackage.org/package/linearEqSolver/badge/lts-11)](http://stackage.org/lts-11/package/linearEqSolver) [![linearEqSolver](http://stackage.org/package/linearEqSolver/badge/nightly)](http://stackage.org/nightly/package/linearEqSolver) : Solve linear systems of equations over integers and rationals, using an SMT solver.
 
 ### Generation of random data
 
@@ -97,6 +105,7 @@ The library's facilities can be divided into four broad categories:
     - Common statistical tests for significant differences between samples.
   - **foldl-statistics** [](https://github.com/data61/foldl-statistics){:.github} [![Hackage](https://img.shields.io/hackage/v/foldl-statistics.svg)](https://hackage.haskell.org/package/foldl-statistics) [![foldl-statistics](http://stackage.org/package/foldl-statistics/badge/lts-11)](http://stackage.org/lts-11/package/foldl-statistics) [![foldl-statistics](http://stackage.org/package/foldl-statistics/badge/nightly)](http://stackage.org/nightly/package/foldl-statistics) : A reimplementation of the Statistics.Sample module using the foldl package. The intention of this package is to allow these algorithms to be used on a much broader set of data input types, including lists and streaming libraries such as conduit and pipes, and any other type which is Foldable.
 All statistics in this package can be computed with no more than two passes over the data - once to compute the mean and once to compute any statistics which require the mean.
+  - **tdigest** [![Hackage](https://img.shields.io/hackage/v/tdigest.svg)](https://hackage.haskell.org/package/tdigest) [![tdigest](http://stackage.org/package/tdigest/badge/lts-11)](http://stackage.org/lts-11/package/tdigest) [![tdigest](http://stackage.org/package/tdigest/badge/nightly)](http://stackage.org/nightly/package/tdigest) : A new data structure for accurate on-line accumulation of rank-based statistics such as quantiles and trimmed means.
   - **histogram-fill** [![Hackage](https://img.shields.io/hackage/v/histogram-fill.svg)](https://hackage.haskell.org/package/histogram-fill) [![histogram-fill](http://stackage.org/package/histogram-fill/badge/lts-11)](http://stackage.org/lts-11/package/histogram-fill) [![histogram-fill](http://stackage.org/package/histogram-fill/badge/nightly)](http://stackage.org/nightly/package/histogram-fill) : A convenient way to create and fill histograms. It supports fixed- and variable-size bins, missing data and 2D binning.
   - **uncertain** [![Hackage](https://img.shields.io/hackage/v/uncertain.svg)](https://hackage.haskell.org/package/uncertain) [![uncertain](http://stackage.org/package/uncertain/badge/lts-11)](http://stackage.org/lts-11/package/uncertain) [![uncertain](http://stackage.org/package/uncertain/badge/nightly)](http://stackage.org/nightly/package/uncertain) : Provides tools to manipulate numbers with inherent experimental/measurement uncertainty, and propagates them through functions.
   - **measurable** [](https://github.com/jtobin/measurable){:.github} [![Hackage](https://img.shields.io/hackage/v/measurable.svg)](https://hackage.haskell.org/package/measurable) [![measurable](http://stackage.org/package/measurable/badge/lts-11)](http://stackage.org/lts-11/package/measurable) [![measurable](http://stackage.org/package/measurable/badge/nightly)](http://stackage.org/nightly/package/measurable) :  Construct measures from samples, mass/density functions, or even sampling functions. Construct image measures by fmap-ing measurable functions over them, or create new measures from existing ones by measure convolution and friends provided by a simple Num instance enabled by an Applicative instance. Create measures from graphs of other measures using the Monad instance and do-notation.
@@ -112,16 +121,9 @@ Caveat: while fun to play with, and rewarding to see how measures fit together, 
   - **flat-mcmc** [![Hackage](https://img.shields.io/hackage/v/flat-mcmc.svg)](https://hackage.haskell.org/package/flat-mcmc) [![flat-mcmc](http://stackage.org/package/flat-mcmc/badge/lts-11)](http://stackage.org/lts-11/package/flat-mcmc) [![flat-mcmc](http://stackage.org/package/flat-mcmc/badge/nightly)](http://stackage.org/nightly/package/flat-mcmc) : flat-mcmc uses an ensemble sampler that is invariant to affine transformations of space. It wanders a target probability distribution's parameter space as if it had been "flattened" or "unstretched" in some sense, allowing many particles to explore it locally and in parallel.
 In general this sampler is useful when you want decent performance without dealing with any tuning parameters or local proposal distributions.
 
-
-- Quantiles, etc.
-  - **tdigest** [![Hackage](https://img.shields.io/hackage/v/tdigest.svg)](https://hackage.haskell.org/package/tdigest) [![tdigest](http://stackage.org/package/tdigest/badge/lts-11)](http://stackage.org/lts-11/package/tdigest) [![tdigest](http://stackage.org/package/tdigest/badge/nightly)](http://stackage.org/nightly/package/tdigest) : A new data structure for accurate on-line accumulation of rank-based statistics such as quantiles and trimmed means.
-  
 - Dynamical systems
   - **numeric-ode** [](https://github.com/qnikst/numeric-ode){:.github} [![Hackage](https://img.shields.io/hackage/v/numeric-ode.svg)](https://hackage.haskell.org/package/numeric-ode) [![numeric-ode](http://stackage.org/package/numeric-ode/badge/lts-11)](http://stackage.org/lts-11/package/numeric-ode) [![numeric-ode](http://stackage.org/package/numeric-ode/badge/nightly)](http://stackage.org/nightly/package/numeric-ode) : Small project for different ODE solvers, in particular symplectic solvers.
 This is very experimental and will change. The Störmer-Verlet generates a correct orbit for Jupiter but no guarantees are given for any of the other methods.
-
-
-
 
 ### Differentiation
 
@@ -131,7 +133,6 @@ This is very experimental and will change. The Störmer-Verlet generates a corre
 
 
 ### Optimization
-
 
 - Linear programming
   - **glpk-hs** [![Hackage](https://img.shields.io/hackage/v/glpk-hs.svg)](https://hackage.haskell.org/package/glpk-hs) [![glpk-hs](http://stackage.org/package/glpk-hs/badge/lts-11)](http://stackage.org/lts-11/package/glpk-hs) [![glpk-hs](http://stackage.org/package/glpk-hs/badge/nightly)](http://stackage.org/nightly/package/glpk-hs) : Friendly interface to GLPK's linear programming and mixed integer programming features. Intended for easy extensibility, with a general, pure-Haskell representation of linear programs. 
@@ -151,7 +152,7 @@ This is very experimental and will change. The Störmer-Verlet generates a corre
 #### Nested sampling
   - **NestedSampling** [![Hackage](https://img.shields.io/hackage/v/NestedSampling.svg)](https://hackage.haskell.org/package/NestedSampling) [![NestedSampling](http://stackage.org/package/NestedSampling/badge/lts-11)](http://stackage.org/lts-11/package/NestedSampling) [![NestedSampling](http://stackage.org/package/NestedSampling/badge/nightly)](http://stackage.org/nightly/package/NestedSampling) : The code here is a fairly straightforward translation of the tutorial nested sampling code from Skilling and Sivia. The original code can be found at http://www.inference.phy.cam.ac.uk/bayesys/sivia/ along with documentation at http://www.inference.phy.cam.ac.uk/bayesys/. An example program called lighthouse.hs is included.
   - **NestedSampling-hs** [](https://github.com/eggplantbren/NestedSampling.hs){:.github} [![Hackage](https://img.shields.io/hackage/v/NestedSampling-hs.svg)](https://hackage.haskell.org/package/NestedSampling-hs) [![NestedSampling-hs](http://stackage.org/package/NestedSampling-hs/badge/lts-11)](http://stackage.org/lts-11/package/NestedSampling-hs) [![NestedSampling-hs](http://stackage.org/package/NestedSampling-hs/badge/nightly)](http://stackage.org/nightly/package/NestedSampling-hs) : This is a Haskell implementation of the classic Nested Sampling algorithm introduced by John Skilling. You can use it for Bayesian inference, statistical mechanics, and optimisation applications, and it comes with a few example programs.
-#### Frameworks
+### Frameworks
   - **probably-baysig** [](https://github.com/glutamate/probably-baysig){:.github} [![Hackage](https://img.shields.io/hackage/v/probably-baysig.svg)](https://hackage.haskell.org/package/probably-baysig) [![probably-baysig](http://stackage.org/package/probably-baysig/badge/lts-11)](http://stackage.org/lts-11/package/probably-baysig) [![probably-baysig](http://stackage.org/package/probably-baysig/badge/nightly)](http://stackage.org/nightly/package/probably-baysig) : This library contains definitions and functions for probabilistic and statistical inference.
     - Math.Probably.Sampler defines the sampling function monad
     - Math.Probably.PDF defines some common parametric log-probability density functions
@@ -305,6 +306,11 @@ Note that this project is in early development and should only be used by contri
   - t-SNE (t-distributed stochastic neighbor embedding)
     - **tsne** [![Hackage](https://img.shields.io/hackage/v/tsne.svg)](https://hackage.haskell.org/package/tsne) [![tsne](http://stackage.org/package/tsne/badge/lts-11)](http://stackage.org/lts-11/package/tsne) [![tsne](http://stackage.org/package/tsne/badge/nightly)](http://stackage.org/nightly/package/tsne) 
     
+    
+#### Misc.
+
+  - **aima-haskell** [](https://github.com/chris-taylor/aima-haskell){:.github} : Algorithms from Artificial Intelligence: A Modern Approach by Russell and Norvig. 
+    
 ## Applications
 
   - Natural Language Processing (NLP)
@@ -326,7 +332,7 @@ Chatter supports:
 The datasets package defines two different kinds of datasets: 
   - Small data sets which are directly (or indirectly with file-embed) embedded in the package as pure values and do not require network or IO to download the data set. This includes **Iris**, **Anscombe** and **OldFaithful**
   - Other data sets which need to be fetched over the network and are cached in a local temporary directory.
-- **mnist-idx** [](https://github.com/kryoxide/mnist-idx){:.github} [![Hackage](https://img.shields.io/hackage/v/mnist-idx.svg)](https://hackage.haskell.org/package/mnist-idx) [![mnist-idx](http://stackage.org/package/mnist-idx/badge/lts-11)](http://stackage.org/lts-11/package/mnist-idx) [![mnist-idx](http://stackage.org/package/mnist-idx/badge/nightly)](http://stackage.org/nightly/package/mnist-idx) : Read and write data in the IDX format used in e.g. the MINST database
+- **mnist-idx** [](https://github.com/kryoxide/mnist-idx){:.github} [![Hackage](https://img.shields.io/hackage/v/mnist-idx.svg)](https://hackage.haskell.org/package/mnist-idx) [![mnist-idx](http://stackage.org/package/mnist-idx/badge/lts-11)](http://stackage.org/lts-11/package/mnist-idx) [![mnist-idx](http://stackage.org/package/mnist-idx/badge/nightly)](http://stackage.org/nightly/package/mnist-idx) : Read and write data in the IDX format used in e.g. the MINST database.
 
 ## Language interop
 
@@ -337,9 +343,7 @@ The datasets package defines two different kinds of datasets:
   - **H** [![Hackage](https://img.shields.io/hackage/v/H.svg)](https://hackage.haskell.org/package/H) [![H](http://stackage.org/package/H/badge/lts-11)](http://stackage.org/lts-11/package/H) [![H](http://stackage.org/package/H/badge/nightly)](http://stackage.org/nightly/package/H) : An interactive prompt for exploring and graphing data sets. This is a thin wrapper around GHCi, with the full power of an R prompt, and the full power of Haskell prompt: you can enter expressions of either language, providing you with plotting and distributed computing facilities out-of-the-box.
 
 
-# Machine learning misc.
 
-  - **aima-haskell** [](https://github.com/chris-taylor/aima-haskell){:.github} : Algorithms from Artificial Intelligence: A Modern Approach by Russell and Norvig. 
 
 
 

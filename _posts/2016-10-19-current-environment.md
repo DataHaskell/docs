@@ -95,7 +95,9 @@ Currently maintained within the scope of the [DataHaskell `dh-core` project](htt
 
 ### Generation of random data
 
-  - **mwc-probability**  [![Hackage](https://img.shields.io/hackage/v/mwc-probability.svg)](https://hackage.haskell.org/package/mwc-probability) [![mwc-probability](http://stackage.org/package/mwc-probability/badge/lts-11)](http://stackage.org/lts-11/package/mwc-probability) [![mwc-probability](http://stackage.org/package/mwc-probability/badge/nightly)](http://stackage.org/nightly/package/mwc-probability) : A simple probability distribution type, where distributions are characterized by sampling functions.
+  - **mwc-probability**  [![Hackage](https://img.shields.io/hackage/v/mwc-probability.svg)](https://hackage.haskell.org/package/mwc-probability) [![mwc-probability](http://stackage.org/package/mwc-probability/badge/lts-11)](http://stackage.org/lts-11/package/mwc-probability) [![mwc-probability](http://stackage.org/package/mwc-probability/badge/nightly)](http://stackage.org/nightly/package/mwc-probability) : A simple probability distribution type, where distributions are characterized by sampling functions. Simple and idiomatic interface based on Applicative and Monad instances.
+  - **random-fu**  [![Hackage](https://img.shields.io/hackage/v/random-fu.svg)](https://hackage.haskell.org/package/random-fu) [![mwc-probability](http://stackage.org/package/random-fu/badge/lts-11)](http://stackage.org/lts-11/package/random-fu) [![random-fu](http://stackage.org/package/random-fu/badge/nightly)](http://stackage.org/nightly/package/random-fu) : Random number generation based on modeling random variables in two complementary ways: first, by the parameters of standard mathematical distributions and, second, by an abstract type (RVar) which can be composed and manipulated monadically and sampled in either monadic or "pure" styles.
+The primary purpose of this library is to support defining and sampling a wide variety of high quality random variables. Quality is prioritized over speed, but performance is an important goal too. Very flexible, providing both a concrete ('Distribution') and and abstract but composable ('RVar') view of random variables.
   
   
 ### Statistics
@@ -198,12 +200,10 @@ It currently implements:
 
 
 #### Classification
-
   - Linear discriminant analysis
     - **linda** [![Hackage](https://img.shields.io/hackage/v/linda.svg)](https://hackage.haskell.org/package/linda) [![linda](http://stackage.org/package/linda/badge/lts-11)](http://stackage.org/lts-11/package/linda) [![linda](http://stackage.org/package/linda/badge/nightly)](http://stackage.org/nightly/package/linda) : LINDA implements linear discriminant analysis. It provides both data classification (according to Fisher) and data analysis (by discriminant criteria). Due to the `hmatrix` dependency, this package needs LAPACK installed, too. 
   - Support Vector Machines
     - **svm-simple** [![Hackage](https://img.shields.io/hackage/v/svm-simple.svg)](https://hackage.haskell.org/package/svm-simple) [![svm-simple](http://stackage.org/package/svm-simple/badge/lts-11)](http://stackage.org/lts-11/package/svm-simple) [![svm-simple](http://stackage.org/package/svm-simple/badge/nightly)](http://stackage.org/nightly/package/svm-simple) : A set of simplified bindings to [libsvm](http://www.csie.ntu.edu.tw/~cjlin/libsvm/) suite of support vector machines. This package provides tools for classification, one-class classification and support vector regression.
-      - Core Vector Machines
   - Decision trees
     - **hinduce-classifier-decisiontree** [](https://github.com/roberth/hinduce-classifier-decisiontree){:.github} [![Hackage](https://img.shields.io/hackage/v/hinduce-classifier-decisiontree.svg)](https://hackage.haskell.org/package/hinduce-classifier-decisiontree) [![hinduce-classifier-decisiontree](http://stackage.org/package/hinduce-classifier-decisiontree/badge/lts-11)](http://stackage.org/lts-11/package/hinduce-classifier-decisiontree) [![hinduce-classifier-decisiontree](http://stackage.org/package/hinduce-classifier-decisiontree/badge/nightly)](http://stackage.org/nightly/package/hinduce-classifier-decisiontree) : A very simple decision tree construction algorithm; an implementation of `hinduce-classifier`'s Classifier class.
     - **HaskellGBM** [](https://github.com/dpkatz/HaskellGBM){:.github} [![Hackage](https://img.shields.io/hackage/v/HaskellGBM.svg)](https://hackage.haskell.org/package/HaskellGBM) [![HaskellGBM](http://stackage.org/package/HaskellGBM/badge/lts-11)](http://stackage.org/lts-11/package/HaskellGBM) [![HaskellGBM](http://stackage.org/package/HaskellGBM/badge/nightly)](http://stackage.org/nightly/package/HaskellGBM) : Haskell wrapper around LightGBM, the distributed library for gradient-boosted decision tree algorithms. The emphasis is on using Haskell types (in particular the `refined` library) to help ensure that the hyperparameter settings chosen by the user are coherent and in-bounds at all times.
@@ -211,7 +211,6 @@ It currently implements:
     - **HasGP** [![Hackage](https://img.shields.io/hackage/v/HasGP.svg)](https://hackage.haskell.org/package/HasGP) [![HasGP](http://stackage.org/package/HasGP/badge/lts-11)](http://stackage.org/lts-11/package/HasGP) [![HasGP](http://stackage.org/package/HasGP/badge/nightly)](http://stackage.org/nightly/package/HasGP) : Gaussian processes for regression and classification, based on the Laplace approximation and Expectation Propagation.
 
 #### Neural Networks
-  - **sibe** [](https://github.com/mdibaiee/sibe){:.github} [![Hackage](https://img.shields.io/hackage/v/sibe.svg)](https://hackage.haskell.org/package/sibe) [![sibe](http://stackage.org/package/sibe/badge/lts-11)](http://stackage.org/lts-11/package/sibe) [![sibe](http://stackage.org/package/sibe/badge/nightly)](http://stackage.org/nightly/package/sibe) 
   - **neural** [](https://github.com/brunjlar/neural){:.github} [![Hackage](https://img.shields.io/hackage/v/neural.svg)](https://hackage.haskell.org/package/neural) [![neural](http://stackage.org/package/neural/badge/lts-11)](http://stackage.org/lts-11/package/neural) [![neural](http://stackage.org/package/neural/badge/nightly)](http://stackage.org/nightly/package/neural) : The goal of neural is to provide a modular and flexible neural network library written in native Haskell.
 Features include
     - composability via arrow-like instances and pipes,
@@ -223,19 +222,18 @@ Four examples are included as proof of concept:
     - A slightly more complicated neural network that solves the famous Iris flower problem.
     - A first (still simple) neural network for recognizing handwritten digits from the equally famous MNIST database.
 The library is still very much experimental at this point.
-  - **backprop-learn** [](https://github.com/mstksg/backprop-learn){:.github} 
+  - **backprop-learn** [](https://github.com/mstksg/backprop-learn){:.github} Combinators and types for easily building trainable neural networks using the 'backprop' library.
   - **grenade** [](https://github.com/HuwCampbell/grenade){:.github} [![Hackage](https://img.shields.io/hackage/v/grenade.svg)](https://hackage.haskell.org/package/grenade) [![grenade](http://stackage.org/package/grenade/badge/lts-11)](http://stackage.org/lts-11/package/grenade) [![grenade](http://stackage.org/package/grenade/badge/nightly)](http://stackage.org/nightly/package/grenade) : Grenade is a composable, dependently typed, practical, and fast recurrent neural network library for precise specifications and complex deep neural networks in Haskell.
 Grenade provides an API for composing layers of a neural network into a sequence parallel graph in a type safe manner; running networks with reverse automatic differentiation to calculate their gradients; and applying gradient decent for learning. Documentation and examples are available on github https://github.com/HuwCampbell/grenade.
   - **hasktorch** [](https://github.com/hasktorch/hasktorch){:.github} [![Hackage](https://img.shields.io/hackage/v/hasktorch.svg)](https://hackage.haskell.org/package/hasktorch) [![hasktorch](http://stackage.org/package/hasktorch/badge/lts-11)](http://stackage.org/lts-11/package/hasktorch) [![hasktorch](http://stackage.org/package/hasktorch/badge/nightly)](http://stackage.org/nightly/package/hasktorch) : Hasktorch is a library for tensors and neural networks in Haskell. It is an independent open source community project which leverages the core C libraries shared by Torch and PyTorch. This library leverages cabal new-build and backpack.
 Note that this project is in early development and should only be used by contributing developers. Expect substantial changes to the library API as it evolves.
-  - **tensorflow** [![Hackage](https://img.shields.io/hackage/v/tensorflow.svg)](https://hackage.haskell.org/package/tensorflow) [![tensorflow](http://stackage.org/package/tensorflow/badge/lts-11)](http://stackage.org/lts-11/package/tensorflow) [![tensorflow](http://stackage.org/package/tensorflow/badge/nightly)](http://stackage.org/nightly/package/tensorflow) : Haskell bindings for Tensorflow.
+  - **tensorflow** [![Hackage](https://img.shields.io/hackage/v/tensorflow.svg)](https://hackage.haskell.org/package/tensorflow) [![tensorflow](http://stackage.org/package/tensorflow/badge/lts-11)](http://stackage.org/lts-11/package/tensorflow) [![tensorflow](http://stackage.org/package/tensorflow/badge/nightly)](http://stackage.org/nightly/package/tensorflow) : Haskell bindings for Tensorflow.  
   - Recurrent Neural Networks
     - **grenade** 
   - Convolutional Neural Networks
     - **grenade** 
   - LSTM (Long Short-Term Memory)
     - **grenade** 
-    - **sibe** 
     - **neural** 
   - Convolutional Neural Networks
     - **tensorflow** 
@@ -244,15 +242,10 @@ Note that this project is in early development and should only be used by contri
  
   - References : [Neural Networks, Types, and Functional Programming](https://colah.github.io/posts/2015-09-NN-Types-FP/)
 
-
-
 #### Naive Bayes
   - Gaussian Naive Bayes
   - Multinomial Naive Bayes
-    - **sibe** 
   - Bernoulli Naive Bayes
-
-
 
 #### Boosting
   - XGBoost 
@@ -304,7 +297,6 @@ Note that this project is in early development and should only be used by contri
 #### Dimensionality reduction
 
   - Principal Component Analysis (PCA)
-    - **sibe** 
     - Kernel PCA
     - Incremental PCA
   - Truncated SVD*
@@ -314,7 +306,10 @@ Note that this project is in early development and should only be used by contri
     
     
 #### Misc.
-
+  - **sibe** [](https://github.com/mdibaiee/sibe){:.github} [![Hackage](https://img.shields.io/hackage/v/sibe.svg)](https://hackage.haskell.org/package/sibe) [![sibe](http://stackage.org/package/sibe/badge/lts-11)](http://stackage.org/lts-11/package/sibe) [![sibe](http://stackage.org/package/sibe/badge/nightly)](http://stackage.org/nightly/package/sibe) : A simple, experimental machine learning library. Contains implementations of 
+    - Multi-class Naive Bayes classification 
+    - Word2Vec word embedding 
+    - Principal component analysis (PCA)
   - **aima-haskell** [](https://github.com/chris-taylor/aima-haskell){:.github} : Algorithms from Artificial Intelligence: A Modern Approach by Russell and Norvig. 
     
 ## Applications
@@ -326,6 +321,11 @@ Chatter supports:
       - Phrasal Chunking (also with an Averaged Perceptron) to identify arbitrary chunks based on training data.
       - Document similarity; A cosine-based similarity measure, and TF-IDF calculations, are available in the NLP.Similarity.VectorSim module.
       - Information Extraction patterns via (http://www.haskell.org/haskellwiki/Parsec/) Parsec
+    - **snowball** [![Hackage](https://img.shields.io/hackage/v/snowball.svg)](https://hackage.haskell.org/package/snowball) [![chatter](http://stackage.org/package/snowball/badge/lts-11)](http://stackage.org/lts-11/package/snowball) [![chatter](http://stackage.org/package/snowball/badge/nightly)](http://stackage.org/nightly/package/snowball) : The Snowball FFI binding library is used to compute the stems of words in natural languages.
+Compared to the older stemmer package, this one:
+    - Correctly handles unicode without relying on the system locale
+    - Takes greater care to avoid memory leaks and to be thread safe
+    - Uses Text rather than String
   - Bioinformatics
     - **NGLess** [](https://github.com/luispedro/ngless){:.github} [![Hackage](https://img.shields.io/hackage/v/ngless.svg)](https://hackage.haskell.org/package/ngless) [![ngless](http://stackage.org/package/ngless/badge/lts-11)](http://stackage.org/lts-11/package/ngless) [![ngless](http://stackage.org/package/ngless/badge/nightly)](http://stackage.org/nightly/package/ngless) : Ngless is a domain-specific language for NGS (next-generation sequencing data) processing ("NGS with less work").
 

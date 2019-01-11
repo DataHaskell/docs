@@ -290,6 +290,7 @@ Note that this project is in early development and should only be used by contri
   - Mean-shift
   - Affinity propagation
   - Spectral Clustering
+    - **spectral-clustering** [](https://github.com/GregorySchwartz/spectral-clustering){:github}  [![Hackage](https://img.shields.io/hackage/v/spectral-clustering.svg)](https://hackage.haskell.org/package/spectral-clustering) [![spectral-clustering](http://stackage.org/package/spectral-clustering/badge/lts-11)](http://stackage.org/lts-11/package/spectral-clustering) [![spectral-clustering](http://stackage.org/package/spectral-clustering/badge/nightly)](http://stackage.org/nightly/package/spectral-clustering) : Spectral clustering of dense and sparse matrices.
   - Hierarchical clustering
     - **clustering** 
   - Birch

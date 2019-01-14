@@ -24,6 +24,14 @@ This library does not attempt to communicate with the Plotly API in any other wa
 - **analyze** [](https://github.com/ejconlon/analyze){:.github} [![Hackage](https://img.shields.io/hackage/v/analyze.svg)](https://hackage.haskell.org/package/analyze) [![analyze](http://stackage.org/package/analyze/badge/lts-11)](http://stackage.org/lts-11/package/analyze) [![analyze](http://stackage.org/package/analyze/badge/nightly)](http://stackage.org/nightly/package/analyze) : `pandas`-like dataframe operations for tabular data with CSV interface.
 Currently maintained within the scope of the [DataHaskell `dh-core` project](https://github.com/datahaskell/dh-core).
 - **bookkeeper** [![Hackage](https://img.shields.io/hackage/v/bookkeeper.svg)](https://hackage.haskell.org/package/bookkeeper) [![bookkeeper](http://stackage.org/package/bookkeeper/badge/lts-11)](http://stackage.org/lts-11/package/bookkeeper) [![bookkeeper](http://stackage.org/package/bookkeeper/badge/nightly)](http://stackage.org/nightly/package/bookkeeper) : A new take on datatypes and records using `OverloadedLabels` (which is available since GHC 8). It bears some similarities to Nikita Volkov's `record` library, but requires no Template Haskell.
+- **colonnade** [](https://github.com/andrewthad/colonnade){:.github} [![Hackage](https://img.shields.io/hackage/v/colonnade.svg)](https://hackage.haskell.org/package/colonnade) [![colonnade](http://stackage.org/package/colonnade/badge/lts-11)](http://stackage.org/lts-11/package/colonnade) [![colonnade](http://stackage.org/package/colonnade/badge/nightly)](http://stackage.org/nightly/package/colonnade) : The colonnade package provides a way to talk about columnar encodings and decodings of data. This package provides very general types and does not provide a way for the end-user to actually apply the columnar encodings they build to data. Most users will also want to one a companion packages that provides (1) a content type and (2) functions for feeding data into a columnar encoding:
+    * lucid-colonnade for lucid html tables
+    * blaze-colonnade for blaze html tables
+    * reflex-dom-colonnade for reactive reflex-dom tables
+    * yesod-colonnade for yesod widgets
+    * siphon for encoding and decoding CSVs
+
+ 
 
 
 

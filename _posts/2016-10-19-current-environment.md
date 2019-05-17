@@ -154,7 +154,7 @@ This is very experimental and will change. The Störmer-Verlet generates a corre
 
  
 
-### Machine Learning frameworks
+## Machine Learning frameworks
   - **probably-baysig** [](https://github.com/glutamate/probably-baysig){:.github} [![Hackage](https://img.shields.io/hackage/v/probably-baysig.svg)](https://hackage.haskell.org/package/probably-baysig) [![probably-baysig](http://stackage.org/package/probably-baysig/badge/nightly)](http://stackage.org/nightly/package/probably-baysig) : This library contains definitions and functions for probabilistic and statistical inference.
     - Math.Probably.Sampler defines the sampling function monad
     - Math.Probably.PDF defines some common parametric log-probability density functions
@@ -279,7 +279,7 @@ Note that this project is in early development and should only be used by contri
   - Q-Learning
     - Neural Network Q-Learning
 
-### Clustering
+## Clustering
 
   - K-Means
     - **kmeans** [](http://hub.darcs.net/gershomb/kmeans){:.darcs} [![Hackage](https://img.shields.io/hackage/v/kmeans.svg)](https://hackage.haskell.org/package/kmeans)  [![kmeans](http://stackage.org/package/kmeans/badge/nightly)](http://stackage.org/nightly/package/kmeans) : A simple implementation of the standard k-means clustering algorithm.
@@ -297,7 +297,7 @@ Note that this project is in early development and should only be used by contri
     - **clustering** 
   - Birch
 
-### Dimensionality reduction
+## Dimensionality reduction
 
   - Principal Component Analysis (PCA)
     - Kernel PCA
@@ -308,7 +308,7 @@ Note that this project is in early development and should only be used by contri
     - **tsne** [![Hackage](https://img.shields.io/hackage/v/tsne.svg)](https://hackage.haskell.org/package/tsne)  [![tsne](http://stackage.org/package/tsne/badge/nightly)](http://stackage.org/nightly/package/tsne) 
     
     
-### Misc.
+## Machine Learning Misc.
   - **sibe** [](https://github.com/mdibaiee/sibe){:.github} [![Hackage](https://img.shields.io/hackage/v/sibe.svg)](https://hackage.haskell.org/package/sibe) [![sibe](http://stackage.org/package/sibe/badge/nightly)](http://stackage.org/nightly/package/sibe) : A simple, experimental machine learning library. Contains implementations of 
     - Multi-class Naive Bayes classification 
     - Word2Vec word embedding 

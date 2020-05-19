@@ -77,7 +77,7 @@ The type classes defined in `Algebra.Graph.Class` and `Algebra.Graph.HigherKinde
 ### Trees
 
   - **tree-traversals** [![Hackage](https://img.shields.io/hackage/v/tree-traversals.svg)](https://hackage.haskell.org/package/tree-traversals)  [![tree-traversals](http://stackage.org/package/tree-traversals/badge/nightly)](http://stackage.org/nightly/package/tree-traversals) : The tree-traversals package defines in-order, pre-order, post-order, level-order, and reversed level-order traversals for tree-like types, and it also provides newtype wrappers for the various traversals so they may be used with `traverse`.
-  - **KdTree**  [](https://github.com/binarysunrise-io/kdtree){:.github} [![Hackage](https://img.shields.io/hackage/v/KdTree.svg)](https://hackage.haskell.org/package/KdTree)  [![KdTree](http://stackage.org/package/KdTree/badge/nightly)](http://stackage.org/nightly/package/KdTree) : A simple library for k-d trees in Haskell. It enables searching through collections of points in O(log N) average time, using the nearestNeighbor function.
+
 
 
 ## Database interfaces
@@ -284,7 +284,14 @@ Note that this project is in early development and should only be used by contri
   - Q-Learning
     - Neural Network Q-Learning
 
-## Clustering
+## Unsupervised Learning
+
+### Nearest neighbours/spatial queries
+
+  - **KdTree**  [](https://github.com/binarysunrise-io/kdtree){:.github} [![Hackage](https://img.shields.io/hackage/v/KdTree.svg)](https://hackage.haskell.org/package/KdTree)  [![KdTree](http://stackage.org/package/KdTree/badge/nightly)](http://stackage.org/nightly/package/KdTree) : A simple library for k-d trees in Haskell. It enables searching through collections of points in O(log N) average time, using the nearestNeighbor function.
+  - **kdt** [](https://github.com/giogadi/kdt){:.github} [![Hackage](https://img.shields.io/hackage/v/kdt.svg)](https://hackage.haskell.org/package/kdt) : This package includes static and dynamic versions of k-d trees, as well as "Map" variants that store data at each point in the k-d tree structure. Supports nearest neighbor, k nearest neighbors, points within a given radius, and points within a given range. To learn to use this package, start with the documentation for the Data.KdTree.Static module.
+
+### Clustering
 
   - K-Means
     - **kmeans** [](http://hub.darcs.net/gershomb/kmeans){:.darcs} [![Hackage](https://img.shields.io/hackage/v/kmeans.svg)](https://hackage.haskell.org/package/kmeans)  [![kmeans](http://stackage.org/package/kmeans/badge/nightly)](http://stackage.org/nightly/package/kmeans) : A simple implementation of the standard k-means clustering algorithm.
@@ -302,7 +309,7 @@ Note that this project is in early development and should only be used by contri
     - **clustering** 
   - Birch
 
-## Dimensionality reduction
+### Dimensionality reduction
 
   - Principal Component Analysis (PCA)
     - Kernel PCA

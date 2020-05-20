@@ -114,6 +114,11 @@ The library's facilities can be divided into four broad categories:
     - Computing with sample data: quantile estimation, kernel density estimation, histograms, bootstrap methods, significance testing, and regression and autocorrelation analysis.
     - Random variate generation under several different distributions.
     - Common statistical tests for significant differences between samples.
+    
+  - **sampling** [![Hackage](https://img.shields.io/hackage/v/sampling.svg)](https://hackage.haskell.org/package/sampling) Sampling from arbitrary Foldable collections:
+    - sample, for sampling without replacement
+    - resample, for sampling with replacement (i.e., a bootstrap)
+Each variation can be prefixed with p to sample from a container of values weighted by probability.
   - **foldl-statistics** [](https://github.com/data61/foldl-statistics){:.github} [![Hackage](https://img.shields.io/hackage/v/foldl-statistics.svg)](https://hackage.haskell.org/package/foldl-statistics) [![foldl-statistics](http://stackage.org/package/foldl-statistics/badge/nightly)](http://stackage.org/nightly/package/foldl-statistics) : A reimplementation of the Statistics.Sample module using the foldl package. The intention of this package is to allow these algorithms to be used on a much broader set of data input types, including lists and streaming libraries such as conduit and pipes, and any other type which is Foldable.
 All statistics in this package can be computed with no more than two passes over the data - once to compute the mean and once to compute any statistics which require the mean.
   - **tdigest** [![Hackage](https://img.shields.io/hackage/v/tdigest.svg)](https://hackage.haskell.org/package/tdigest) [![tdigest](http://stackage.org/package/tdigest/badge/nightly)](http://stackage.org/nightly/package/tdigest) : A new data structure for accurate on-line accumulation of rank-based statistics such as quantiles and trimmed means.

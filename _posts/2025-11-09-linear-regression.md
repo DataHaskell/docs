@@ -47,7 +47,7 @@ import DataFrame ((|>))
 
 **What's happening here?** We're enabling some handy language extensions and importing our tools. The `|>` operator is particularly cool. The operator is like the Unix pipe, letting us chain operations left-to-right!
 
-### Step 1: Loading the Data 📂
+### Step 1: Loading the Data
 
 ```haskell
 df <- D.readCsv "../data/housing.csv"
@@ -129,7 +129,7 @@ normalized_value = (value - min) / (max - min)
 
 This squishes every feature to the 0-1 range. Why? Imagine if house prices ranged from 0-500,000 but number of bedrooms ranged from 0-5. The huge price numbers would dominate the small bedroom numbers during training. Normalization levels the playing field.
 
-### Step 4: From DataFrame to Tensors 🔢
+### Step 4: From DataFrame to Tensors
 
 ```haskell
 features = toTensor cleaned

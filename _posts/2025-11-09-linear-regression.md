@@ -5,7 +5,7 @@ category: tutorial
 date: 2025-11-09 14:08:18
 ---
 
-In this tutorial, we'll predict California housing prices using two awesome libraries: **DataFrame** (for data wrangling) and **Hasktorch** (for machine learning).
+In this tutorial, we'll predict California housing prices using two Haskell libraries: **DataFrame** (for data wrangling) and **Hasktorch** (for machine learning).
 
 ## What Are We Building?
 

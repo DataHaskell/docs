@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Linear Regression: California House Price Prediction"
-category: community
+category: tutorial
 date: 2025-11-09 14:08:18
 ---
 

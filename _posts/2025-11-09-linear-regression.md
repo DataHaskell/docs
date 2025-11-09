@@ -55,7 +55,7 @@ df <- D.readCsv "../data/housing.csv"
 
 **Simple, right?** We're loading California housing data from a CSV file. This dataset contains information about different neighborhoods—things like population, median income, and (importantly) median house values.
 
-### Step 2: Handling Missing Data 🔍
+### Step 2: Handling Missing Data
 
 Real-world data is messy. Sometimes values are missing, and we need to deal with that:
 

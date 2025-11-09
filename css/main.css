@@ -7,6 +7,18 @@ body {
     flex-direction: column;
 }
 
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
 main {
   flex: 1 0 auto;
 }
@@ -15,7 +27,7 @@ pre, code, pre code {
     border: none;
     border-radius: 0;
     background-color: #f9f9f9;
-    /*font-size: 0.85em;*/
+    font-size: 0.95em;
 }
 
 .highlight {

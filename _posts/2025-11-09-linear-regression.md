@@ -265,7 +265,7 @@ You'll see something like:
 - Try different numbers of iterations
 - Use different normalization strategies
 
-## Why This Approach Rocks 🌟
+## The advantages of this approach
 
 1. **Type Safety**: DataFrame's type system catches most errors at compile time
 2. **Functional Style**: Pure functions and pipelines make data transformations clear

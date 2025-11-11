@@ -60,7 +60,7 @@ df <- D.readCsv "../data/housing.csv"
 Real-world data is messy. Sometimes values are missing, and we need to deal with that:
 
 ```haskell
-let meanTotalBedrooms = df |> D.filterJust "total_bedrooms" |> D.mean
+let meanTotalBedrooms = df |> D.filterJust "total_bedrooms" |> D.mean (F.col @Double "total_bedrooms")
 ```
 
 **Translation:** "Hey DataFrame, take our data, filter out the rows where `total_bedrooms` is missing, then calculate the mean of what's left."
@@ -279,3 +279,6 @@ Now that you've mastered the basics:
 - Experiment with more complex feature engineering
 - Learn about train/test splits and model validation
 - Explore Hasktorch's neural network modules
+
+## Get involved
+Wanna help contribute to data science in Haskell?

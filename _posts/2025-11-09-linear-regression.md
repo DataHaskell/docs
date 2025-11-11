@@ -7,6 +7,8 @@ date: 2025-11-09 14:08:18
 
 In this tutorial, we'll predict California housing prices using two Haskell libraries: **DataFrame** (for data wrangling) and **Hasktorch** (for machine learning).
 
+You can follow along and code [here](https://ulwazi-exh9dbh2exbzgbc9.westus-01.azurewebsites.net/lab/tree/California_Housing.ipynb).
+
 ## What Are We Building?
 
 We're going to:

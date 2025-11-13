@@ -15,11 +15,11 @@ Libraries written or supported by members of the DataHaskell team.
 
 ### Neural Networks
   - **hasktorch** [](https://github.com/hasktorch/hasktorch){:.github} [![Hackage](https://img.shields.io/hackage/v/hasktorch.svg)](https://hackage.haskell.org/package/hasktorch)  [![hasktorch](http://stackage.org/package/hasktorch/badge/nightly)](http://stackage.org/nightly/package/hasktorch) : Hasktorch is a library for tensors and neural networks in Haskell.
-  <br><br>Maintainers: [Junji Hashimoto](https://github.com/junjihasimoto)
+  <br><br>Maintainers: [Junji Hashimoto](https://github.com/junjihashimoto)
 
 ## Publication
 
-- **pandoc-plot** [](https://github.com/LaurentRDC/pandoc-plot)[![Hackage](https://img.shields.io/hackage/v/pandoc-plot.svg)](https://hackage.haskell.org/package/pandoc-pyplot)  [![pandoc-plot](http://stackage.org/package/pandoc-pyplot/badge/nightly)](http://stackage.org/nightly/package/pandoc-plot): A Pandoc filter to include figures generated from code blocks. Keep the document and code in the same location.
+- **pandoc-plot** [](https://github.com/LaurentRDC/pandoc-plot)[![Hackage](https://img.shields.io/hackage/v/pandoc-plot.svg)](https://hackage.haskell.org/package/pandoc-plot)  [![pandoc-plot](http://stackage.org/package/pandoc-plot/badge/nightly)](http://stackage.org/nightly/package/pandoc-plot): A Pandoc filter to include figures generated from code blocks. Keep the document and code in the same location.
 <br><br>Maintainers: [Laurent P. René de Cotret](https://github.com/LaurentRDC)
 
 ## Data structures

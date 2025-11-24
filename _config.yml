@@ -19,6 +19,7 @@ codeurl: 'https://github.com/datahaskell/docs'
 
 # Default categories (in order) to appear in the navigation
 sections: [
+    ['getting_started', 'Getting Started'],
     ['community', 'Community'],
     ['tutorial', 'Tutorials'],
     ['library', 'Libraries'],

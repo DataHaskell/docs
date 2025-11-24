@@ -81,24 +81,18 @@ In our housing example, we're going to:
 - Normalize everything so no single feature dominates
 
 ```haskell
+oceanProximityMapping :: [(Text, Int)]
+oceanProximityMapping = [("ISLAND", 0), ("NEAR OCEAN", 1), ("NEAR BAY", 2), ("<1H OCEAN", 3), ("INLAND", 4)]
+
 let cleaned =
         df
             |> D.impute (F.col @(Maybe Double "total_bedrooms")) meanTotalBedrooms
             |> D.exclude ["median_house_value"]
-            |> D.derive "ocean_proximity" (F.lift oceanProximity (F.col "ocean_proximity"))
+            |> D.derive "ocean_proximity" (F.recodeWithDefault 5 oceanProximityMapping (F.col "ocean_proximity"))
             |> D.derive
                 "rooms_per_household"
                 (F.col @Double "total_rooms" / F.col "households")
             |> normalizeFeatures
-
-oceanProximity :: T.Text -> Double
-oceanProximity op = case op of
-    "ISLAND" -> 0
-    "NEAR OCEAN" -> 1
-    "NEAR BAY" -> 2
-    "<1H OCEAN" -> 3
-    "INLAND" -> 4
-    _ -> error ("Unknown ocean proximity value: " ++ T.unpack op)
 ```
 
 **Let's break this pipeline down:**

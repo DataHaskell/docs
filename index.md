@@ -16,6 +16,8 @@ We coordinate work across many projects and orgs. You don’t have to be an expe
 
 ### How to Participate
 Pick a path that suits your energy and time:
+* Try it out: <a href="http://www.datahaskell.org/docs/getting_started/using-current-environment.html">get started</a> with the DataHaskell stack and port some of your workflows to DataHaskell.
+* Engage the material: Read through some <a href="http://www.datahaskell.org/docs/tutorial/linear-regression.html">tutorials</a> and give feedback on them.
 * Ask & answer questions: help someone today in Discord or Discourse.
 * Improve docs: fix a typo, add an example, or clarify a concept.
 * Triage issues: label, reproduce, and suggest next steps.

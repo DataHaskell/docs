@@ -9,7 +9,7 @@ Welcome to the <a href="https://www.datahaskell.org">**dataHaskell**</a> documen
 
 DataHaskell is:
 * A collaborative network of maintainers, users, researchers, and educators.
-* A <a href="httsp://www.datahaskell.org/docs/community/current-environment.html">curated ecosystem of libraries</a> for data access, numerics, ML, visualization, and tooling.
+* A <a href="https://www.datahaskell.org/docs/community/current-environment.html">curated ecosystem of libraries</a> for data access, numerics, ML, visualization, and tooling.
 * A supportive space to learn, teach, and build together.
 
 We coordinate work across many projects and orgs. You don’t have to be an expert—curiosity is enough.
